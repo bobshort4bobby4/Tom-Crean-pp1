@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Pacifico&display=swap');
 
+* {
+    padding:0;
+    border:none;
+    margin:0;
+}
+
 body {
     background-image: url(../images/antarctica-ice-sheet-ocean-landscape-map.jpg); 
     background-size: cover;
 }
 
+header {
+    width:100%;
+}
+
+.active {
+    border-left:1px solid #fffafa;
+}
 #header-logo {
     background-color: #2b3f5c;
     font-family: 'PT Serif', serif;
+    width:100%;
+    left:0;
     
 }
 
@@ -15,6 +30,7 @@ body {
     color:#fffafa;
     padding-left:15px;
     background-color:#2b3f5c;
+    
 }
 
 #header-logo h1 {
@@ -34,7 +50,7 @@ body {
     width: 150px;
     height:150px;
     margin:0 auto;
-    bottom: 775px;
+    top:0;
     right: 100px;
     position: absolute;
     background-color:#2b3f5c;
@@ -72,7 +88,10 @@ body {
     font-family:'Pacifico', cursive;
     margin:15% 7%;
     text-decoration: none;
-    padding-bottom:2px;
-    
-   
+    padding-bottom:2px;   
+}
+
+#header-nav a:hover {
+    border:2px solid #fffafa;
+
 }
