@@ -46,7 +46,7 @@ I am Responsive here
   
   ### WireFrames
   [Desktop Wireframes](#)
-  [Tablet Wireframes(#)
-  [Mobile Wireframes[(#)
+  [Tablet Wireframes](#)
+  [Mobile Wireframes](#)
   
 </details>
