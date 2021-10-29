@@ -8,7 +8,7 @@ body {
 #header-logo {
     background-color: #2b3f5c;
     font-family: 'PT Serif', serif;
-    text-decoration:none;
+    
 }
 
 #header-logo h1, p {
@@ -28,4 +28,51 @@ body {
 
 #header-logo a {
     text-decoration: none;
+}
+
+#center-about {
+    width: 150px;
+    height:150px;
+    margin:0 auto;
+    bottom: 775px;
+    right: 100px;
+    position: absolute;
+    background-color:#2b3f5c;
+    
+}
+
+.circle-container {
+    width: 145px;
+    height: 145px;
+    /*padding:5px;*/
+    border: 1px solid #f0f1fa;
+    border-radius: 50%;
+    
+}
+
+.circle-cover-bg {
+    background:url(../images/Tom_Crean_permapipe_cropped_square_reduced.jpg) no-repeat center center;
+    height:100%;
+    border-radius:50%
+}
+
+#header-nav {
+    background-color:transparent;
+    margin:10px auto 0;
+    width:70%;  
+    position:relative;
+    clear:both;
+}
+
+#header-nav a {
+    color:#fffafa;
+    background-color:#2b3f5c;
+    font-size:20px;
+    line-height: 2em;
+    font-family:'Pacifico', cursive;
+    margin:15% 7%;
+    text-decoration: none;
+    padding-bottom:2px;
+    
+   
 }
