@@ -170,4 +170,19 @@ header {
     
 }
   
-    }
+}
+
+/*footerstyle*/
+
+#footer {
+    border:2px solid red;
+    display:block;
+    position:fixed;
+    left:0;
+    top:400px;
+    background-color: #2b3f5c;
+    width:100%;
+    min-height:74px;
+    color:red;
+  
+}
