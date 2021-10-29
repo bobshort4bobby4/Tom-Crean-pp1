@@ -45,8 +45,9 @@ I am Responsive here
   All other images are used to add both visual and intellectual interest.
   
   ### WireFrames
-  [Desktop Wireframes](#)
-  [Tablet Wireframes](#)
-  [Mobile Wireframes](#)
+  [Desktop Wireframes](#)<br>
+  [Tablet Wireframes](#)<br>
+  [Mobile Wireframes](#)<br>
+  
   
 </details>
