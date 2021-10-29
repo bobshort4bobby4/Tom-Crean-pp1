@@ -41,7 +41,12 @@ I am Responsive here
   There are two font families used, "PT serif,serif" for the main text and "Pacifico, cursive" for the links.
   
   ##### Images
-  An map-image of Antarctia is used as background for all pages, this image is both visually pleasing and informative.
+  An map-image of Antarctia is used as background for all pages, this image is both visually pleasing and informative.<br>
   All other images are used to add both visual and intellectual interest.
+  
+  ### WireFrames
+  [Desktop Wireframes](#)
+  [Tablet Wireframes(#)
+  [Mobile Wireframes[(#)
   
 </details>
