@@ -45,7 +45,7 @@ I am Responsive here
   All other images are used to add both visual and intellectual interest.
   
   ### WireFrames
-  [Desktop Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/tcrean-desktopwf-pp1.pdf)<br>
+  [Desktop Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/tcrean-desktopwf-pp1-fixed.pdf)<br>
   [Tablet Wireframes](#)<br>
   [Mobile Wireframes](#)<br>
   
