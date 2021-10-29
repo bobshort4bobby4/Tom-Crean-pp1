@@ -35,5 +35,8 @@ I am Responsive here
   ### Design
   
   ##### Colour Scheme 
-  There are three colour used in the site namely antarctic blue(#2b3f5c), white and a lighter blue(
+  There are three colour used in the site namely antarctic blue(#2b3f5c), white and a lighter blue(#004E7C).<br> These colours contrast well and are a good fit thematically.
+  
+  ##### Typography
+  There are two font families used, 
 </details>
