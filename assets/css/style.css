@@ -181,12 +181,32 @@ header {
     
 }
   
-}
+
 
 /*footerstyle*/
 
 footer {
-    clear:both;
-   height:150px;
-  background-color: aqua;
+    
+    height:103px;
+    background-color:#2b3f5c;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+
+.social-networks {
+    text-align:center;
+}
+
+.social-networks li {
+    display:inline;
+}
+
+.social-networks i {
+    font-size:300%;
+    position:relative;
+    bottom:70px;
+    padding:5%;
+    color:#fffafa;
 }
