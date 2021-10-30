@@ -210,3 +210,20 @@ footer {
     padding:5%;
     color:#fffafa;
 }
+
+/* links styles*/
+
+iframe {
+    position: absolute;
+    left:35%;
+    clear:left;
+    
+}
+
+.linksheading {
+    text-align: center;
+    font-family: 'PT serif' serif;
+    color:#fffafa;
+    margin:20px;
+    padding:10px;
+}
