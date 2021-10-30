@@ -6,9 +6,7 @@
     margin:0;
 }
 
-main {
-    display:block;
-    
+main { 
     top:148px;
     margin-top:148px;
     margin-bottom:0;
@@ -18,6 +16,7 @@ body {
     background-image: url(../images/antarctica-ice-sheet-ocean-landscape-map.jpg); 
     background-size: cover;
     min-height: 100vh;
+ 
     
     margin:0;
 }
@@ -213,17 +212,61 @@ footer {
 
 /* links styles*/
 
-iframe {
-    position: absolute;
-    left:35%;
-    clear:left;
+#link-box {
+    min-height: 100vh;
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    margin:0;
+    border 4px solid red;
+    overflow:scroll;
     
+}
+
+.vid1 {
+    position:absolute;
+    left:35%;
+    clear:right;
+    top:19%;
+}
+
+.vid2 {
+    position:absolute;
+    left:35%;
+    clear:both;
+    top:56%;
 }
 
 .linksheading {
     text-align: center;
-    font-family: 'PT serif' serif;
+    font-family: 'PT Serif', serif;
     color:#fffafa;
-    margin:20px;
-    padding:10px;
+    margin:8px;
+    padding:2px;
+    position:absolute;
+    top:14%;
+    left:20%;
+    background-color: #2b3f5c;
+    opacity:.6;
+    
+}
+
+.linksheading2 {
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    color:#fffafa;
+    margin:8px;
+    padding:2px;
+    position:absolute;
+    top:50%;
+    left: 25%;
+    background-color: #2b3f5c;
+    opacity:.9;
+    
+    
+}
+
+#link-box div {
+    background-color: #2b3f5c;
+    opacity:.7;
 }
