@@ -8,17 +8,17 @@
 
 main {
     display:block;
-    display:absolute;
+    
     top:148px;
     margin-top:148px;
+    margin-bottom:0;
 }
 
 body {
     background-image: url(../images/antarctica-ice-sheet-ocean-landscape-map.jpg); 
     background-size: cover;
     min-height: 100vh;
-    display:flex;
-    flex-direction: column;
+    
     margin:0;
 }
 
@@ -186,12 +186,7 @@ header {
 /*footerstyle*/
 
 footer {
-    border:5px solid red;
-    
-    background-color: #2b3f5c;
-    width:100%;
-    min-height:74vh;
- 
-    
-  
+    clear:both;
+   height:150px;
+  background-color: aqua;
 }
