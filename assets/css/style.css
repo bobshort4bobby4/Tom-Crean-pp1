@@ -200,11 +200,11 @@ header {
 #bluffers-section {
     border:2px solid #fffafa;
     clear:both;
-    display: inline-block;
     width:60%;
     background-color:#2b3f5c;
     opacity:0.7;
-    display:inline-block;
+    display:flex;
+    flex-wrap: nowrap;
     position:relative;
     top:220px;
     left:20%;
@@ -213,8 +213,11 @@ header {
     }
 
     #bluffers-div {
-        border:2px solid #fffafa;
+        
         margin:3px;
+        display:flex;
+        flex-wrap: wrap;
+        overflow:auto;
     
     }
 
@@ -243,7 +246,7 @@ header {
 #ten-facts-article li {
     color:#fffafa;
     font-size:2em;
-    text-align:center;
+    text-align:left;
 
 }
 
