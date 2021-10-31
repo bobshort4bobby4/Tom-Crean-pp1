@@ -26,6 +26,8 @@ header {
     position:fixed;
     top:0;
     left:0;
+    display:flex;
+    flex-wrap:wrap;
 }
 
 .main-container {
@@ -45,14 +47,21 @@ header {
     height:156px;
     width:85%;
     background-color:#2b3f5c;
-    opacity:.7;
+    opacity:.9;
     color:#fffafa;
     margin:5px;
 
 }
 
-.card h3 {
-    color:#fffafa;
+.card h2 {
+    color:white;
+    background:#2b3f5c;
+    text-align:center;
+}
+
+.card article {
+    font-size: 1.1em;
+    padding:3px;
 }
 
 
@@ -195,6 +204,13 @@ header {
 
 }
 
+
+/* styles for homepage*/
+
+
+.card h3 {
+    text-align:center;
+}
 /* styles for bluffersguide */
 
 #bluffers-section {
@@ -204,7 +220,7 @@ header {
     background-color:#2b3f5c;
     opacity:0.7;
     display:flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     position:relative;
     top:220px;
     left:20%;
@@ -304,10 +320,12 @@ footer {
     min-height: 100vh;
     display:flex;
     flex-direction:column;
+    flex-wrap: wrap;
     align-content:center;
     margin:0;
     border 4px solid red;
     overflow:scroll;
+    width:50%;
     
 }
 
@@ -316,6 +334,8 @@ footer {
     left:35%;
     clear:right;
     top:19%;
+    height:30%;
+    width:30%;
 }
 
 .vid2 {
@@ -323,6 +343,8 @@ footer {
     left:35%;
     clear:both;
     top:56%;
+    height:30%;
+    width:30%;
 }
 
 .linksheading {
@@ -336,6 +358,7 @@ footer {
     left:20%;
     background-color: #2b3f5c;
     opacity:.6;
+    width:50%
     
 }
 
@@ -350,6 +373,7 @@ footer {
     left: 25%;
     background-color: #2b3f5c;
     opacity:.9;
+    width:50%;
     
     
 }
