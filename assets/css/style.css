@@ -33,6 +33,7 @@ header {
     top: 16%;
     display:flex;
     flex-direction:column;
+    flex-wrap: wrap;
     width:66%;
     left:2%;
     margin-bottom: 20px;
@@ -61,19 +62,53 @@ header {
     top: 16%;
     display:flex;
     flex-direction:column;
+    flex-wrap: wrap;
     width:38%;
     right:2%;
     margin-bottom: 20px;
+    
     
 
 }
 
 .card-image {
-    background-color:blue;
+    background-color:#2b3f5c;
     height:256px;
     width:80%;
     margin:11px;
+   
+}
+
+.card-image2 {
+    background-color:#2b3f5c;
+    height:256px;
+    width:28%;
+    margin:11px;
+    opacity:.7;
+    position:relative;
+    left:26%;
+    
+   
+}
+
+.image1 {
     background-image: url(../images/endurance4-ice.jpg  );
+    background-size:cover;
+    background-position: center;
+}
+
+.image2 {
+
+    background-image: url(../images/170px-Tom_Crean_puppies-256h.jpg  );
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.image3 {
+    background-image: url(../images/Antarctica-Map-Feature.jpg  );
     background-size:cover;
     background-position: center;
 }
