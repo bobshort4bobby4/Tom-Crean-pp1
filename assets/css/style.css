@@ -40,6 +40,7 @@ header {
     left:2%;
     margin-bottom: 20px;
     height:100vh;
+   
     
 }
 
@@ -50,6 +51,7 @@ header {
     opacity:.9;
     color:#fffafa;
     margin:5px;
+    
 
 }
 
@@ -123,10 +125,10 @@ header {
 }
 
 .active {
-    border-left:1px solid #fffafa;
+    border-left:1px solid #2b3f5c;
 }
 #header-logo {
-    background-color: #2b3f5c;
+    background-color:#FFFDD0;
     font-family: 'PT Serif', serif;
     width:100%;
     left:0;
@@ -135,9 +137,9 @@ header {
 }
 
 #header-logo h1, p {
-    color:#fffafa;
+    color:#2b3f5c;
     padding-left:15px;
-    background-color:#2b3f5c;
+    background-color:#ebe9e6;
     
 }
 
@@ -161,7 +163,7 @@ header {
     top:0;
     right: 100px;
     position: absolute;
-    background-color:#2b3f5c;
+    background-color:#ebe9e6;
     
 }
 
@@ -169,7 +171,7 @@ header {
     width: 145px;
     height: 145px;
     /*padding:5px;*/
-    border: 1px solid #f0f1fa;
+    border: 1px solid #ebe9e6;
     border-radius: 50%;
     
 }
@@ -189,8 +191,8 @@ header {
 }
 
 #header-nav a {
-    color:#fffafa;
-    background-color:#2b3f5c;
+    color:#2b3f5c;
+    background-color:#ebe9e6;
     font-size:20px;
     line-height: 2em;
     font-family:'Pacifico', cursive;
@@ -200,7 +202,7 @@ header {
 }
 
 #header-nav a:hover {
-    border:2px solid #fffafa;
+    border:2px solid #2b3f5c;
 
 }
 
@@ -290,7 +292,7 @@ header {
 footer {
     
     height:103px;
-    background-color:#2b3f5c;
+    background-color:#FFFDD0;
     position:fixed;
     bottom:0;
     left:0;
@@ -304,6 +306,7 @@ footer {
 
 .social-networks li {
     display:inline;
+   
 }
 
 .social-networks i {
@@ -311,7 +314,7 @@ footer {
     position:relative;
     bottom:70px;
     padding:5%;
-    color:#fffafa;
+    color:#2b3f5c;
 }
 
 /* links styles*/
