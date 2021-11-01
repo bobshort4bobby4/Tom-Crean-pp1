@@ -59,6 +59,7 @@ header {
 
 #header-title a {
     text-decoration: none;
+    color:var(--text);
 }
 
 
@@ -182,6 +183,28 @@ header {
 }  */
 
 /**************************end of header styles***********************/
+
+
+/*************************styles for vav-bar**************************/
+
+#nav-div {
+    position:fixed;
+    left:0;
+    top:155px;
+    background-color:var(--bground);
+    width:100%;  
+}   
+
+#nav-div a {
+    color:var(--text);
+    background-color:var(--bground);
+    font-size:.85em;
+    line-height: 2em;
+    font-family:'Pacifico', cursive;
+    margin:10% 5%;
+    text-decoration: none;
+    padding-bottom:2px;   
+}
 
 /**************************sytles for homepage************************/
 
