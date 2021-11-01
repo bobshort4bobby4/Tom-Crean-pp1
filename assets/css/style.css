@@ -17,6 +17,8 @@ main {
     margin-bottom:0;
 }
 
+
+
 body {
     background-image: url(../images/antarctica-ice-sheet-ocean-landscape-map.jpg); 
     background-size: cover;
@@ -71,8 +73,8 @@ header {
 }
 
 #center-about {
-    width: 150px;
-    height:150px;
+    width: 148px;
+    height:147px;
     margin:0 auto;
     top:0;
     right: 100px;
@@ -227,7 +229,7 @@ header {
     position:relative;
     top:220px;
     left:20%;
-
+    height:65vh;
     text-align:center;
     }
 
@@ -281,30 +283,45 @@ header {
     column-gap:0px;
     /*position:relative;
     top: 148px;*/
+    display:flex;
+    flex-wrap:wrap;
+    width:60%;
+    margin-left:20%;
+    
 }
 
 #gallery-section img {
     width:100%;
     
 }
+
+/*main { 
+    top:148px;
+    margin-top:148px;
+    margin-left:30%;
+    margin-bottom:0;*/
+    /*this was causing footer to disappear second main */
+   
   
 /******************end of gallery page styles**********************************/
 
 
 
 /******************************links styles*************************************/
-
-#link-box {
-    min-height: 100vh;
+/*
+ #link-container {
+    min-height:100vh;
     display:flex;
     flex-direction:column;
     flex-wrap: wrap;
     align-content:center;
+    overflow:auto;
     margin:0;
-    border 4px solid red;
-    overflow:scroll;
     width:50%;
-    
+}
+.vid-box {
+    padding-bottom:60%;
+    overflow:hidden
 }
 
 .vid1 {
@@ -312,8 +329,8 @@ header {
     left:35%;
     clear:right;
     top:19%;
-    height:30%;
-    width:30%;
+    height:100%;
+    width:100%;
 }
 
 .vid2 {
@@ -329,14 +346,16 @@ header {
     text-align: center;
     font-family: 'PT Serif', serif;
     color:#fffafa;
-    margin:8px;
+    margin:2px;
     padding:2px;
     position:absolute;
-    top:14%;
+    top:16%;
     left:20%;
     background-color: #2b3f5c;
     opacity:.6;
-    width:50%
+    width:50%;
+    font-size:1em;
+    
     
 }
 
@@ -352,14 +371,46 @@ header {
     background-color: #2b3f5c;
     opacity:.9;
     width:50%;
+    font-size:1em;
     
     
 }
 
-#link-box div {
+#link-container div {
     background-color: #2b3f5c;
     opacity:.7;
+*/
+
+#link-container {
+    max-width:50%;
+    max-height:50%;
+    align-items: center;
+    margin-left:10px;
+
 }
+
+.vid-box {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0; 
+    overflow: hidden; 
+}
+
+.vid-box iframe {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; }
+
+    .linksheading {
+        color:var(--bground);
+        font-weight:bold;
+        background-color: var(--text);
+    }
+
+    
 
 /**************************end of links page styles**********************/
 
