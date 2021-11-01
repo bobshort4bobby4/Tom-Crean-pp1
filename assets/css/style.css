@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Pacifico&display=swap');
 
+:root {
+    hfbground:#ebe9e6;
+    hftext: #2b3f5c;
+  }
+
 * {
     padding:0;
     border:none;
@@ -20,6 +25,9 @@ body {
     display:block;
 }
 
+
+/************************ header styles*******************************************/
+
 header {
     width:100%;
     z-index:2;
@@ -28,100 +36,6 @@ header {
     left:0;
     display:flex;
     flex-wrap:wrap;
-}
-
-.main-container {
-    position:absolute;
-    top: 16%;
-    display:flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    width:66%;
-    left:2%;
-    margin-bottom: 20px;
-    height:100vh;
-   
-    
-}
-
-.card{
-    height:156px;
-    width:85%;
-    background-color:#2b3f5c;
-    opacity:.9;
-    color:#fffafa;
-    margin:5px;
-    
-
-}
-
-.card h2 {
-    color:white;
-    background:#2b3f5c;
-    text-align:center;
-}
-
-.card article {
-    font-size: 1.1em;
-    padding:3px;
-}
-
-
-
-.image-container {
-    position:absolute;
-    top: 16%;
-    display:flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    width:38%;
-    right:2%;
-    margin-bottom: 20px;
-    
-    
-
-}
-
-.card-image {
-    background-color:#2b3f5c;
-    height:256px;
-    width:80%;
-    margin:11px;
-   
-}
-
-.card-image2 {
-    background-color:#2b3f5c;
-    height:256px;
-    width:28%;
-    margin:11px;
-    opacity:.7;
-    position:relative;
-    left:26%;
-    
-   
-}
-
-.image1 {
-    background-image: url(../images/endurance4-ice.jpg  );
-    background-size:cover;
-    background-position: center;
-}
-
-.image2 {
-
-    background-image: url(../images/170px-Tom_Crean_puppies-256h.jpg  );
-    background-size:auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    
-}
-
-.image3 {
-    background-image: url(../images/Antarctica-Map-Feature.jpg  );
-    background-size:cover;
-    background-position: center;
 }
 
 .active {
@@ -205,15 +119,102 @@ header {
     border:2px solid #2b3f5c;
 
 }
+/**************************end of header styles***********************/
 
+/**************************sytles for homepage************************/
 
-/* styles for homepage*/
+.main-container {
+    position:absolute;
+    top: 16%;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    width:66%;
+    left:2%;
+    margin-bottom: 20px;
+    height:100vh;
+}
 
+.card{
+    height:156px;
+    width:85%;
+    background-color:#2b3f5c;
+    opacity:.9;
+    color:#fffafa;
+    margin:5px;
+    
 
-.card h3 {
+}
+
+.card h2 {
+    color:white;
+    background:#2b3f5c;
     text-align:center;
 }
-/* styles for bluffersguide */
+
+.card article {
+    font-size: 1.1em;
+    padding:3px;
+}
+
+
+
+.image-container {
+    position:absolute;
+    top: 16%;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    width:38%;
+    right:2%;
+    margin-bottom: 20px;
+}
+
+.card-image {
+    background-color:#2b3f5c;
+    height:256px;
+    width:80%;
+    margin:11px;
+   
+}
+
+.card-image2 {
+    background-color:#2b3f5c;
+    height:256px;
+    width:28%;
+    margin:11px;
+    opacity:.7;
+    position:relative;
+    left:26%;  
+}
+
+.image1 {
+    background-image: url(../images/endurance4-ice.jpg  );
+    background-size:cover;
+    background-position: center;
+}
+
+.image2 {
+
+    background-image: url(../images/170px-Tom_Crean_puppies-256h.jpg  );
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.image3 {
+    background-image: url(../images/Antarctica-Map-Feature.jpg  );
+    background-size:cover;
+    background-position: center;
+}
+
+
+/**************************************end of styles for home page************/
+
+
+/************************************* styles for bluffersguide *****************/
 
 #bluffers-section {
     border:2px solid #fffafa;
@@ -268,8 +269,10 @@ header {
 
 }
 
+/**************************end of bluffers page styles**************************/
 
-/* gallery styles*/
+
+/********************************** gallery styles********************************/
 
 #gallery-section {
     /*clear:both;*/
@@ -285,39 +288,11 @@ header {
     
 }
   
+/******************end of gallery page styles**********************************/
 
 
-/*footerstyle*/
 
-footer {
-    
-    height:103px;
-    background-color:#FFFDD0;
-    position:fixed;
-    bottom:0;
-    left:0;
-    width:100%;
-    margin-top:15px;
-}
-
-.social-networks {
-    text-align:center;
-}
-
-.social-networks li {
-    display:inline;
-   
-}
-
-.social-networks i {
-    font-size:300%;
-    position:relative;
-    bottom:70px;
-    padding:5%;
-    color:#2b3f5c;
-}
-
-/* links styles*/
+/******************************links styles*************************************/
 
 #link-box {
     min-height: 100vh;
@@ -385,3 +360,37 @@ footer {
     background-color: #2b3f5c;
     opacity:.7;
 }
+
+/**************************end of links page styles**********************/
+
+/****************************************footerstyle*********************/
+
+footer {
+    
+    height:103px;
+    background-color:#FFFDD0;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    margin-top:15px;
+}
+
+.social-networks {
+    text-align:center;
+}
+
+.social-networks li {
+    display:inline;
+   
+}
+
+.social-networks i {
+    font-size:300%;
+    position:relative;
+    bottom:70px;
+    padding:5%;
+    color:#2b3f5c;
+}
+
+/**********************end of footer styles*****************************/
