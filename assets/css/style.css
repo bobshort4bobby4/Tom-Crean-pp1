@@ -198,14 +198,22 @@ header {
 #nav-div a {
     color:var(--text);
     background-color:var(--bground);
-    font-size:.85em;
+    font-size:.8em;
     line-height: 2em;
     font-family:'Pacifico', cursive;
-    margin:10% 5%;
+    margin:5% 5%;
     text-decoration: none;
-    padding-bottom:2px;   
+    padding-bottom:1px;   
 }
 
+.active {
+    border-left:1px solid var(--text);
+}
+
+#nav-div a:hover {
+    border:2px solid var(--text);
+
+} 
 /**************************sytles for homepage************************/
 
 .main-container {
@@ -504,13 +512,13 @@ header {
 
 footer {
     
-    height:103px;
+    height:80px;
     background-color:var(--bground);
     position:fixed;
     bottom:0;
     left:0;
     width:100%;
-    margin-top:15px;
+    margin-top:10px;
 }
 
 .social-networks {
@@ -519,13 +527,12 @@ footer {
 
 .social-networks li {
     display:inline;
+    padding-bottom:25%;
    
 }
 
 .social-networks i {
     font-size:300%;
-    position:relative;
-    bottom:70px;
     padding:5%;
     color:var(--text);
 }
