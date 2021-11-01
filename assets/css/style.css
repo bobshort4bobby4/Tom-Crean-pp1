@@ -173,19 +173,20 @@ header {
 }
 
 .card-image {
-    background-color:#2b3f5c;
+    background-color:black;
     height:256px;
     width:80%;
     margin:11px;
+    opacity:.8;
    
 }
 
 .card-image2 {
-    background-color:#2b3f5c;
+    background-color:black;
     height:256px;
     width:28%;
     margin:11px;
-    opacity:.7;
+    opacity:.9;
     position:relative;
     left:26%;  
 }
@@ -292,6 +293,8 @@ header {
 
 #gallery-section img {
     width:100%;
+    opacity:1;
+    background-color: black;
     
 }
 
