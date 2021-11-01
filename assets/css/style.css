@@ -30,14 +30,73 @@ body {
 
 /************************ header styles*******************************************/
 
+
+header {
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+
+}
+
+#header-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    height:155px;
+    justify-content: space-between;
+    background-color: var(--bground);
+}
+
+#header-title {
+    order:1;
+    margin-left: 2%;
+    padding:6%;
+    font-family: 'PT Serif', serif;
+   
+
+}
+
+#header-title a {
+    text-decoration: none;
+}
+
+
+#header-picture {
+    order:2;
+    height:145px;
+    width:30%;
+    width: 148px;
+    margin:0 auto;
+    top:0;
+    background-color:var(--bground);
+}
+
+.circle-container {
+    width: 145px;
+    height: 145px;
+    /*padding:5px;*/ 
+    border: 1px solid aqua;
+    border-radius: 50%;
+    
+}
+
+.circle-cover-bg {
+    background:url(../images/Tom_Crean_permapipe_cropped_square_reduced.jpg) no-repeat center center;
+    height:100%;
+    border-radius:50%
+}
+
+
+/*
 header {
     width:100%;
     z-index:2;
     position:fixed;
     top:0;
     left:0;
-    display:flex;
-    flex-wrap:wrap;
+    /*display:flex;
+    flex-wrap:wrap;*//*
 }
 
 .active {
@@ -86,7 +145,7 @@ header {
 .circle-container {
     width: 145px;
     height: 145px;
-    /*padding:5px;*/
+    /*padding:5px;*/ /*
     border: 1px solid #ebe9e6;
     border-radius: 50%;
     
@@ -102,8 +161,8 @@ header {
     background-color:transparent;
     margin:10px auto 0;
     width:70%;  
-    position:relative;
-    clear:both;
+    /*position:relative;
+    clear:both;*/ /*
 }
 
 #header-nav a {
@@ -120,7 +179,8 @@ header {
 #header-nav a:hover {
     border:2px solid var(--text);
 
-}
+}  */
+
 /**************************end of header styles***********************/
 
 /**************************sytles for homepage************************/
@@ -448,3 +508,61 @@ footer {
 }
 
 /**********************end of footer styles*****************************/
+
+
+/********* for screens below 1200px*************************************/
+/*
+@media screen and (max-width:1200px){
+
+
+    #header-nav  {
+        
+        margin-left:0px;
+        
+    }
+
+
+    #header-nav a {
+        font-size:17px;
+    }
+}
+*/
+    /************for medium screen below 1000px****************************/
+/*
+    @media screen and (max-width:900px){
+
+    #header-nav  {
+        
+        margin-left:0px;
+        
+    }
+
+
+    #header-nav a {
+        font-size:14px;
+    }
+
+    .circle-container {
+        height:135px;
+    }
+
+    #center-about {
+        height:135px;
+    }
+ }*/
+    /*******************for small screens below 800px***************************/
+/*
+@media screen and (max-width:800){
+    #header-nav a {
+        font-size:12px;
+    }
+
+    .circle-container {
+        height:130px;
+    }
+
+    #center-about {
+        height:130px;
+    }
+
+}*/
