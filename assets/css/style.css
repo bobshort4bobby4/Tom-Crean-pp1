@@ -603,10 +603,10 @@ footer {
         padding-bottom:2px;   
         }
 
-        .vid1 iframe, .vid2 iframe {
+        /*.vid1 iframe, .vid2 iframe {
             width:300px;
             height:175px;
-        }
+        }*/
         
        
 
@@ -634,10 +634,10 @@ footer {
             font-size:1em;
         }
 
-        .vid1 iframe, .vid2 iframe {
+        /*.vid1 iframe, .vid2 iframe {
             width:300px;
             height:175px;
-        }
+        }*/
 
        
 
@@ -671,10 +671,10 @@ footer {
             font-size:1.4em;
         }
 
-        .vid1 iframe, .vid2 iframe {
+       /* .vid1 iframe, .vid2 iframe {
             width:400px;
             height:245px;
-        }
+        }*/
 
       
     }
@@ -706,10 +706,10 @@ footer {
             font-size:1.5em;
         }
 
-        .vid1 iframe, .vid2 iframe {
+       /* .vid1 iframe, .vid2 iframe {
             width:560px;
             height:315px;
-        }
+        }*/
     }
 
      /*******************for largescreens above 1025px***************************/
@@ -743,8 +743,8 @@ footer {
             font-size:1.8em;
         }
 
-        .vid1 iframe, .vid2 iframe {
+       /* .vid1 iframe, .vid2 iframe {
             width:560px;
             height:315px;
-        }
+        }*/
     }
