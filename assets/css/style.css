@@ -519,16 +519,12 @@ header {
     opacity:.7;
 }
 
-#wiki-nav {
-    width:100%;
-    text-align: center;
-    overflow:scroll;
-}
 
-.vid1 iframe, .vid2 iframe {
+
+/*.vid1 iframe, .vid2 iframe {
     width:300px;
     height:175px;
-}
+}*/
 
 
 /*
