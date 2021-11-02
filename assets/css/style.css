@@ -44,7 +44,7 @@ header {
     flex-direction: row;
     flex-wrap:nowrap;
     height:155px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: var(--bground);
 }
 
@@ -198,7 +198,7 @@ header {
 #nav-div a {
     color:var(--text);
     background-color:var(--bground);
-    font-size:.8em;
+    font-size:.7em;
     line-height: 2em;
     font-family:'Pacifico', cursive;
     margin:5% 5%;
@@ -540,59 +540,102 @@ footer {
 /**********************end of footer styles*****************************/
 
 
-/********* for screens below 1200px*************************************/
-/*
-@media screen and (max-width:1200px){
+/********* for screens below320px************************************/
 
-
-    #header-nav  {
+@media screen and (max-width:320px){
+        #nav-div a {
         
-        margin-left:0px;
+        font-size:.75em;
+        line-height: 2em;
         
-    }
+        margin:5% 5%;
+       
+        padding-bottom:2px;   
+        }
 
-
-    #header-nav a {
-        font-size:17px;
-    }
 }
-*/
-    /************for medium screen below 1000px****************************/
-/*
-    @media screen and (max-width:900px){
 
-    #header-nav  {
+    /************forscreen above 480px****************************/
+
+    @media screen and (min-width:480px){
+        #nav-div a {
         
-        margin-left:0px;
+            font-size:.9em;
+            line-height: 2em;
+            
+            margin:5% 5%;
+           
+            padding-bottom:2px;   
+        }
+
+        #header-title a {
+            position:absolute;
+            top:20%;
+        }
+
+    
+ }
+    /*******************for small screens above 630px***************************/
+
+    @media screen and (min-width:630px){
+
+        #nav-div a {
         
+            font-size:1.2em;
+            line-height: 2em;
+            
+            margin:5% 5%;
+           
+            padding-bottom:2px;   
+        }
+    
+
+        .circle-container {
+         position: absolute;
+         right:8%;
+        }
     }
 
+     /*******************for small screens above 769px***************************/
 
-    #header-nav a {
-        font-size:14px;
+     @media screen and (min-width:769px){
+
+        #nav-div a {
+        
+            font-size:1.6em;
+            line-height: 2em;
+            
+            margin:5% 5%;
+           
+            padding-bottom:2px;   
+        }
+
+        .circle-container {
+            position: absolute;
+            right:8%;
+        }
     }
 
-    .circle-container {
-        height:135px;
-    }
+     /*******************for small screens above 1025px***************************/
 
-    #center-about {
-        height:135px;
-    }
- }*/
-    /*******************for small screens below 800px***************************/
-/*
-@media screen and (max-width:800){
-    #header-nav a {
-        font-size:12px;
-    }
+     @media screen and (min-width:1025px){
 
-    .circle-container {
-        height:130px;
-    }
+        #nav-div nav {
+            margin-left: 15%;
+        }
 
-    #center-about {
-        height:130px;
-    }
+        #nav-div a {
+        
+            font-size:1.8em;
+            line-height: 2em;
+            
+            margin:5% 5%;
+           
+            padding-bottom:2px;   
+        }
 
-}*/
+        .circle-container {
+            position: absolute;
+            right:8%;
+        }
+    }
