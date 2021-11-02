@@ -502,6 +502,14 @@ header {
 
 }
 
+#vid-box2 {
+    display:flex;
+    flex-direction: column;
+    z-index:-1;
+
+
+}
+
 #vid-box1 h1, #vid-box2 h1, #wiki-nav h1 {
     font-size: .7em;
     text-align: center;
@@ -515,6 +523,11 @@ header {
     width:100%;
     text-align: center;
     overflow:scroll;
+}
+
+.vid1 iframe, .vid2 iframe {
+    width:300px;
+    height:175px;
 }
 
 
@@ -593,6 +606,11 @@ footer {
        
         padding-bottom:2px;   
         }
+
+        .vid1 iframe, .vid2 iframe {
+            width:300px;
+            height:175px;
+        }
         
        
 
@@ -618,6 +636,11 @@ footer {
 
         #vid-box1 h1,#vid-box2 h1,#wiki-nav h1 {
             font-size:1em;
+        }
+
+        .vid1 iframe, .vid2 iframe {
+            width:300px;
+            height:175px;
         }
 
        
@@ -652,6 +675,11 @@ footer {
             font-size:1.4em;
         }
 
+        .vid1 iframe, .vid2 iframe {
+            width:400px;
+            height:245px;
+        }
+
       
     }
 
@@ -680,6 +708,11 @@ footer {
 
         #vid-box1 h1,#vid-box2 h1,#wiki-nav h1 {
             font-size:1.5em;
+        }
+
+        .vid1 iframe, .vid2 iframe {
+            width:560px;
+            height:315px;
         }
     }
 
@@ -712,5 +745,10 @@ footer {
 
         #vid-box1 h1,#vid-box2 h1,#wiki-nav h1 {
             font-size:1.8em;
+        }
+
+        .vid1 iframe, .vid2 iframe {
+            width:560px;
+            height:315px;
         }
     }
