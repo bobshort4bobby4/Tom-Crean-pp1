@@ -193,6 +193,7 @@ header {
     top:155px;
     background-color:var(--bground);
     width:100%;  
+    z-index:1;
 }   
 
 #nav-div a {
@@ -485,6 +486,7 @@ header {
     flex-wrap: nowrap;
     position: absolute;
     top:213px;
+    
 
 }
 
@@ -497,7 +499,7 @@ header {
 #vid-box1 {
     display:flex;
     flex-direction: column;
-    z-index:-1;
+   
 
 
 }
@@ -505,7 +507,7 @@ header {
 #vid-box2 {
     display:flex;
     flex-direction: column;
-    z-index:-1;
+   
 
 
 }
@@ -603,10 +605,10 @@ footer {
         padding-bottom:2px;   
         }
 
-        /*.vid1 iframe, .vid2 iframe {
+        .vid1 iframe, .vid2 iframe {
             width:300px;
             height:175px;
-        }*/
+        }
         
        
 
@@ -634,10 +636,10 @@ footer {
             font-size:1em;
         }
 
-        /*.vid1 iframe, .vid2 iframe {
+        .vid1 iframe, .vid2 iframe {
             width:300px;
             height:175px;
-        }*/
+        }
 
        
 
@@ -671,10 +673,10 @@ footer {
             font-size:1.4em;
         }
 
-       /* .vid1 iframe, .vid2 iframe {
+       .vid1 iframe, .vid2 iframe {
             width:400px;
             height:245px;
-        }*/
+        }
 
       
     }
@@ -706,10 +708,10 @@ footer {
             font-size:1.5em;
         }
 
-       /* .vid1 iframe, .vid2 iframe {
+       .vid1 iframe, .vid2 iframe {
             width:560px;
             height:315px;
-        }*/
+        }
     }
 
      /*******************for largescreens above 1025px***************************/
@@ -743,8 +745,8 @@ footer {
             font-size:1.8em;
         }
 
-       /* .vid1 iframe, .vid2 iframe {
+       .vid1 iframe, .vid2 iframe {
             width:560px;
             height:315px;
-        }*/
+        }
     }
