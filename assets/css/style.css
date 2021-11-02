@@ -10,13 +10,13 @@
     border:none;
     margin:0;
 }
-
+/*
 main { 
     top:148px;
     margin-top:148px;
     margin-bottom:0;
 }
-
+*/
 
 
 body {
@@ -372,13 +372,12 @@ header {
     /*clear:both;*/
     line-height:0;
     column-count:3;
-    column-gap:0px;
-    /*position:relative;
-    top: 148px;*/
+    column-gap:0px; 
     display:flex;
     flex-wrap:wrap;
     width:60%;
     margin-left:20%;
+    margin-bottom: 18%;
     
 }
 
@@ -386,6 +385,7 @@ header {
     width:100%;
     opacity:1;
     background-color: black;
+    border:2px solid var(--bground);
     
 }
 
@@ -476,13 +476,41 @@ header {
 */
 
 #link-container {
-    max-width:50%;
-    max-height:50%;
+    
+    width:100%;
     align-items: center;
     margin-left:10px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: absolute;
+    top:213px;
 
 }
 
+#headings-links-container {
+    
+    
+    display: inline-block;
+}
+
+#vid-box1 {
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+#vid-box1 h1 {
+    font-size: .7em;
+    text-align: center;
+    padding-bottom: 1%;
+    color:white;
+    background-color:var(--text);
+    opacity:.7;
+}
+
+/*
 .vid-box {
     position: relative;
     padding-bottom: 56.25%;
@@ -502,17 +530,18 @@ header {
         color:var(--bground);
         font-weight:bold;
         background-color: var(--text);
+        text-align: center;
     }
 
     
-
+*/
 /**************************end of links page styles**********************/
 
 /****************************************footerstyle*********************/
 
 footer {
     
-    height:80px;
+    height:5vh;
     background-color:var(--bground);
     position:fixed;
     bottom:0;
@@ -523,6 +552,10 @@ footer {
 
 .social-networks {
     text-align:center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 
 .social-networks li {
@@ -552,6 +585,8 @@ footer {
        
         padding-bottom:2px;   
         }
+        
+       
 
 }
 
@@ -572,6 +607,8 @@ footer {
             position:absolute;
             top:20%;
         }
+
+       
 
     
  }
@@ -594,6 +631,12 @@ footer {
          position: absolute;
          right:8%;
         }
+
+        #gallery-section {
+            margin-bottom: 0;
+        }
+
+      
     }
 
      /*******************for small screens above 769px***************************/
@@ -614,9 +657,13 @@ footer {
             position: absolute;
             right:8%;
         }
+
+        #gallery-section {
+            margin-bottom: 0;
+        }
     }
 
-     /*******************for small screens above 1025px***************************/
+     /*******************for largescreens above 1025px***************************/
 
      @media screen and (min-width:1025px){
 
@@ -637,5 +684,9 @@ footer {
         .circle-container {
             position: absolute;
             right:8%;
+        }
+
+        #gallery-section {
+            margin-bottom: 0;
         }
     }
