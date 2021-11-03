@@ -20,7 +20,8 @@ main {
 
 
 body {
-    background-image: url(../images/antarctica-ice-sheet-ocean-landscape-map.jpg); 
+  /*  background-image: url(../images/antarctica-ice-sheet-ocean-landscape-map.jpg); */
+    background-image: url(../images/200717-Antarctica.jpg);
     background-size: cover;
     min-height: 100vh;
     margin:0;
@@ -203,7 +204,7 @@ header {
     font-size:.7em;
     line-height: 2em;
     font-family:'Pacifico', cursive;
-    margin:5% 5%;
+    margin:0 5%;
     text-decoration: none;
     padding-bottom:1px;   
 }
@@ -219,11 +220,9 @@ header {
 /**************************sytles for homepage************************/
 
 #grid-wrapper {
-    border:2px solid red;
     position:absolute;
     top:214px;
-    left:0;
-    /*height:;*/
+    left:0;    
     width:100%;
     display:grid;
     grid-template-columns: repeat(8, 1fr);
@@ -241,9 +240,9 @@ header {
 
 .home-text, .home-img {
     color:var(--text);
-    background-color:var(--bground);
-    opacity:.9;
-    border: 2px solid var(--text);
+    background-color:var(--text);
+    opacity:.7;
+    /*border: 2px solid var(--text);*/
     margin:2px;
     font-size:.7em;
     padding:3px;
@@ -252,7 +251,16 @@ header {
 
 .home-text h2 , .home-img h2 {
     text-align: center;
-    margin-bottom: 2px;
+   
+    background-color:var(--text);
+    color:white;
+}
+
+.home-text article, .home-img article {
+    color:var(--bground);
+    background-color:var(--text);
+    color:white;
+    border:1px solid var(--text)
 }
 
 .txt1 {
@@ -494,6 +502,9 @@ header {
     width:60%;
     margin-left:20%;
     margin-bottom: 18%;
+    position:absolute;
+    top:213px;
+    left:0;
     
 }
 
@@ -882,6 +893,14 @@ footer {
         #ten-facts-article h1 {
             font-size: 2em;
         }
+
+        .home-text, .home-img {
+            font-size:1em;
+        }
+
+        .home-text article {
+            font-size:1em;
+        }
     }
 
      /*******************for largescreens above 1025px***************************/
@@ -928,6 +947,10 @@ footer {
         #ten-facts-article h1 {
             font-size: 1.8em;
         }
+
+        .home-text article {
+            font-size:1.4em;
+        }
     }
 
 
@@ -947,6 +970,10 @@ footer {
         .vid1 iframe, .vid2 iframe {
             width:560px;
             height:290px;
+        }
+
+        .home-text article {
+            font-size:1.5em;
         }
 
 
