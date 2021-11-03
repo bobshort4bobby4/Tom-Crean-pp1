@@ -79,7 +79,7 @@ header {
     width: 145px;
     height: 145px;
     /*padding:5px;*/ 
-    border: 1px solid aqua;
+    /*border: 1px solid aqua;*/
     border-radius: 50%;
     
 }
@@ -824,7 +824,7 @@ footer {
     }
 
     #grid-wrapper {
-        border:2px solid red;
+       /* border:2px solid red;*/
         position:absolute;
         top:214px;
         left:0;
