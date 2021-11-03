@@ -217,6 +217,38 @@ header {
 } 
 /**************************sytles for homepage************************/
 
+#grid-wrapper {
+    border:2px solid red;
+    position:absolute;
+    top:214px;
+    left:0;
+    height:100vh;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 75px auto;
+    
+
+}
+
+.txt1 {
+    grid-column: span 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .main-container {
     position:absolute;
     top: 16%;
@@ -305,7 +337,7 @@ header {
     background-position: center;
 }
 
-
+*/
 /**************************************end of styles for home page************/
 
 
@@ -519,7 +551,7 @@ header {
     padding-bottom: 1%;
     color:white;
     background-color:var(--text);
-    opacity:.7;
+    opacity:1;
 }
 
 
