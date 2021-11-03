@@ -339,7 +339,7 @@ header {
     color:#fffafa;
     text-align:center;
     line-height: 25px;
-    font-size:2.5em;
+    font-size:1em;
     padding:15px;
     text-decoration: underline;
 }
@@ -359,8 +359,9 @@ header {
 }
 #ten-facts-article li {
     color:#fffafa;
-    font-size:2em;
+    font-size:1em;
     text-align:left;
+    margin-bottom: 3px;
 
 }
 
@@ -641,7 +642,10 @@ footer {
             height:175px;
         }
 
-       
+       #ten-facts-article li {
+           font-size: 1.2em;
+           margin-left: 4px;
+       }
 
     
  }
@@ -678,6 +682,25 @@ footer {
             height:245px;
         }
 
+       
+       #ten-facts-article li {
+           font-size: 1.3em;
+           margin-left: 6px;
+       } 
+
+       #ten-facts-article h1 {
+        font-size:1.5em;
+        
+    }
+
+      
+
+
+
+
+
+   
+
       
     }
 
@@ -711,6 +734,15 @@ footer {
        .vid1 iframe, .vid2 iframe {
             width:560px;
             height:315px;
+        }
+
+        #ten-facts-article li {
+            font-size: 1.4em;
+            margin-left: 8px;
+        } 
+
+        #ten-facts-article h1 {
+            font-size: 2em;
         }
     }
 
@@ -749,4 +781,31 @@ footer {
             width:560px;
             height:315px;
         }
+
+        #ten-facts-article li {
+            font-size: 1.6em;
+            margin-left: 6px;
+        } 
+
+        #ten-facts-article h1 {
+            font-size: 1.8em;
+        }
     }
+
+
+     /*******************for largescreens above 1400px***************************/
+
+     @media screen and (min-width:1400px){
+
+        #ten-facts-article li {
+            font-size: 2em;
+            margin-left: 8px;
+        } 
+
+        #ten-facts-article h1 {
+            font-size: 3em;
+        }
+
+
+
+     }
