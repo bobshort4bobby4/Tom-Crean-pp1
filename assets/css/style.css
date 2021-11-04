@@ -101,7 +101,7 @@ header {
 #nav-div a {
     color:var(--text);
     background-color:var(--bground);
-    font-size:.7em;
+    font-size:.65em;
     line-height: 2em;
     font-family:'Pacifico', cursive;
     margin:0 5%;
@@ -396,7 +396,7 @@ footer {
 @media screen and (max-width:320px){
         #nav-div a {
         
-        font-size:.75em;
+        font-size:.65em;
         line-height: 2em;
         
         margin:5% 5%;
