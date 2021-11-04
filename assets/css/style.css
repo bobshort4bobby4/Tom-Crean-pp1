@@ -308,6 +308,7 @@ header {
     background-image: url(../images/endurance4-ice.jpg  );
     background-size:cover;
     background-position: center;
+    opacity:.9;
 }
 
 .img2 {
@@ -315,7 +316,8 @@ header {
     background-image: url(../images/170px-Tom_Crean_puppies-256h.jpg  );
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:0px -20px;
+    opacity:.9;
+    /*background-position:0px -20px;*/
     
     
 }
@@ -324,6 +326,7 @@ header {
     background-image: url(../images/Antarctica-Map-Feature.jpg  );
     background-size:cover;
     background-position: center;
+    opacity:.9;
 }
 
 
@@ -716,8 +719,9 @@ footer {
 }
 
 /**********************end of footer styles*****************************/
-
-
+/*******************************************************************************/
+/***************************************************************************/
+/********************************************************************************/
 /********* for screens below320px************************************/
 
 @media screen and (max-width:320px){
@@ -777,8 +781,28 @@ footer {
            padding:4px
        }
 
+       #grid-wrapper {
+        /* border:2px solid red;*/
+         position:absolute;
+         top:214px;
+         left:0;
+         /*height:;*/
+         width:100%;
+         display:grid;
+         grid-template-columns: repeat(6, 1fr);
+         grid-template-rows: repeat(9, minmax(250px, auto));
+         grid-template-areas: 
+         " . text1 text1 text1 text1 image1 image1 ."
+         " . image2 image2 text2 text2 text2 text2 ."
+         " . image2 image2 text3 text3 text3 text3 ."
+         " . text4 text4 text4 text4 text4 text4 ."
+         " .  text5 text5 text5 text5 image3 image3 .";
+
+       
+
     
- }
+        }
+    } 
     /*******************for small screens above 630px***************************/
 
     @media screen and (min-width:630px){
@@ -834,11 +858,11 @@ footer {
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(9, minmax(250px, auto));
         grid-template-areas: 
-        " text1 text1 text1 text1 image1 image1"
-        " text2 text2 text2 text2 text2 text2"
-        " image2 image2 text3 text3 text3 text3"
-        "text4 text4 text4 text4 text4 text4"
-        " text5 text5 text5 text5 image3 image3";
+        " . text1 text1 text1 text1 image1 image1 ."
+        " . image2 image2 text2 text2 text2 ."
+        " . image2 image2 text3 text3 text3 text3 ."
+        " . text4 text4 text4 text4 text4 text4 ."
+        " .  text5 text5 text5 text5 image3 image3 .";
         align-items:stretch;
     }
 
@@ -901,6 +925,24 @@ footer {
         .home-text article {
             font-size:1em;
         }
+
+        #grid-wrapper {
+            position:absolute;
+            top:214px;
+            left:0;    
+            width:100%;
+            display:grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(9, minmax(220px, auto));
+            /*justify-content: end;*/
+            grid-template-areas: 
+            ". text1 text1 text1 text1 image1 image1 ."
+            ". image2 image2 text2 text2 text2 text2 ."
+            ". image2 image2 text3 text3 text3 text3 ."
+            ". text3 text3 text3 text3 text3 text3 ."
+            ". text4 text4 text4 text4 image3 image3 ."
+            ". text5 text5 text5 text5 image3 image3 ." ;
+        }
     }
 
      /*******************for largescreens above 1025px***************************/
@@ -951,6 +993,24 @@ footer {
         .home-text article {
             font-size:1.4em;
         }
+
+        #grid-wrapper {
+            position:absolute;
+            top:214px;
+            left:0;    
+            width:100%;
+            display:grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(9, minmax(220px, auto));
+            /*justify-content: end;*/
+            grid-template-areas: 
+            ". text1 text1 text1 text1 image1 image1 ."
+            ". image2 image2 text2 text2 text2 text2 ."
+            ". image2 image2 text3 text3 text3 text3 ."
+            ". text3 text3 text3 text3 text3 text3 ."
+            ". text4 text4 text4 text4 image3 image3 ."
+            ". text5 text5 text5 text5 image3 image3 ." ;
+        }
     }
 
 
@@ -974,6 +1034,24 @@ footer {
 
         .home-text article {
             font-size:1.5em;
+        }
+
+        #grid-wrapper {
+            position:absolute;
+            top:214px;
+            left:0;    
+            width:100%;
+            display:grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(9, minmax(220px, auto));
+            /*justify-content: end;*/
+            grid-template-areas: 
+            ". text1 text1 text1 text1 image1 image1 ."
+            ". image2 image2 text2 text2 text2 text2 ."
+            ". image2 image2 text3 text3 text3 text3 ."
+            ". text3 text3 text3 text3 text3 text3 ."
+            ". text4 text4 text4 text4 image3 image3 ."
+            ". text5 text5 text5 text5 image3 image3 ." ;
         }
 
 
