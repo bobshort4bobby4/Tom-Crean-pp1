@@ -861,14 +861,14 @@ footer {
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(9, minmax(250px, auto));
         grid-template-areas: 
-        ".  text1 text1 text1 text1 text1 text1 ."
-    ".  image1 image1 image1 image1 image1 image1 ."
-    ".  text2 text2 text2 text2 text2 text2 ."
-    ".  image2 image2 image2 image2 image2 image2 . "
-    ".  text3 text3 text3 text3 text3 text3 ."
-    ".  text4 text4 text4 text4 text4 text4 ."
-    ".  text5 text5 text5 text5 text5 text5 ."
-    ". image3 image3 image3 image3 image3 image3 .";
+        ". text1 text1 text1 text1 text1 text1 ."
+        ". image1 image1 image1 image1 image1 image1 ."
+        ". text2 text2 text2 text2 text2 text2 ."
+        ". image2 image2 image2 image2 image2 image2 . "
+        ". text3 text3 text3 text3 text3 text3 ."
+        ". text4 text4 text4 text4 text4 text4 ."
+        ". text5 text5 text5 text5 text5 text5 ."
+        ". image3 image3 image3 image3 image3 image3 .";
         
     }
 
@@ -939,18 +939,18 @@ footer {
             width:100%;
             display:grid;
             grid-template-columns: repeat(8, 1fr);
-            grid-template-rows: repeat(10, minmax(220px, auto));
+            grid-template-rows: repeat(10, minmax(300px, auto));
             /*justify-content: end;*/
             grid-template-areas: 
             "text1 text1 text1 text1 text1 image1 image1 image1"
-           
-             "image2 image2 image2 text2 text2 text2 text2 text2"
-            "image2 image2 image2 text3 text3 text3 text3 text3 "
-             ".  image2 image2 image2 image2 image2 image2 . "
-            /* ".  text3 text3 text3 text3 text3 text3 ."
-             ".  text4 text4 text4 text4 text4 text4 ."*/
-             ".  text5 text5 text5 text5 text5 text5 ."
-            ". image3 image3 image3 image3 image3 image3 ." ;
+            "text2 text2 text2 text2 text2 text2 text2 text2"
+            "image2 image2 image2 image2 image2 image2 image2 image2 "
+            "image2 image2 image2 image2 image2 image2 image2 image2"
+            "text3 text3 text3 text3 text4 text4 text4 text4"
+            /*"text4 text4 text4 text4 text4 text4 text4 text4"*/
+            ".  text5 text5 text5 text5 text5 text5 . "
+            "image3 image3 image3 image3 image3 image3 image3 image3"
+            "image3 image3 image3 image3 image3 image3 image3 image3";
         }
     }
 
@@ -1013,12 +1013,13 @@ footer {
             grid-template-rows: repeat(9, minmax(220px, auto));
             /*justify-content: end;*/
             grid-template-areas: 
-            ". text1 text1 text1 text1 image1 image1 ."
-            ". image2 image2 text2 text2 text2 text2 ."
-            ". image2 image2 text3 text3 text3 text3 ."
-            ". text3 text3 text3 text3 text3 text3 ."
-            ". text4 text4 text4 text4 image3 image3 ."
-            ". text5 text5 text5 text5 image3 image3 ." ;
+            "text1 text1 text1 text1 text1 image1 image1 image1"
+            "image2 image2 image2 text2 text2 text2 text2 text2"
+            "image2 image2 image2 text3 text3 text3 text3 text3 "
+            "image2 image2 image2 text4 text4 text4 text4 text4 "
+            "text5 text5 text5 text5 text5 text5 text5 text5"
+            "image3 image3 image3 image3 image3 image3 image3 image3"
+            "image3 image3 image3 image3 image3 image3 image3 image3";
         }
     }
 
