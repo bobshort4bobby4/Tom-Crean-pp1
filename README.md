@@ -35,19 +35,20 @@ I am Responsive here
   ### Design
   
   ##### Colour Scheme 
-  There are two s used in the site namely antarctic blue(#2b3f5c), and an off-white (#ebe9e6).<br> These colours contrast well and are a good fit thematically.
+  There are two main used in the site namely antarctic blue(#2b3f5c), and an off-white (#ebe9e6).<br> These colours contrast well and are a good fit thematically.
+  Black is used to darken some of the images.
   
   ##### Typography
   There are two font families used, "PT serif,serif" for the main text and "Pacifico, cursive" for the links.
   
   ##### Images
-  An map-image of Antarctia is used as background for all pages, this image is both visually pleasing and informative.<br>
+  An image of Antarctia is used as background for all pages, this image is both visually pleasing and informative.<br>
   All other images are used to add both visual and intellectual interest.
   
   ### WireFrames
-  [Desktop Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/tcrean-desktopwf-pp1-fixed.pdf)<br>
-  [Tablet Wireframes](#)<br>
-  [Mobile Wireframes](#)<br>
+  [Desktop Wireframes](#)<br>
+  [Tablet Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-tabletwf-pp1.pdf)<br>
+  [Mobile Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-mobilewf-pp1.pdf)<br>
   
   
 </details>
