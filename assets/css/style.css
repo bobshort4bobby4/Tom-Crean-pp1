@@ -140,10 +140,8 @@ header {
 }
 
 .home-text, .home-img {
-    color:var(--text);
-    /*background-color:var(--text);
-    /*border: 2px solid var(--text);*/
-    background-color: black;
+    color:var(--bground);
+    background-color:var(--text);
     margin:6px;
     font-size:.7em;
     padding:3px;
@@ -152,16 +150,16 @@ header {
 
 .home-text h2 , .home-img h2 {
     text-align: center;
-   
-    background-color:var(--text);
+    /*background-color:var(--text);*/
+    background-color:lightsteelblue;
     color:white;
 }
 
 .home-text article, .home-img article {
     /*color:var(--bground);*/
-    background-color:black);
+    background-color:var(--text);
     color:white;
-    border:1px solid var(--text);  
+    /*border:1px solid var(--bground); */ 
 }
 
 .txt1 {
