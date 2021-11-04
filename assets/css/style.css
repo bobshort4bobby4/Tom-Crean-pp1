@@ -226,7 +226,7 @@ header {
     width:100%;
     display:grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(9, minmax(250px, auto));
+    grid-template-rows: repeat(9, minmax(220px, auto));
     grid-template-areas: 
     ".  text1 text1 text1 text1 text1 text1 ."
     ".  image1 image1 image1 image1 image1 image1 ."
@@ -243,7 +243,7 @@ header {
     background-color:var(--text);
     opacity:.7;
     /*border: 2px solid var(--text);*/
-    margin:2px;
+    margin:6px;
     font-size:.7em;
     padding:3px;
     
@@ -313,9 +313,9 @@ header {
 .img2 {
 
     background-image: url(../images/170px-Tom_Crean_puppies-256h.jpg  );
-   
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:0px -20px;
     
     
 }
@@ -444,7 +444,7 @@ header {
     position:relative;
     top:220px;
     left:20%;
-    height:65vh;
+    height:100vh;
     text-align:center;
     }
 
@@ -978,4 +978,23 @@ footer {
 
 
 
+     }
+
+
+     /****************************for largest screens over 2000px*******************/
+
+     @media screen  and (min-width:2000px){
+        .header-logo-container h1, .header-logo-container p {
+            font-size: 2.8em;
+
+        }
+
+         .home-text {
+            font-size:2em;
+        }
+
+
+
+     }
+         
      }
