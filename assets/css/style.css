@@ -10,13 +10,7 @@
     border:none;
     margin:0;
 }
-/*
-main { 
-    top:148px;
-    margin-top:148px;
-    margin-bottom:0;
-}
-*/
+
 
 
 body {
@@ -55,8 +49,6 @@ header {
     margin-left: 2%;
     padding:6%;
     font-family: 'PT Serif', serif;
-   
-
 }
 
 #header-title a {
@@ -91,103 +83,11 @@ header {
 }
 
 
-/*
-header {
-    width:100%;
-    z-index:2;
-    position:fixed;
-    top:0;
-    left:0;
-    /*display:flex;
-    flex-wrap:wrap;*//*
-}
-
-.active {
-    border-left:1px solid var(--text);
-}
-#header-logo {
-    background-color:var(--bground);
-    font-family: 'PT Serif', serif;
-    width:100%;
-    left:0;
-    
-    
-}
-
-#header-logo h1, p {
-    color:var(--text);
-    padding-left:15px;
-    background-color:var(--bground);
-    
-}
-
-#header-logo h1 {
-    font-size:2.5em;
-    padding-top:10px;
-}
-
-#header-logo p {
-    font-size:1.6em;
-}
-
-#header-logo a {
-    text-decoration: none;
-}
-
-#center-about {
-    width: 148px;
-    height:147px;
-    margin:0 auto;
-    top:0;
-    right: 100px;
-    position: absolute;
-    background-color:var(--bground);
-    
-}
-
-.circle-container {
-    width: 145px;
-    height: 145px;
-    /*padding:5px;*/ /*
-    border: 1px solid #ebe9e6;
-    border-radius: 50%;
-    
-}
-
-.circle-cover-bg {
-    background:url(../images/Tom_Crean_permapipe_cropped_square_reduced.jpg) no-repeat center center;
-    height:100%;
-    border-radius:50%
-}
-
-#header-nav {
-    background-color:transparent;
-    margin:10px auto 0;
-    width:70%;  
-    /*position:relative;
-    clear:both;*/ /*
-}
-
-#header-nav a {
-    color:var(--text);
-    background-color:var(--bground);
-    font-size:20px;
-    line-height: 2em;
-    font-family:'Pacifico', cursive;
-    margin:15% 7%;
-    text-decoration: none;
-    padding-bottom:2px;   
-}
-
-#header-nav a:hover {
-    border:2px solid var(--text);
-
-}  */
 
 /**************************end of header styles***********************/
 
 
-/*************************styles for vav-bar**************************/
+/*************************styles for nav-bar**************************/
 
 #nav-div {
     position:fixed;
@@ -217,6 +117,7 @@ header {
     border:2px solid var(--text);
 
 } 
+
 /**************************sytles for homepage************************/
 
 #grid-wrapper {
@@ -241,7 +142,6 @@ header {
 .home-text, .home-img {
     color:var(--text);
     background-color:var(--text);
-    opacity:.7;
     /*border: 2px solid var(--text);*/
     margin:6px;
     font-size:.7em;
@@ -260,7 +160,7 @@ header {
     color:var(--bground);
     background-color:var(--text);
     color:white;
-    border:1px solid var(--text)
+    border:1px solid var(--text);  
 }
 
 .txt1 {
@@ -312,14 +212,10 @@ header {
 }
 
 .img2 {
-
-    background-image: url(../images/170px-Tom_Crean_puppies-256h.jpg  );
+     background-image: url(../images/170px-Tom_Crean_puppies-256h.jpg  );
     background-size: cover;
     background-repeat: no-repeat;
     opacity:.9;
-    /*background-position:0px -20px;*/
-    
-    
 }
 
 .img3 {
@@ -329,108 +225,6 @@ header {
     opacity:.9;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.main-container {
-    position:absolute;
-    top: 16%;
-    display:flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    width:66%;
-    left:2%;
-    margin-bottom: 20px;
-    height:100vh;
-}
-
-.card{
-    height:156px;
-    width:85%;
-    background-color:#2b3f5c;
-    opacity:.9;
-    color:#fffafa;
-    margin:5px;
-    
-
-}
-
-.card h2 {
-    color:white;
-    background:#2b3f5c;
-    text-align:center;
-}
-
-.card article {
-    font-size: 1.1em;
-    padding:3px;
-}
-
-
-
-.image-container {
-    position:absolute;
-    top: 16%;
-    display:flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    width:38%;
-    right:2%;
-    margin-bottom: 20px;
-}
-
-.card-image {
-    background-color:black;
-    height:256px;
-    width:80%;
-    margin:11px;
-    opacity:.8;
-   
-}
-
-.card-image2 {
-    background-color:black;
-    height:256px;
-    width:28%;
-    margin:11px;
-    opacity:.9;
-    position:relative;
-    left:26%;  
-}
-
-.image1 {
-    background-image: url(../images/endurance4-ice.jpg  );
-    background-size:cover;
-    background-position: center;
-}
-
-.image2 {
-
-    background-image: url(../images/170px-Tom_Crean_puppies-256h.jpg  );
-    background-size:auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    
-}
-
-.image3 {
-    background-image: url(../images/Antarctica-Map-Feature.jpg  );
-    background-size:cover;
-    background-position: center;
-}
-
-*/
 /**************************************end of styles for home page************/
 
 
@@ -478,7 +272,6 @@ header {
     list-style-type: square;
     color:inherit;
     text-align:justify;
-   /* border:2px solid #fffafa;*/
     margin:7px auto;
     list-style-position: inside;
 }
@@ -496,7 +289,6 @@ header {
 /********************************** gallery styles********************************/
 
 #gallery-section {
-    /*clear:both;*/
     line-height:0;
     column-count:3;
     column-gap:0px; 
@@ -507,106 +299,22 @@ header {
     margin-bottom: 18%;
     position:absolute;
     top:213px;
-    left:0;
-    
+    left:0;    
 }
 
 #gallery-section img {
     width:100%;
     opacity:1;
     background-color: black;
-    border:2px solid var(--bground);
-    
+    border:2px solid var(--bground);   
 }
-
-/*main { 
-    top:148px;
-    margin-top:148px;
-    margin-left:30%;
-    margin-bottom:0;*/
-    /*this was causing footer to disappear second main */
-   
   
 /******************end of gallery page styles**********************************/
 
 
 
 /******************************links styles*************************************/
-/*
- #link-container {
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    align-content:center;
-    overflow:auto;
-    margin:0;
-    width:50%;
-}
-.vid-box {
-    padding-bottom:60%;
-    overflow:hidden
-}
-
-.vid1 {
-    position:absolute;
-    left:35%;
-    clear:right;
-    top:19%;
-    height:100%;
-    width:100%;
-}
-
-.vid2 {
-    position:absolute;
-    left:35%;
-    clear:both;
-    top:56%;
-    height:30%;
-    width:30%;
-}
-
-.linksheading {
-    text-align: center;
-    font-family: 'PT Serif', serif;
-    color:#fffafa;
-    margin:2px;
-    padding:2px;
-    position:absolute;
-    top:16%;
-    left:20%;
-    background-color: #2b3f5c;
-    opacity:.6;
-    width:50%;
-    font-size:1em;
-    
-    
-}
-
-.linksheading2 {
-    text-align: center;
-    font-family: 'PT Serif', serif;
-    color:#fffafa;
-    margin:8px;
-    padding:2px;
-    position:absolute;
-    top:50%;
-    left: 25%;
-    background-color: #2b3f5c;
-    opacity:.9;
-    width:50%;
-    font-size:1em;
-    
-    
-}
-
-#link-container div {
-    background-color: #2b3f5c;
-    opacity:.7;
-*/
-
 #link-container {
-    
     width:100%;
     align-items: center;
     margin-left:10px;
@@ -615,30 +323,20 @@ header {
     flex-wrap: nowrap;
     position: absolute;
     top:213px;
-    
-
 }
 
-#headings-links-container {
-    
-    
+#headings-links-container {   
     display: inline-block;
 }
 
 #vid-box1 {
     display:flex;
     flex-direction: column;
-   
-
-
 }
 
 #vid-box2 {
     display:flex;
     flex-direction: column;
-   
-
-
 }
 
 #vid-box1 h1, #vid-box2 h1, #wiki-nav h1 {
@@ -652,37 +350,7 @@ header {
 
 
 
-/*.vid1 iframe, .vid2 iframe {
-    width:300px;
-    height:175px;
-}*/
 
-
-/*
-.vid-box {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0; 
-    overflow: hidden; 
-}
-
-.vid-box iframe {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    width: 100%; 
-    height: 100%; }
-
-    .linksheading {
-        color:var(--bground);
-        font-weight:bold;
-        background-color: var(--text);
-        text-align: center;
-    }
-
-    
-*/
 /**************************end of links page styles**********************/
 
 /****************************************footerstyle*********************/
@@ -744,7 +412,7 @@ footer {
 
 }
 
-    /************forscreen above 480px****************************/
+    /************forscreen above 375px****************************/
 
     @media screen and (min-width:375px){
         #nav-div a {
@@ -786,7 +454,6 @@ footer {
          position:absolute;
          top:214px;
          left:0;
-         /*height:;*/
          width:100%;
          display:grid;
          grid-template-columns: repeat(8, 1fr);
@@ -800,13 +467,9 @@ footer {
     ".  text4 text4 text4 text4 text4 text4 ."
     ".  text5 text5 text5 text5 text5 text5 ."
     ". image3 image3 image3 image3 image3 image3 .";
-
-       
-
-    
-        }
-    } 
-    /*******************for small screens above 63px***************************/
+     }
+  } 
+    /*******************for small screens above 425px***************************/
 
     @media screen and (min-width:425px){
 
@@ -814,9 +477,7 @@ footer {
         
             font-size:1.2em;
             line-height: 2em;
-            
             margin:5% 5%;
-           
             padding-bottom:2px;   
         }
     
@@ -851,11 +512,9 @@ footer {
     }
 
     #grid-wrapper {
-       /* border:2px solid red;*/
         position:absolute;
         top:214px;
         left:0;
-        /*height:;*/
         width:100%;
         display:grid;
         grid-template-columns: repeat(8, 1fr);
@@ -871,30 +530,17 @@ footer {
         ". image3 image3 image3 image3 image3 image3 .";
         
     }
+}
 
-      
-
-
-
-
-
-   
-
-      
-    }
-
-     /*******************for small screens above 769px***************************/
+     /*******************for small screens above 767px***************************/
 
      @media screen and (min-width:767px){
 
         #nav-div a {
-        
-            font-size:1.6em;
-            line-height: 2em;
-            
-            margin:5% 5%;
-           
-            padding-bottom:2px;   
+        font-size:1.6em;
+        line-height: 2em;
+         margin:5% 5%;
+         padding-bottom:2px;   
         }
 
         .circle-container {
@@ -947,14 +593,13 @@ footer {
             "image2 image2 image2 image2 image2 image2 image2 image2 "
             "image2 image2 image2 image2 image2 image2 image2 image2"
             "text3 text3 text3 text3 text4 text4 text4 text4"
-            /*"text4 text4 text4 text4 text4 text4 text4 text4"*/
-            ".  text5 text5 text5 text5 text5 text5 . "
+            ".  text5 text5 text5 text5 text5 text5 ."
             "image3 image3 image3 image3 image3 image3 image3 image3"
             "image3 image3 image3 image3 image3 image3 image3 image3";
         }
     }
 
-     /*******************for largescreens above 1025px***************************/
+     /*******************for largescreens above 1023px***************************/
 
      @media screen and (min-width:1023px){
 
@@ -1010,8 +655,7 @@ footer {
             width:100%;
             display:grid;
             grid-template-columns: repeat(8, 1fr);
-            grid-template-rows: repeat(9, minmax(220px, auto));
-            /*justify-content: end;*/
+            grid-template-rows: repeat(15, minmax(260px, auto));
             grid-template-areas: 
             "text1 text1 text1 text1 text1 image1 image1 image1"
             "text2 text2 text2 text2 text2 text2 text2 text2"
@@ -1019,15 +663,15 @@ footer {
             ". image2 image2 image2 image2 image2 image2 ."
             ". image2 image2 image2 image2 image2 image2 ."
             "text3 text3 text3 text3 text4 text4 text4 text4"
-            /*"text4 text4 text4 text4 text4 text4 text4 text4"*/
             ".  text5 text5 text5 text5 text5 text5 . "
+            "image3 image3 image3 image3 image3 image3 image3 image3"
             "image3 image3 image3 image3 image3 image3 image3 image3"
             "image3 image3 image3 image3 image3 image3 image3 image3";
         }
     }
 
 
-     /*******************for largescreens above 1400px***************************/
+     /*******************for largescreens above 1439px***************************/
 
      @media screen and (min-width:1439px){
 
@@ -1056,17 +700,17 @@ footer {
             width:100%;
             display:grid;
             grid-template-columns: repeat(8, 1fr);
-            grid-template-rows: repeat(11, minmax(220px, auto));
-            /*justify-content: end;*/
+            grid-template-rows: repeat(15, minmax(260px, auto));
             grid-template-areas: 
             "text1 text1 text1 text1 text1 image1 image1 image1"
             "text2 text2 text2 text2 text2 text2 text2 text2"
             ". . image2 image2 image2 image2 . . "
             ". . image2 image2 image2 image2 . ."
             ". . image2 image2 image2 image2 . ."
+            ". . image2 image2 image2 image2 . ."
             "text3 text3 text3 text3 text4 text4 text4 text4"
-            /*"text4 text4 text4 text4 text4 text4 text4 text4"*/
             ".  text5 text5 text5 text5 text5 text5 . "
+            "image3 image3 image3 image3 image3 image3 image3 image3"
             "image3 image3 image3 image3 image3 image3 image3 image3"
             "image3 image3 image3 image3 image3 image3 image3 image3";
         }
@@ -1076,7 +720,7 @@ footer {
      }
 
 
-     /****************************for largest screens over 2000px*******************/
+     /****************************for largest screens over 2559px*******************/
 
      @media screen  and (min-width:2559px){
         .header-logo-container h1, .header-logo-container p {
@@ -1095,8 +739,7 @@ footer {
             width:100%;
             display:grid;
             grid-template-columns: repeat(8, 1fr);
-            grid-template-rows: repeat(13, minmax(220px, auto));
-            /*justify-content: end;*/
+            grid-template-rows: repeat(15, minmax(260px, auto));
             grid-template-areas: 
             ". text1 text1 text1 text1 image1 image1 ."
             ". text2 text2 text2 text2 text2 text2 ."
@@ -1105,11 +748,13 @@ footer {
             ". . image2 image2 image2 image2 . ."
             ". . image2 image2 image2 image2 . ."
             ". . image2 image2 image2 image2 . ."
+            ". . image2 image2 image2 image2 . ."
             ". text3 text3 text3 text4 text4 text4 ."
-            /*"text4 text4 text4 text4 text4 text4 text4 text4"*/
             ".  text5 text5 text5 text5 text5 text5 . "
             "image3 image3 image3 image3 image3 image3 image3 image3"
-            "image3 image3 image3 image3 image3 image3 image3 image3";
+            "image3 image3 image3 image3 image3 image3 image3 image3"
+            "image3 image3 image3 image3 image3 image3 image3 image3"
+            ;
         }
 
         #ten-facts-article li {
