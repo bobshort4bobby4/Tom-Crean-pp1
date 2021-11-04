@@ -46,7 +46,7 @@ I am Responsive here
   
   ### WireFrames
   [Desktop Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/tcrean-desktopwf-pp1-fixed.pdf)<br>
-  [Tablet Wireframes](#)<br>
+  [Tablet Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-tabletwf-pp1.pdf)<br>
   [Mobile Wireframes](#)<br>
   
   
