@@ -141,8 +141,9 @@ header {
 
 .home-text, .home-img {
     color:var(--text);
-    background-color:var(--text);
+    /*background-color:var(--text);
     /*border: 2px solid var(--text);*/
+    background-color: black;
     margin:6px;
     font-size:.7em;
     padding:3px;
@@ -157,8 +158,8 @@ header {
 }
 
 .home-text article, .home-img article {
-    color:var(--bground);
-    background-color:var(--text);
+    /*color:var(--bground);*/
+    background-color:black);
     color:white;
     border:1px solid var(--text);  
 }
