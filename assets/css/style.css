@@ -746,7 +746,7 @@ footer {
 
     /************forscreen above 480px****************************/
 
-    @media screen and (min-width:480px){
+    @media screen and (min-width:375px){
         #nav-div a {
         
             font-size:.9em;
@@ -789,23 +789,26 @@ footer {
          /*height:;*/
          width:100%;
          display:grid;
-         grid-template-columns: repeat(6, 1fr);
+         grid-template-columns: repeat(8, 1fr);
          grid-template-rows: repeat(9, minmax(250px, auto));
          grid-template-areas: 
-         " . text1 text1 text1 text1 image1 image1 ."
-         " . image2 image2 text2 text2 text2 text2 ."
-         " . image2 image2 text3 text3 text3 text3 ."
-         " . text4 text4 text4 text4 text4 text4 ."
-         " .  text5 text5 text5 text5 image3 image3 .";
+         ".  text1 text1 text1 text1 text1 text1 ."
+    ".  image1 image1 image1 image1 image1 image1 ."
+    ".  text2 text2 text2 text2 text2 text2 ."
+    ".  image2 image2 image2 image2 image2 image2 . "
+    ".  text3 text3 text3 text3 text3 text3 ."
+    ".  text4 text4 text4 text4 text4 text4 ."
+    ".  text5 text5 text5 text5 text5 text5 ."
+    ". image3 image3 image3 image3 image3 image3 .";
 
        
 
     
         }
     } 
-    /*******************for small screens above 630px***************************/
+    /*******************for small screens above 63px***************************/
 
-    @media screen and (min-width:630px){
+    @media screen and (min-width:425px){
 
         #nav-div a {
         
@@ -855,15 +858,18 @@ footer {
         /*height:;*/
         width:100%;
         display:grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(9, minmax(250px, auto));
         grid-template-areas: 
-        " . text1 text1 text1 text1 image1 image1 ."
-        " . image2 image2 text2 text2 text2 ."
-        " . image2 image2 text3 text3 text3 text3 ."
-        " . text4 text4 text4 text4 text4 text4 ."
-        " .  text5 text5 text5 text5 image3 image3 .";
-        align-items:stretch;
+        ".  text1 text1 text1 text1 text1 text1 ."
+    ".  image1 image1 image1 image1 image1 image1 ."
+    ".  text2 text2 text2 text2 text2 text2 ."
+    ".  image2 image2 image2 image2 image2 image2 . "
+    ".  text3 text3 text3 text3 text3 text3 ."
+    ".  text4 text4 text4 text4 text4 text4 ."
+    ".  text5 text5 text5 text5 text5 text5 ."
+    ". image3 image3 image3 image3 image3 image3 .";
+        
     }
 
       
@@ -879,7 +885,7 @@ footer {
 
      /*******************for small screens above 769px***************************/
 
-     @media screen and (min-width:769px){
+     @media screen and (min-width:767px){
 
         #nav-div a {
         
@@ -933,21 +939,24 @@ footer {
             width:100%;
             display:grid;
             grid-template-columns: repeat(8, 1fr);
-            grid-template-rows: repeat(9, minmax(220px, auto));
+            grid-template-rows: repeat(10, minmax(220px, auto));
             /*justify-content: end;*/
             grid-template-areas: 
-            ". text1 text1 text1 text1 image1 image1 ."
-            ". image2 image2 text2 text2 text2 text2 ."
-            ". image2 image2 text3 text3 text3 text3 ."
-            ". text3 text3 text3 text3 text3 text3 ."
-            ". text4 text4 text4 text4 image3 image3 ."
-            ". text5 text5 text5 text5 image3 image3 ." ;
+            "text1 text1 text1 text1 text1 image1 image1 image1"
+           
+             "image2 image2 image2 text2 text2 text2 text2 text2"
+            "image2 image2 image2 text3 text3 text3 text3 text3 "
+             ".  image2 image2 image2 image2 image2 image2 . "
+            /* ".  text3 text3 text3 text3 text3 text3 ."
+             ".  text4 text4 text4 text4 text4 text4 ."*/
+             ".  text5 text5 text5 text5 text5 text5 ."
+            ". image3 image3 image3 image3 image3 image3 ." ;
         }
     }
 
      /*******************for largescreens above 1025px***************************/
 
-     @media screen and (min-width:1025px){
+     @media screen and (min-width:1023px){
 
         #nav-div nav {
             margin-left: 15%;
@@ -1061,7 +1070,7 @@ footer {
 
      /****************************for largest screens over 2000px*******************/
 
-     @media screen  and (min-width:2000px){
+     @media screen  and (min-width:2560px){
         .header-logo-container h1, .header-logo-container p {
             font-size: 2.8em;
 
@@ -1075,4 +1084,4 @@ footer {
 
      }
          
-     }
+     
