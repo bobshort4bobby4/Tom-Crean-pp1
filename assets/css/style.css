@@ -17,6 +17,7 @@ body {
   /*  background-image: url(../images/antarctica-ice-sheet-ocean-landscape-map.jpg); */
     background-image: url(../images/200717-Antarctica.jpg);
     background-size: cover;
+    background-attachment: fixed;
     min-height: 100vh;
     margin:0;
     display:block;
@@ -92,7 +93,7 @@ header {
 #nav-div {
     position:fixed;
     left:0;
-    top:155px;
+    top:154px;
     background-color:var(--bground);
     width:100%;  
     z-index:1;
@@ -145,6 +146,8 @@ header {
     margin:6px;
     font-size:.7em;
     padding:3px;
+    border:2px solid var(--text);
+    border-radius: 20px;
     
     
 }
@@ -213,7 +216,8 @@ header {
 }
 
 .img2 {
-     background-image: url(../images/170px-Tom_Crean_puppies-256h.jpg  );
+     /*background-image: url(../images/170px-Tom_Crean_puppies-256h.jpg  );*/
+     background-image: url(../images/Tom_Crean_Scott1911.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     opacity:.9;
@@ -233,6 +237,7 @@ header {
 
 #bluffers-section {
     border:2px solid #fffafa;
+    border-radius:25px;
     clear:both;
     width:60%;
     background-color:#2b3f5c;
@@ -249,9 +254,9 @@ header {
     #bluffers-div {
         
         margin:3px;
-        display:flex;
+        /*display:flex;
         flex-wrap: wrap;
-        overflow:auto;
+        overflow:auto;*/
     
     }
 
@@ -408,6 +413,11 @@ footer {
             width:300px;
             height:175px;
         }
+
+        #bluffers-section {
+            height:70vh;
+        }
+
         
        
 
@@ -424,6 +434,10 @@ footer {
             margin:5% 5%;
            
             padding-bottom:2px;   
+        }
+
+        #header-picture {
+            margin-right:10px;
         }
 
         #header-title a {
@@ -476,10 +490,14 @@ footer {
 
         #nav-div a {
         
-            font-size:1.2em;
+            font-size:1em;
             line-height: 2em;
             margin:5% 5%;
             padding-bottom:2px;   
+        }
+
+        #header-picture {
+            margin-right:15px;
         }
     
 
@@ -760,6 +778,10 @@ footer {
 
         #ten-facts-article li {
             line-height: 2.2em;
+        }
+
+        #bluffers-section {
+            height:75vh;
         }
 
 
