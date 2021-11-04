@@ -146,13 +146,15 @@ header {
     font-size:.7em;
     padding:3px;
     
+    
 }
 
 .home-text h2 , .home-img h2 {
     text-align: center;
     /*background-color:var(--text);*/
-    background-color:lightsteelblue;
+    background-color:var(--text);
     color:white;
+    
 }
 
 .home-text article, .home-img article {
