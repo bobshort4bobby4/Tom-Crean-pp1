@@ -3,6 +3,7 @@
 :root {
     --bground:#ebe9e6;
     --text: #2b3f5c;
+
   }
 
 * {
@@ -143,10 +144,10 @@ header {
 .home-text, .home-img {
     color:var(--bground);
     background-color:var(--text);
-    margin:6px;
+    margin:12px;
     font-size:.7em;
     padding:3px;
-    border:2px solid var(--text);
+    border:4px solid var(--bground);
     border-radius: 20px;
     
     
@@ -164,17 +165,20 @@ header {
     /*color:var(--bground);*/
     background-color:var(--text);
     color:white;
+    padding:12px;
     /*border:1px solid var(--bground); */ 
 }
 
 .txt1 {
   /* grid-column: 1 / 5;*/
    grid-area: text1;
+   
 }
 
 .img1 {
     /*grid-column: 5 / 7;*/
     grid-area: image1;
+    
    
 }
 
@@ -211,8 +215,9 @@ header {
 .img1 {
     background-image: url(../images/endurance4-ice.jpg  );
     background-size:cover;
-    background-position: center;
+    background-position: bottom;
     opacity:.9;
+    border:4px solid var(--text);
 }
 
 .img2 {
@@ -221,6 +226,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     opacity:.9;
+    border:4px solid var(--text);
 }
 
 .img3 {
@@ -228,6 +234,7 @@ header {
     background-size:cover;
     background-position: center;
     opacity:.9;
+    border:4px solid var(--text);
 }
 
 /**************************************end of styles for home page************/
@@ -677,7 +684,7 @@ footer {
             grid-template-rows: repeat(15, minmax(260px, auto));
             grid-template-areas: 
             "text1 text1 text1 text1 text1 image1 image1 image1"
-            "text2 text2 text2 text2 text2 text2 text2 text2"
+            ". . text2 text2 text2 text2 . . "
             ". image2 image2 image2 image2 image2 image2 . "
             ". image2 image2 image2 image2 image2 image2 ."
             ". image2 image2 image2 image2 image2 image2 ."
@@ -722,7 +729,7 @@ footer {
             grid-template-rows: repeat(15, minmax(260px, auto));
             grid-template-areas: 
             "text1 text1 text1 text1 text1 image1 image1 image1"
-            "text2 text2 text2 text2 text2 text2 text2 text2"
+            "text2 text2 text2 text2 text2 image1 image1 image1"
             ". . image2 image2 image2 image2 . . "
             ". . image2 image2 image2 image2 . ."
             ". . image2 image2 image2 image2 . ."
@@ -760,8 +767,8 @@ footer {
             grid-template-columns: repeat(8, 1fr);
             grid-template-rows: repeat(15, minmax(260px, auto));
             grid-template-areas: 
-            ". text1 text1 text1 text1 image1 image1 ."
-            ". text2 text2 text2 text2 text2 text2 ."
+            "text1 text1 text1 text1 image1 image1 image1 image1"
+            "text2 text2 text2 text2 image1 image1 image1 image1"
             ". . image2 image2 image2 image2 . . "
             ". . image2 image2 image2 image2 . ."
             ". . image2 image2 image2 image2 . ."
