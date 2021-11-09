@@ -798,8 +798,13 @@ footer {
         padding-left:40%;
     }
 
+    #vid-box1 {
+        align-items: center;
+    }
+
     .vid1 iframe {
-        height:600px;
+        height:300px;
+        width:500px !important;
     }
     
     #links-container {
