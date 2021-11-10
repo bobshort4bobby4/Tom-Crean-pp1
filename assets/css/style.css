@@ -713,6 +713,12 @@ footer {
 
 }
 
+@media screen and (min-width:375px) {
+    .mobile-nav a {
+        margin-left:80px;
+    }
+}
+
 @media screen and (min-width:576px) {
     #bluffers-section {
         height:75vh;
