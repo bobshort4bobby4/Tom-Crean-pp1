@@ -753,10 +753,16 @@ footer {
     }
 }
 
+
 @media screen and (min-width:768px){
     #bluffers-section {
         height:55vh;
     }
+
+    .mobile-nav a {
+        margin-left:250px;
+    }
+
     #grid-wrapper {
         position:relative;
         top:150px;
@@ -805,6 +811,12 @@ footer {
          font-size:0.8rem;
        
         }
+
+    #submit {
+        left:-350px;
+    }
+
+   
 }
 
 @media screen and (min-width:992px) {
@@ -939,6 +951,18 @@ footer {
         left:20%;
         height:65vh;
     }
+
+    #header-logo h1 {
+        font-size:2em;
+    }
+
+    #header-logo p {
+        font-size:1.7em;
+    }
+
+    .circle-container {
+        margin-left:28%;
+    }
     
 }
 
@@ -1023,6 +1047,25 @@ footer {
     ". . . . . . . . ";
     grid-area: main-texts;
 }
+
+.circle-container {
+    z-index: 2;
+    width:150px;
+    height:150px;
+}
+
+.circle-cover-bg {
+    z-index: 2;
+}
+
+#nav-bar {
+    background: transparent;
+}
+
+#links-container {
+    top:190px;
+}
+
 
 }
 
