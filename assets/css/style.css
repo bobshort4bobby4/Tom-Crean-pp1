@@ -57,9 +57,8 @@
         "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
         "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
         "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
-        /*"tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
-        "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"*/
-        "foot foot foot foot foot foot foot foot foot foot foot foot";
+        "foot foot foot foot foot foot foot foot foot foot foot foot"
+        ". . . . . . . . . . . . ";
          font-size:0.8rem;
        
         }
@@ -169,7 +168,9 @@ header {
 
 /* hamburger button based on tutorial by tyler potts*/
 .hamburger {
-	position: relative;
+	position: absolute;
+    top:0;
+    right:0;
 	display: block;
 	width: 35px;
 	cursor: pointer;
@@ -327,7 +328,7 @@ header {
 #grid-wrapper {
     position:relative;
     top:150px;
-    left:0;    
+    left:0;   
     width:100%;
     display:grid;
     grid-template-columns: repeat(8, 1fr);
@@ -340,7 +341,8 @@ header {
     "text3  text3 text3 text3 text3 text3 text3 text3"
     "text4  text4 text4 text4 text4 text4 text4 text4"
     "text5  text5 text5 text5 text5 text5 text5 text5"
-    "image3 image3 image3 image3 image3 image3 image3 image3";
+    "image3 image3 image3 image3 image3 image3 image3 image3"
+    ". . . . . . . . ";
     grid-area: main-texts;
 }
 
@@ -454,7 +456,7 @@ header {
 }
 
 /**************************************end of styles for home page************/
-
+/*
 
 #home-early-life {
     height:1200px;
@@ -471,7 +473,7 @@ header {
     font-family:'PT Serif', serif;
     opacity: 1;
 
-}
+}*/
 /*====================================bluffers style==============*/
 #bluffers-section {
     
@@ -479,7 +481,8 @@ header {
     display: inline-block;*/
     width:90%;
     /*opacity:0.9;*/
-    display:inline-block;
+    display:flex;
+    flex-direction: column;
     position:relative;
     top:150px;
     left:5%;
@@ -488,7 +491,7 @@ header {
     /*background-color:var(--antarcticblue);
     height:180vh;*/
     /*overflow:hidden;*/
-    height:150vh;
+    min-height:150vh;
     
     }
 
