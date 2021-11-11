@@ -631,8 +631,12 @@ footer {
     background-color:var(--antarcticblue);
     opacity:1;
     width:100vw;
+    
 }
 
+#wiki-link h1 {
+    width:100%;
+}
 #vid-box1 iframe {
     width:100vw;
 }
@@ -898,8 +902,8 @@ footer {
         padding-left:15%;
     }
 
-    #wiki-link h1, #wiki-link h3 {
-        width:50vw;
+     #wiki-link h3 {
+        width:100%;
     }
 
     #wiki-link a {
