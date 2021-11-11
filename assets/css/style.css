@@ -71,7 +71,7 @@
             background-size:cover;
             display:grid;
             grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: repeat(11, auto);
+            grid-template-rows: repeat(12, auto);
             grid-template-areas: 
             "header header header header header header header header header header header header "
             "nav nav nav nav nav nav nav nav nav nav nav nav "
@@ -91,10 +91,10 @@
 /*=========================header styles==================================*/
 header {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1;
     grid-template-areas: 
-    "logo circle";
+    "logo circle ham";
     background-color:var(--snow);
     grid-area: header;
     align-items: center;
@@ -167,6 +167,41 @@ header {
     border-radius:50%
 }
 
+/* hamburger button based on tutorial by tyler potts*/
+.hamburger {
+	position: relative;
+	display: block;
+	width: 35px;
+	cursor: pointer;
+	grid-area:ham;
+	appearance: none;
+	background: none;
+	outline: none;
+	border: none;
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 5px;
+	background-color:var(--antarcticblue);
+	margin: 6px 0px;
+	transition: 0.4s;
+}
+
+.hamburger.is-active:before {
+	transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.hamburger.is-active:after {
+	transform: rotate(45deg) translate(-9px, -8px);
+}
+
+.hamburger.is-active .bar {
+	opacity: 0;
+}
+
 
 /*================================nav-bar styles========================*/
 
@@ -198,40 +233,6 @@ header {
     border: 1px solid var(--antarcticblue);
     border-radius:15%;
 }
-/* hamburger button based on tutorial by tyler potts*/
-.hamburger {
-	position: relative;
-	display: block;
-	width: 35px;
-	cursor: pointer;
-	
-	appearance: none;
-	background: none;
-	outline: none;
-	border: none;
-}
-
-.hamburger .bar, .hamburger:after, .hamburger:before {
-	content: '';
-	display: block;
-	width: 100%;
-	height: 5px;
-	background-color:var(--antarcticblue);
-	margin: 6px 0px;
-	transition: 0.4s;
-}
-
-.hamburger.is-active:before {
-	transform: rotate(-45deg) translate(-8px, 6px);
-}
-
-.hamburger.is-active:after {
-	transform: rotate(45deg) translate(-9px, -8px);
-}
-
-.hamburger.is-active .bar {
-	opacity: 0;
-}
 
 
 .mobile-nav {
@@ -245,6 +246,7 @@ header {
 	background-color:var(--antarcticblue);
 	padding-top: 120px;
 	transition: 0.4s;
+    align-content: space-between;
 }
 
 .mobile-nav.is-active {
@@ -583,20 +585,21 @@ footer {
     align-items: center;
     /*margin-left:10px;*/
     display:flex;
+    flex-basis:auto;
     flex-direction: column;
     flex-wrap: nowrap;
     position: absolute;
     top:149px;
     left:0;
     grid-area: links;
-    height:200vh;
+   /* height:200vh;*/
     align-items: center;
-    height:140vh;
+   /* height:140vh;*/
 }
 
-#headings-links-container {   
+/*#headings-links-container {   
     display: inline-block;
-}
+}*/
 
 #vid-box {
     width:100vw;
@@ -628,6 +631,10 @@ footer {
 
 #wiki-link {
     margin-top:15px;
+    display:flex;
+    align-content: center;
+    flex-direction:column;
+
 }
 
 #wiki-link h3 {
@@ -691,7 +698,6 @@ footer {
 /*============================================================================================*/
 /*============================================================================================*/
 /*=============================================================================================*/
-
 @media screen and (max-width:320px){
     #nav-bar  {
         display:none;
@@ -709,8 +715,7 @@ footer {
     #links-container {
         top:150px;
     }
-
-
+  
 }
 
 @media screen and (min-width:375px) {
@@ -790,7 +795,7 @@ footer {
 
     #bluffers-container-grid {
         /*background-color:var(--snow);*/
-        background-image: url("../images/200717-Antarctica.jpg");
+       background-image: url("../images/200717-Antarctica.jpg");
         background-size:cover;
         display:grid;
         grid-template-columns: repeat(12, 1fr);
@@ -807,7 +812,7 @@ footer {
         
         /*"tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
         "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"*/
-        "foot foot foot foot foot foot foot foot foot foot foot foot";
+       "foot foot foot foot foot foot foot foot foot foot foot foot";
          font-size:0.8rem;
        
         }
@@ -1067,6 +1072,52 @@ footer {
 }
 
 
+}
+
+
+
+
+
+/*==============================landscape==========*/
+
+@media screen and (orientation: landscape){
+    .circle-container {
+        display:none;
+    }
+
+    #header-logo h1 {
+        font-size:1em;
+    }
+
+    .hamburger {
+       position:absolute;
+        right:0;
+        top:0;
+        z-index:10;
+    }
+
+
+    .mobile-nav a {
+        position:relative;
+        top:-70px;
+    }  
+
+    #grid-wrapper {
+        top:55px;
+    }
+
+    #links-container {
+        top:55px;
+    }
+
+    #bluffers-section {
+        position: absolute;
+        top:50px;
+    }
+
+    #ten-facts-article {
+        height:380vh;
+    }
 }
 
 /*#bluffers-container-grid {
