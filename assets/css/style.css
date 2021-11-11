@@ -222,7 +222,7 @@ header {
     background-color:var(--snow);
     margin:15% 5%;
     font-size:.7rem;
-    
+    font-family:'Pacifico', cursive ;
     text-decoration: none;
 }
 
@@ -258,7 +258,7 @@ header {
 	display: block;
 	width: 100%;
 	max-width: 200px;
-	margin: 0 auto 16px;
+	margin: 0 16px 16px 40px;
 	text-align: center;
 	padding: 12px 16px;
 	background-color: #1f103F;
@@ -491,7 +491,7 @@ header {
     /*background-color:var(--antarcticblue);
     height:180vh;*/
     /*overflow:hidden;*/
-    min-height:150vh;
+    /*min-height:150vh;*/
     
     }
 
@@ -502,11 +502,10 @@ header {
       /*  padding:5px;
     */
     }
-    #ten-facts-article {
+   #ten-facts-article {
         overflow: hidden;
-        border:4px solid var(--snow);
-        border-radius:25px;
-        margin-bottom:20px;
+        padding:5px;
+      
     }
 
 #ten-facts-article h1 {
@@ -718,12 +717,19 @@ footer {
     #links-container {
         top:150px;
     }
+
+   
   
 }
 
 @media screen and (min-width:375px) {
     .mobile-nav a {
         margin-left:80px;
+    }
+
+    #center-about {
+        position:relative;
+        left:75%;
     }
 }
 
@@ -763,8 +769,26 @@ footer {
 
 
 @media screen and (min-width:768px){
+    
+    .hamburger {
+        display:none;
+    }
+
+    #nav-bar {
+        display:inline;
+        padding-left:10%;
+    }
     #bluffers-section {
         height:55vh;
+    }
+
+    #center-about {
+        position: relative;
+        left: 100%;
+    }
+    
+    #nav-bar a {
+        font-size:1.2em;
     }
 
     .mobile-nav a {
@@ -828,6 +852,7 @@ footer {
 }
 
 @media screen and (min-width:992px) {
+    /* moved down one breakpoint 
     .hamburger {
         display:none;
     }
@@ -835,7 +860,7 @@ footer {
     #nav-bar {
         display:inline;
         padding-left:10%;
-    }
+    }*/
 
     #nav-bar a {
         font-size: 1.3em;
@@ -958,8 +983,13 @@ footer {
         width:60%;
         left:20%;
         height:65vh;
+        background-color:transparent;
     }
 
+    #ten-facts-article {
+        border: 3px solid var(--snow);
+        border-radius: 25px;
+    }
     #header-logo h1 {
         font-size:2em;
     }
@@ -972,6 +1002,9 @@ footer {
         margin-left:28%;
     }
     
+    #center-about {
+        padding-left: 35%;
+    }
 }
 
 
@@ -1082,7 +1115,7 @@ footer {
 
 
 /*==============================landscape==========*/
-
+/*
 @media screen and (orientation: landscape){
     .circle-container {
         display:none;
@@ -1121,170 +1154,4 @@ footer {
     #ten-facts-article {
         height:380vh;
     }
-}
-
-/*#bluffers-container-grid {
-    /*background-color:var(--snow);*/
-    /*background-image: url("../images/200717-Antarctica.jpg");
-    background-size:cover;
-    display:grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas: 
-    "header header header header header header header header header header header header "
-    "nav nav nav nav nav nav nav nav nav nav nav nav "
-    "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
-    /*"tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
-    "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
-    "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
-    /*"tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
-    "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
-    "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
-    /*"tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
-    "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"*//*
-    "foot foot foot foot foot foot foot foot foot foot foot foot";
-     font-size:0.8rem;
-   
-    }*/
-
-
-
-/*
-@media screen and (orientation: landscape) {
-    .hamburger {
-        position:absolute;
-        top:0;
-        right:20px;
-    }
-
-    #header-logo {
-        position:absolute;
-        top:0px;
-    }
-
-    .circle-container {
-        width: 75px;
-        height: 75px;
-        border-radius: 50%;
-        margin-left: 50%;
-        padding-top:0px;
-        
-    }
-    
-    .circle-cover-bg {
-        background:url(../images/Tom_Crean_permapipe_cropped_square_reduced.jpg) no-repeat center center;
-        height:100%;
-        border-radius:50%
-    }
-
-    #grid-wrapper {
-        top:75px !important;
-    }
-}
-
-@media screen and (min-width:375px) {
-    #nav-bar {
-        display:none;
-    }
-
-    #grid-wrapper {
-        top:150px;
-    }
-
-    #bluffers-section {
-        top:150px;
-    }
-
-    #links-container {
-        top:150px;
-    }
-
-    #vid-box1 iframe {
-        width:375px;
-    }
-
-    #wiki-link nav a i {
-        width:100vw;
-    }
-
-    #cform {
-        width:100vw;
-    }
-
-    #submit {
-        left:-170px;
-        
-    }
-
-    .mobile-nav a {
-        margin: 0 1px 16px 69px;
-    }
-}
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*for screens below 1220px wide*/
-/*
-@media  screen and (max-width:1220px) {
-
-    #nav-bar {
-        margin:3% 0%;
-        width:50%;
-        grid-area: nav;
-    }
-
-    #header-nav a {
-        color:#48FFDF;
-        background-color: #004E7C;
-        font-size:20px;
-        line-height: 2em;
-        font-family:'Pacifico', cursive;
-        margin:10% 5%;
-        text-decoration: none;
-       
-    }
-    
-}
-
-
-/* for screens below 930px*/
-/*
-@media screen and (max-widtg:930px) {
-
-    #header-nav {
-        margin:0;
-        width:40%;
-    }
-
-    #header-nav a {
-        color:#f0f1fa;
-        background-color: #004E7C;
-        font-size:7px;
-        line-height: 2em;
-        font-family:'Pacifico', cursive;
-        margin:3% 3%;
-        text-decoration: none;
-       
-    }
-
-    .clear.both {
-        float:left;
-        clear:left;
-    }
-
-    #header-logo {
-        height:230px;
-    }
-
 }*/
