@@ -593,6 +593,11 @@ footer {
     color:var(--antarcticblue);
 }
 
+footer p{
+    color:black;
+    display:none;
+}
+
 
 /******************************links styles*************************************/
 #links-container {
@@ -649,7 +654,7 @@ footer {
 
 }
 
-#wiki-link h3 {
+#wiki-link h2 {
     text-align: center;
     background-color: var(--antarcticblue);
     width:100vw;
@@ -902,7 +907,7 @@ footer {
         padding-left:15%;
     }
 
-     #wiki-link h3 {
+     #wiki-link h2 {
         width:100%;
     }
 
