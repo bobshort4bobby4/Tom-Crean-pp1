@@ -15,7 +15,6 @@
 /********************styles for body======================*/
 
 #main-container-grid {
-    /*background-color:var(--snow);*/
     background-image: url("../images/200717-Antarctica.jpg");
     background-size:cover;
     display:grid;
@@ -41,7 +40,6 @@
 
 
     #bluffers-container-grid {
-        /*background-color:var(--snow);*/
         background-image: url("../images/200717-Antarctica.jpg");
         background-size:cover;
         display:grid;
@@ -65,7 +63,6 @@
 
 
         #links-container-grid {
-            /*background-color:var(--snow);*/
             background-image: url("../images/200717-Antarctica.jpg");
             background-size:cover;
             display:grid;
@@ -117,7 +114,7 @@ header {
     padding-left:25px;
     color:var(--antarcticblue);
     font-family:'PT Serif', serif;
-    /*font-size:300%;*/
+    
 }
 
 #header-logo p {
@@ -235,7 +232,6 @@ header {
     border-radius:15%;
 }
 
-
 .mobile-nav {
 	position: fixed;
 	top: 0;
@@ -270,39 +266,11 @@ header {
 .mobile-nav a:hover {
 	background-color: #24104f;
 }
-    /*font-size:25px;*/
-   /* line-height: 2em;
-    font-family:'Pacifico', cursive;
-    margin:15% 7%;
-    text-decoration: none;
-
-/*#header-nav {
-    background-color:transparent;
-    margin:0 auto 0;
-    width:70%;  
-    position:relative;
-    clear:both;
-}
-
+   
 #header-nav a {
     color:#48FFDF;
     background-color:#004E7C;
-    /*font-size:25px;*/
-   /* line-height: 2em;
-    font-family:'Pacifico', cursive;
-    margin:15% 7%;
-    text-decoration: none;*/
-   
-
-/*
-#nav-div {
-    position:fixed;
-    left:0;
-    top:154px;
-    background-color:var(--bground);
-    width:100%;  
-    z-index:1;
-}   
+}
 
 #nav-div a {
     color:var(--text);
@@ -313,14 +281,7 @@ header {
     margin:0 5%;
     text-decoration: none;
     padding-bottom:1px;   
-}*/
-
-
-
-
-
-
-
+}
 
 
 /**************************sytles for homepage************************/
@@ -353,67 +314,52 @@ header {
     font-size:1.4rem;
     padding:3px;
     border:4px solid var(--snow);
-    border-radius: 20px;
-    
-    
+    border-radius: 20px;   
 }
 
 .home-text h2 , .home-img h2 {
     text-align: center;
     /*background-color:var(--text);*/
     background-color:var(--text);
-    color:white;
-    
+    color:white;    
 }
 
 .home-text article, .home-img article {
     /*color:var(--bground);*/
     background-color:var(--text);
     color:white;
-    padding:12px;
-   
+    padding:12px;   
 }
 
 .txt1 {
-  /* grid-column: 1 / 5;*/
-   grid-area: text1;
-   
+   grid-area: text1;  
 }
 
 .img1 {
-    /*grid-column: 5 / 7;*/
-    grid-area: image1;
-    
-   
+    grid-area: image1;  
 }
 
 .img2 {
-    /*grid-column: 1 /2;*/
     grid-area: image2;
 }
 
 .txt2 {
-    /*grid-column: 2 / 7;*/
     grid-area: text2;
 }
 
 .txt3 {
-    /*grid-column: 1 / 7;*/
     grid-area: text3;
 }
 
 .txt4 {
-   /*grid-column: 1 / 7;*/
     grid-area: text4;
 }
 
 .txt5 {
-   /* grid-column: 1 / 5;*/
     grid-area: text5;
 }
 
 .img3 {
-    /*grid-column: 5 / 7;*/
     grid-area: image3;
 }
 
@@ -456,31 +402,10 @@ header {
 }
 
 /**************************************end of styles for home page************/
-/*
 
-#home-early-life {
-    height:1200px;
-    width:100%;
-    white-space: pre;
-    border:2px solid black;
-
-}
-
-.test-styles {
-    text-align:center;
-    padding:30px;
-    color:black;
-    font-family:'PT Serif', serif;
-    opacity: 1;
-
-}*/
 /*====================================bluffers style==============*/
 #bluffers-section {
-    
-    /*clear:both;
-    display: inline-block;*/
     width:90%;
-    /*opacity:0.9;*/
     display:flex;
     flex-direction: column;
     position:relative;
@@ -488,24 +413,11 @@ header {
     left:5%;
     grid-area: tenf;
     text-align:center;
-    /*background-color:var(--antarcticblue);
-    height:180vh;*/
-    /*overflow:hidden;*/
-    /*min-height:150vh;*/
-    
     }
 
-    #bluffers-div {
-      
-       /* border:2px solid var(--snow);*/
-        /*margin:3px;*/
-      /*  padding:5px;
-    */
-    }
    #ten-facts-article {
         overflow: hidden;
-        padding:5px;
-      
+        padding:5px; 
     }
 
 #ten-facts-article h1 {
@@ -516,16 +428,9 @@ header {
     padding:15px;
     text-decoration: underline;
     background-color: var(--antarcticblue);
-    /*border :1px solid var(--antarcticblue);
-    border-radius: 25px;*/
     overflow:hidden;
 }
 
-/*#ten-facts-article hr {
-    color:#48FFDF;
-    height:3px;
-}
-*/
 #ten-facts-article ul {
     list-style-type: square;
     color:inherit;
@@ -539,15 +444,15 @@ header {
     background-color: var(--antarcticblue);
     margin-top: 0;
 }
+
 #ten-facts-article li {
     color:var(--snow);
     font-size:1.1em;
     text-align:left;
     line-height:1.5em;
-
 }
 
-/***********************************************************************************************/
+/***********************************footer styles************************************************************/
 
 footer {
     grid-area: foot;
@@ -556,10 +461,9 @@ footer {
     left:0;
     width:100vw;
     max-height:45px;
-    background-color: var(--snow);
-   
-    
+    background-color: var(--snow);   
 }
+
 .social-networks {
     text-align:center;
     display: flex;
@@ -571,7 +475,6 @@ footer {
 .social-networks li {
     display:inline;
     padding-bottom:25%;
-   
 }
 
 .social-networks i {
@@ -585,7 +488,6 @@ footer {
 #links-container {
     width:100%;
     align-items: center;
-    /*margin-left:10px;*/
     display:flex;
     flex-basis:auto;
     flex-direction: column;
@@ -594,14 +496,8 @@ footer {
     top:149px;
     left:0;
     grid-area: links;
-   /* height:200vh;*/
     align-items: center;
-   /* height:140vh;*/
 }
-
-/*#headings-links-container {   
-    display: inline-block;
-}*/
 
 #vid-box {
     width:100vw;
@@ -645,8 +541,6 @@ footer {
     width:100vw;
     color:var(--snow);
 }
-
-
 
 #wiki-link i {
     font-size: 3rem;
@@ -699,7 +593,7 @@ footer {
 
 /*============================================================================================*/
 /*============================================================================================*/
-/*=============================================================================================*/
+/*===============================screens below 320px==============================================================*/
 @media screen and (max-width:320px){
     #nav-bar  {
         display:none;
@@ -716,11 +610,10 @@ footer {
 
     #links-container {
         top:150px;
-    }
-
-   
-  
+    } 
 }
+
+/*=========================screens above 375px===========*/
 
 @media screen and (min-width:375px) {
     .mobile-nav a {
@@ -733,6 +626,7 @@ footer {
     }
 }
 
+/*=========================screens above 576px===============*/
 @media screen and (min-width:576px) {
     #bluffers-section {
         height:75vh;
@@ -767,9 +661,9 @@ footer {
     }
 }
 
+/*=========================screens anove 768px===========*/
 
 @media screen and (min-width:768px){
-    
     .hamburger {
         display:none;
     }
@@ -778,6 +672,7 @@ footer {
         display:inline;
         padding-left:10%;
     }
+
     #bluffers-section {
         height:55vh;
     }
@@ -833,35 +728,18 @@ footer {
         "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
         "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
         "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
-        
-        /*"tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
-        "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
-        
-        /*"tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
-        "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"*/
        "foot foot foot foot foot foot foot foot foot foot foot foot";
          font-size:0.8rem;
-       
         }
 
     #submit {
         left:-350px;
     }
-
-   
 }
 
+/*===============screens above 992px============*/
+
 @media screen and (min-width:992px) {
-    /* moved down one breakpoint 
-    .hamburger {
-        display:none;
-    }
-
-    #nav-bar {
-        display:inline;
-        padding-left:10%;
-    }*/
-
     #nav-bar a {
         font-size: 1.3em;
         margin:15% 5%;
@@ -932,7 +810,7 @@ footer {
     }
 }
 
-/****************************************************************************************************************************/
+/******************************screen size above 1100px**********************************************************************/
 @media screen and (min-width:1100px) {
     #vid-box1 h1 {
         width:500px;
@@ -1007,12 +885,9 @@ footer {
     }
 }
 
-
-/*=========================1250px===================================*/
+/*====================screens above 1250px===================================*/
 @media screen and (min-width:1250px) {
-    
-
-.img4 {
+    .img4 {
     background-position: 15% 0;
 }
 
@@ -1025,6 +900,7 @@ footer {
     border-radius: 25px;
     background-color: var(--antarcticblue);
 }
+
 #ten-facts-article {
     border:none;
 }
@@ -1056,12 +932,11 @@ footer {
     grid-area: main-texts;
 }
 }
-/***********************************************************************************************/
+
+/******************screens above 1400px*****************************************************************************/
+
 @media screen and (min-width:1400px){
-    
-
-
-#grid-wrapper {
+    #grid-wrapper {
     position:relative;
     top:150px;
     left:0;    
@@ -1105,6 +980,10 @@ footer {
 
 #links-container {
     top:190px;
+}
+
+.home-text {
+    font-size:1.6em;
 }
 
 
