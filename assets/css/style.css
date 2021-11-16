@@ -769,6 +769,35 @@ footer p{
     }
 }
 
+/*==========================screens above 425px===============*/
+
+@media screen and (min-width:425px){
+    .mobile-nav a {
+        margin-left: 110px;
+    }
+
+    #bluffers-section {
+        height:150vh;
+    }
+
+    #cform {
+        height:35vh;
+        border:3px solid var(--snow);
+        border-radius: 20px;
+        padding:5px;
+    }
+    
+    #submit {
+        left:-44%;
+    }
+
+    #wiki-link {
+        padding:5px;
+        border:3px solid var(--snow);
+        border-radius: 20px;
+        background-color: var(--antarcticblue);
+    }
+
 /*=========================screens above 576px===============*/
 @media screen and (min-width:576px) {
     #bluffers-section {
