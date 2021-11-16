@@ -751,6 +751,22 @@ footer p{
         position:relative;
         left:75%;
     }
+
+    #bluffers-section {
+        height:170vh;
+    }
+
+    #links-container {
+        top:100px;
+    }
+
+    #cform {
+        height: 40vh;
+    }
+
+    #wiki-link i {
+        padding: 0 25% 0 40%;
+    }
 }
 
 /*=========================screens above 576px===============*/
