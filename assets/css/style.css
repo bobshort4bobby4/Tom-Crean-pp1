@@ -981,6 +981,7 @@ footer p{
 
     #wiki-link i {
         background-color:transparent;
+        padding: 0 43% 0 32%;
     }
 
     #cform {
@@ -1071,6 +1072,10 @@ footer p{
     
     #center-about {
         padding-left: 35%;
+    }
+
+    #wiki-link {
+        padding: 0 43% 0 32%;
     }
 }
 
