@@ -913,6 +913,17 @@ footer p{
         max-width: 700px;
         /*height:30vh;*/
     }
+
+    #cform {
+        height:40vh;
+    }
+
+    #submit {
+        left:-360px;
+    }
+    #wiki-link i {
+        padding: 0 25% 0 45%;
+    }
 }
 
 /*===============screens above 992px============*/
