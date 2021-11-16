@@ -700,10 +700,11 @@ footer p{
 #submit {
     float:none;
     color:var(--snow);
-    padding:0;
+    padding:8px;
     margin:0 auto;
     background-color: var(--antarcticblue);
-    border :1px solid var(--snow);
+    border :3px solid var(--snow);
+    border-radius: 20px;
     margin-left:40%;
     position:relative;
     left:-40%;
@@ -730,6 +731,13 @@ footer p{
     #links-container {
         top:150px;
     } 
+    #cform {
+        height:40vh;
+    }
+
+    #bluffers-section {
+        height:200vh;
+    }
 }
 
 /*=========================screens above 375px===========*/
