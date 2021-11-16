@@ -475,8 +475,8 @@ header {
   /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
-    position: absolute;
-    top: 0%;
+    position: fixed;
+    top: 13%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -523,8 +523,9 @@ header {
     color: rgb(76, 13, 223);
     font-size: 20px;
     padding: 8px 12px 8px 45px;
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: 12%;
+    left:30%;
   }
   
   /* The dots/bullets/indicators */
@@ -666,7 +667,6 @@ footer p{
     color:var(--snow);
     padding: 0 45% 0 35%;
     background-color: var(--antarcticblue);
-    width:100vw;
 }
 
 #cform {
@@ -764,9 +764,9 @@ footer p{
         height: 40vh;
     }
 
-    #wiki-link i {
+    /*#wiki-link i {
         padding: 0 25% 0 40%;
-    }
+    }*/
 }
 
 /*==========================screens above 425px===============*/
@@ -831,8 +831,15 @@ footer p{
     .vid1 iframe {
         height:300px;
     }
-}
+    
+    .prev {
+        left:0;
+    }
 
+    .numbertext {
+        left:40%;
+    }
+}
 /*=========================screens anove 768px===========*/
 
 @media screen and (min-width:768px){
@@ -921,8 +928,16 @@ footer p{
     #submit {
         left:-360px;
     }
-    #wiki-link i {
+    /*#wiki-link i {
         padding: 0 25% 0 45%;
+    }*/
+
+    .prev, .next {
+        top:17%;
+    }
+
+    .numbertext {
+        top:15%;
     }
 }
 
@@ -979,10 +994,10 @@ footer p{
         width:100%;
     }
 
-    #wiki-link i {
+   /* #wiki-link i {
         background-color:transparent;
         padding: 0 43% 0 32%;
-    }
+    }*/
 
     #cform {
         padding:15px;
@@ -1074,9 +1089,10 @@ footer p{
         padding-left: 35%;
     }
 
-    #wiki-link {
-        padding: 0 43% 0 32%;
-    }
+    /*#wiki-link i{
+        /*padding: 0 43% 0 32%;*/
+        /*align-self: center;
+    }*/
 }
 
 /*====================screens above 1250px===================================*/
@@ -1124,6 +1140,19 @@ footer p{
     "image3 image3 image3 image3 image3 image3 image3 image3"
     ". . . . . . . . ";
     grid-area: main-texts;
+}
+.prev, .next {
+    font-size:3em;
+    top:18%
+}
+
+.numbertext {
+    font-size:3em;
+}
+
+#wiki-link {
+    box-sizing:initial;
+    width:50%;
 }
 }
 
