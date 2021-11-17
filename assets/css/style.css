@@ -476,7 +476,7 @@ header {
   .prev, .next {
     cursor: pointer;
     position: fixed;
-    top: 13%;
+    top: 19%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -524,7 +524,7 @@ header {
     font-size: 20px;
     padding: 8px 12px 8px 45px;
     position: fixed;
-    top: 12%;
+    top: 17%;
     left:30%;
   }
   
@@ -708,6 +708,10 @@ footer p{
     margin-left:40%;
     position:relative;
     left:-40%;
+}
+#submit:hover {
+    color:var(--antarcticblue);
+    background-color: var(--snow);
 }
 /**************************end of links page styles**********************/
 
@@ -951,11 +955,11 @@ footer p{
     }*/
 
     .prev, .next {
-        top:17%;
+        top:20%;
     }
 
     .numbertext {
-        top:15%;
+        top:18%;
     }
 }
 
@@ -1231,10 +1235,11 @@ footer p{
     max-width: 650px;
 }
 
-
+.prev, .next {
+    top:21%;
 }
 
-
+}
 
 
 
