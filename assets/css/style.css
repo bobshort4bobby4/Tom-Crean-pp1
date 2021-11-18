@@ -466,7 +466,7 @@ header {
     max-width: 400px;
     position: relative;
     margin: auto;
-    top:33vh;
+    top:25vh;
   }
 
   .mySlides {
@@ -963,6 +963,10 @@ footer p{
         /*height:30vh;*/
     }
 
+    .slideshow-container img {
+        max-height:500px;
+    }
+
     #cform {
         height:40vh;
     }
@@ -1264,6 +1268,27 @@ footer p{
 
 
 /*==============================landscape==========*/
+
+@media screen and (orientation:landscape) and (max-width:425px) {
+    .slideshow-container img {
+        max-height: 160px;
+        max-width: 500px;
+        object-fit: scale-down;
+    }
+
+   .slideshow-container {
+       max-width: 500px;
+       max-height: 160px;
+   }
+
+   .prev, .next {
+       top:55%;
+   }
+
+   .numbertext {
+       top:50%;
+       left:20%;
+   }
 /*
 @media screen and (orientation: landscape){
     .circle-container {
