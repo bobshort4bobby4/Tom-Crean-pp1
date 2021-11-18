@@ -792,7 +792,7 @@ footer p{
     }
 
     #links-container {
-        top:100px;
+        top:130px;
     }
 
     #cform {
@@ -902,6 +902,10 @@ footer p{
     #center-about {
         position: relative;
         left: 100%;
+    }
+
+    .circle-container {
+        padding-top:01px;
     }
     
     #nav-bar a {
@@ -1047,6 +1051,7 @@ footer p{
 
     #cform {
         padding:15px;
+        max-width:60%;
     }
 
     #cform form input {
@@ -1257,10 +1262,16 @@ footer p{
 
 .slideshow-container {
     max-width: 650px;
+    top:30vh;
 }
 
 .prev, .next {
     top:21%;
+}
+
+.numbertext {
+    top:20%;
+    left:43%;
 }
 
 }
