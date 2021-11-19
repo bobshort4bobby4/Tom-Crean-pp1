@@ -44,10 +44,11 @@
         background-size:cover;
         display:grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(11, auto);
+        grid-template-rows: repeat(12, auto);
         grid-template-areas: 
         "header header header header header header header header header header header header "
         "nav nav nav nav nav nav nav nav nav nav nav nav "
+        "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
         "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
         "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
         "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
@@ -416,7 +417,11 @@ header {
     left:5%;
     grid-area: tenf;
     text-align:center;
-    height:150px;
+    height:150vh;
+    }
+
+    #bluffers-div {
+        height:auto;
     }
 
    #ten-facts-article {
@@ -763,7 +768,6 @@ footer p{
 
     #bluffers-section {
         top:150px;
-        height: 150vh;
     }
 
     /*#links-container {
@@ -771,10 +775,6 @@ footer p{
     } */
     #cform {
         height:40vh;
-    }
-
-    #bluffers-section {
-        height:200vh;
     }
 }
 
@@ -791,7 +791,7 @@ footer p{
     }
 
     #bluffers-section {
-        height:170vh;
+        height:150vh;
         top:111px;
     }
 
