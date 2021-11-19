@@ -15,7 +15,7 @@
 /********************styles for body======================*/
 
 #main-container-grid {
-    background-image: url("../images/Antarctica.jpg");
+    background-image: url("../images/standy-up-ducks.jpg");
     background-size:cover;
     display:grid;
     grid-template-columns: repeat(12, 1fr);
@@ -40,7 +40,7 @@
 
 
     #bluffers-container-grid {
-        background-image: url("../images/Antarctica.jpg");
+        background-image: url("../images/standy-up-ducks.jpg");
         background-size:cover;
         display:grid;
         grid-template-columns: repeat(12, 1fr);
@@ -63,7 +63,7 @@
 
 
         #links-container-grid {
-            background-image: url("../images/Antarctica.jpg");
+            background-image: url("../images/standy-up-ducks.jpg");
             background-size:cover;
             display:grid;
             grid-template-columns: repeat(12, 1fr);
@@ -947,7 +947,7 @@ footer p{
 
     #bluffers-container-grid {
         /*background-color:var(--snow);*/
-       background-image: url("../images/Antarctica.jpg");
+       background-image: url("../images/standy-up-ducks.jpg");
         background-size:cover;
         display:grid;
         grid-template-columns: repeat(12, 1fr);
@@ -1351,7 +1351,7 @@ footer p{
 }
 
 #bluffers-section {
-    height:180vh;
+    height:210vh;
     margin-top:20px;
     border:3px solid var(--snow);
     border-radius:20px;
