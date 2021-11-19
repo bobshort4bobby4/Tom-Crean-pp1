@@ -15,7 +15,7 @@
 /********************styles for body======================*/
 
 #main-container-grid {
-    background-image: url("../images/standy-up-ducks.jpg");
+    background-image: url("../images/standy-up-ducks.webp");
     background-size:cover;
     display:grid;
     grid-template-columns: repeat(12, 1fr);
@@ -40,7 +40,7 @@
 
 
     #bluffers-container-grid {
-        background-image: url("../images/standy-up-ducks.jpg");
+        background-image: url("../images/standy-up-ducks.webp");
         background-size:cover;
         display:grid;
         grid-template-columns: repeat(12, 1fr);
@@ -63,7 +63,7 @@
 
 
         #links-container-grid {
-            background-image: url("../images/standy-up-ducks.jpg");
+            background-image: url("../images/standy-up-ducks.webp");
             background-size:cover;
             display:grid;
             grid-template-columns: repeat(12, 1fr);
@@ -369,7 +369,7 @@ header {
 }
 
 .img1 {
-    background-image: url(../images/endurance-ice.jpg  );
+    background-image: url(../images/endurance-ice.webp  );
     background-size:cover;
     background-position: bottom;
     opacity:.9;
@@ -378,7 +378,7 @@ header {
 
 .img2 {
      /*background-image: url(../images/170px-Tom_Crean_puppies-256h.jpg  );*/
-     background-image: url(../images/TomCrean-Scott1911.jpg);
+     background-image: url(../images/TomCrean-Scott1911.webp);
     background-size: cover;
     background-repeat: no-repeat;
     opacity:.9;
@@ -386,7 +386,7 @@ header {
 }
 
 .img3 {
-    background-image: url(../images/Antarctica-Map.jpg  );
+    background-image: url(../images/Antarctica-Map.webp);
     background-size:cover;
     background-position: center;
     opacity:.9;
@@ -394,7 +394,7 @@ header {
 }
 
 .img4 {
-    background-image: url(../images/TomCrean-puppies.jpg);
+    background-image: url(../images/TomCrean-puppies.webp);
     background-size:cover;
     background-position: center;
     opacity:.9;
@@ -947,7 +947,7 @@ footer p{
 
     #bluffers-container-grid {
         /*background-color:var(--snow);*/
-       background-image: url("../images/standy-up-ducks.jpg");
+       background-image: url("../images/standy-up-ducks.webp");
         background-size:cover;
         display:grid;
         grid-template-columns: repeat(12, 1fr);
