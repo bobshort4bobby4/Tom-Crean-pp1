@@ -11,7 +11,7 @@ It does not, at this time, seek to give a comprehensive account of his life but 
 other resources for users who wish to know more.
 
 
-![](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/Screenshot%202021-11-04%20200424.png)
+![](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/Screenshot%202021-11-19%20211143.png)
 
 
 
@@ -38,7 +38,7 @@ other resources for users who wish to know more.
   
   ##### Colour Scheme 
   There are two main used in the site namely antarctic blue(#2b3f5c), and an off-white (#ebe9e6).<br> These colours contrast well and are a good fit thematically.
-  Black is used to darken some of the images.
+  Black is used to darken some of the images. These two colours are used as borders to define both text and image panels.
   
   ##### Typography
   There are two font families used, "PT serif,serif" for the main text and "Pacifico, cursive" for the links.
@@ -51,9 +51,12 @@ other resources for users who wish to know more.
   
   There are two sets of wireframes provided here, the original set which were produced at the planning stage and the set which reflects the finished design.<br>
   As I implemented the design I found the original design was not tenable.  Certain images were not scalable either becoming extremely pixelated or having to be cropped excessively to maintain image quality. Consquently I changed the layout of both the text panels and choice of images at certain screen sizes.  All these changes are included within the second set of wireframes as well as landscape mode wireframes.<br> 
+  
+  ##### Original Wireframes.<br>
   [Desktop Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-desktopwr-pp1-fixed.pdf)<br>
   [Tablet Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-tabletwf-pp1.pdf)<br>
   [Mobile Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-mobilewf-pp1.pdf)<br>
   
+  #### Finished Design Wireframes.<br>
   
 </details>
