@@ -29,8 +29,8 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-//function showSlides(n) {
-/*  var i;
+function showSlides(n) {
+  var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
@@ -45,4 +45,4 @@ function currentSlide(n) {
   //slides[slideIndex-1].style.display = "block";
   //dots[slideIndex-1].className += " active";
 }
-var boxElement = document.getElementsByClassName('box') */
+var boxElement = document.getElementsByClassName('box') 
