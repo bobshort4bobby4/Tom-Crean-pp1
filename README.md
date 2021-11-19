@@ -1,5 +1,7 @@
 Website is [here]( https://bobshort4bobby4.github.io/Tom-Crean-pp1/)
 
+Github Repository is [here]()
+
 
 # Introduction
 
@@ -46,6 +48,9 @@ other resources for users who wish to know more.
   All other images are used to add both visual and intellectual interest.
   
   ### WireFrames
+  
+  There are two sets of wireframes provided here, the original set which were produced at the planning stage and the set which reflects the finished design.<br>
+  As I implemented the design I found the original design was not tenable.  Certain images were not scalable either becoming extremely pixelated or having to be cropped excessively to maintain image quality. Consquently I changed the layout of both the text panels and choice of images at certain screen sizes.  All these changes are included within the second set of wireframes as well as landscape mode wireframes.<br> 
   [Desktop Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-desktopwr-pp1-fixed.pdf)<br>
   [Tablet Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-tabletwf-pp1.pdf)<br>
   [Mobile Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-mobilewf-pp1.pdf)<br>
