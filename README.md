@@ -143,3 +143,24 @@ other resources for users who wish to know more.
   - [favICO.com](https://https://convertico.com/favicon/) used for creating favicon.
   - [W3 Validator](https://jigsaw.w3.org/css-validator/) used to test html and css code.
 </details>
+
+
+
+
+# Testing
+<details>
+  <summary>Testing</summary>
+  
+  #### Lighthouse
+  Each page of the website was tested using the Lighthouse tool included in chrome browser.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</details>
