@@ -40,6 +40,8 @@ other resources for users who wish to know more.
   There are two main used in the site namely 'antarctic blue'(#2b3f5c), and an off-white 'snow' (#fffafa).<br> These colours contrast well and are a good fit thematically.
   Black is used to darken some of the images. These two colours are used as borders to define both text and image panels.
   
+  
+  
   ##### Typography
   There are two font families used, "PT serif,serif" for the main text and "Pacifico, cursive" for the links.
   
@@ -94,17 +96,26 @@ other resources for users who wish to know more.
   #### Sliding Gallery
   
   A sliding gallery is implemented to display relevant pictures.  The gallery is sized appropiately for the screen size and is interacted with via two arrows.
-  Tool tips are available for each image, a possible future addition would be to replace the  slide number  with a  text caption for each image.
+  Tool tips are available for each image.
   The gallery is an attempt to engage the visitor and ensure they have a positive experience.
   
   #### Links Page
   
   The Links page meets the users possible need to find more information about the subject.  It provides two video links, a link to the Crean Wikipedia page and a contact
-  form.
+  form.  Presently the submit button on the contact form links to a placeholder page.
   
+  #### Future Additions
   
+  There are several other features/enhancements I would like to implement in the future as time resources/knowledge become available.
   
-  
+  1. The header takes up too much space in landscape mode.  I would like to reduce the height of the header and hide/reduce the header image.
+    This should aid ease of use.
+  1. The image number on the sliding gallery would be replaced with an informative caption specific to each slide. This should aid effectiveness.
+  1. The contact form should be styled and the submit button linked to mailing list.
+  1. An interactive element could be introduced in the form of a on-line quiz.
+  1. Animation could be introduced as, for example, a moving timeline/route-marker.
   
 </details>
+
+
 
