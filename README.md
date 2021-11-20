@@ -37,7 +37,7 @@ other resources for users who wish to know more.
   ### Design
   
   ##### Colour Scheme 
-  There are two main used in the site namely antarctic blue(#2b3f5c), and an off-white (#ebe9e6).<br> These colours contrast well and are a good fit thematically.
+  There are two main used in the site namely 'antarctic blue'(#2b3f5c), and an off-white 'snow' (#fffafa).<br> These colours contrast well and are a good fit thematically.
   Black is used to darken some of the images. These two colours are used as borders to define both text and image panels.
   
   ##### Typography
@@ -77,7 +77,32 @@ other resources for users who wish to know more.
   #### Responsive Website
   
   Media queries are used to ensure the website is easy to view at a full range of screen sizes and in landscape mode.
-  A hamburger-style navigation menu is used at mobile phone screen sizes
+  A hamburger-style navigation menu is used at mobile phone screen sizes.  This satisfies the user requirment to be able 
+  to easily navigate the site.
+  
+  #### Headers and Footers 
+  
+  Both the Header and Footer are styled consistently throughtout the site and are fixed in position.  The header displays the tag-line
+  and an iconic image of the subject as well as navigation links, in larger screen sizes as a bar and in small sizes as a Hamburger-style button.
+  The Footer provides links to various social media sites.
+  
+  #### Information Accessibility
+  
+  One of the User goals is to easily access relevant information, to this end the bulk of the site information is displayed on the landing page, with a list of easily 
+  assimilable facts available on the second page.
+  
+  #### Sliding Gallery
+  
+  A sliding gallery is implemented to display relevant pictures.  The gallery is sized appropiately for the screen size and is interacted with via two arrows.
+  Tool tips are available for each image, a possible future addition would be to replace the  slide number  with a  text caption for each image.
+  The gallery is an attempt to engage the visitor and ensure they have a positive experience.
+  
+  #### Links Page
+  
+  The Links page meets the users possible need to find more information about the subject.  It provides two video links, a link to the Crean Wikipedia page and a contact
+  form.
+  
+  
   
   
   
