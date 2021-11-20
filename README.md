@@ -68,32 +68,18 @@ other resources for users who wish to know more.
 
 
 
-# Features.<br>
+# Features
 
 <details>
-  <summary>Features</summary>
-
-    ### Responsive Website.<br>
-      The site is responsive at a  full range of screen sizes and in landscape mode upto screen height of 425 pixels.
-      A hamburger menu is used at mobile phone screen sizes to aid ease of navigation and readability.
-      <hr>
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <summary>Features</summary>
+  
+  #### Responsive Website
+  
+  Media queries are used to ensure the website is easy to view at a full range of screen sizes and in landscape mode.
+  A hamburger-style navigation menu is used at mobile phone screen sizes
+  
+  
+  
 </details>
-
 
