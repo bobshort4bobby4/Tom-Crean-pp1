@@ -40,7 +40,7 @@ other resources for users who wish to know more.
   There are two main used in the site namely 'antarctic blue'(#2b3f5c), and an off-white 'snow' (#fffafa).<br> These colours contrast well and are a good fit thematically.
   Black is used to darken some of the images. These two colours are used as borders to define both text and image panels.
   
-  
+  ![](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/2b3f5c-Ablue-resized.png)
   
   ##### Typography
   There are two font families used, "PT serif,serif" for the main text and "Pacifico, cursive" for the links.
