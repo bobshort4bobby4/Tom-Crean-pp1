@@ -44,22 +44,42 @@ other resources for users who wish to know more.
   There are two font families used, "PT serif,serif" for the main text and "Pacifico, cursive" for the links.
   
   ##### Images
-  An image of Antarctia is used as background for all pages, this image is both visually pleasing and informative.<br>
-  All other images are used to add both visual and intellectual interest.
+  Images of Antarctia is used as backgrounds for all pages, these images are both visually pleasing and informative.<br>
+  All other images are used to add both visual and intellectual interest. Freeconvert.com was used to convert image files 
+  to the .webp format.
   
   ### WireFrames
   
   There are two sets of wireframes provided here, the original set which were produced at the planning stage and the set which reflects the finished design.<br>
-  As I implemented the design I found the original design was not tenable.  Certain images were not scalable either becoming extremely pixelated or having to be cropped excessively to maintain image quality. Consquently I changed the layout of both the text panels and choice of images at certain screen sizes.  All these changes are included within the second set of wireframes as well as landscape mode wireframes.<br> 
+  As I implemented the design I found the original design was not tenable.  Certain images were not scalable either becoming extremely pixelated or having to be cropped excessively to maintain image quality. Consequently I changed the layout of both the text panels and choice of images at certain screen sizes.  All these changes are included within the second set of wireframes as well as landscape mode wireframes.<br> 
   
   ##### Original Wireframes.<br>
   [Desktop Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-desktopwr-pp1-fixed.pdf)<br>
   [Tablet Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-tabletwf-pp1.pdf)<br>
   [Mobile Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-mobilewf-pp1.pdf)<br>
   
-  #### Finished Design Wireframes.<br>
+  ##### Finished Design Wireframes.<br>
   [Desktop Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-desktopwr-pp1-actual.pdf)<br>
-  [Tablet Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-tabletwf-pp1-actual.pdf)
+  [Tablet Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-tabletwf-pp1-actual.pdf)<br>
+  [Mobile Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-mobilewf-pp1-actual.pdf)
+  
+</details>
+
+
+
+
+# Features
+
+<details>
+  
+  <summary>Features</summary>
+  
+  #### Responsive Website
+  
+  Media queries are used to ensure the website is easy to view at a full range of screen sizes and in landscape mode.
+  A hamburger-style navigation menu is used at mobile phone screen sizes
+  
   
   
 </details>
+
