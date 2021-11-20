@@ -41,7 +41,7 @@ other resources for users who wish to know more.
   Black is used to darken some of the images. These two colours are used as borders to define both text and image panels.
   
   Antarctic Blue         ![](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/2b3f5c-Ablue-resized.png)
-  Snow White            <div style="border:3px solid black"><img src="https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/%23fffafa-snow-resized.png"/></div>
+  Snow White             ![]("https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/snow-border.png")
   ##### Typography
   There are two font families used, "PT serif,serif" for the main text and "Pacifico, cursive" for the links.
   
