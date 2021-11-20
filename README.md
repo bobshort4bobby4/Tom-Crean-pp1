@@ -137,6 +137,9 @@ other resources for users who wish to know more.
   - [Google Fonts](https://fonts.google.com/) fonts were downloaded from Google Fonts.
   - [Fontawesome](https://www.fontawesome.com) icons were downloaded from Font Awesome.com.
   - [Git](https://git-scm.com/) Git was used for version control.
-  - [GitHub:](https://github.com/) GitHub is used to store the projects code.
-  - [Chrome Developer Tools] (https://https://developer.chrome.com/docs/devtools/)
+  - [GitHub](https://github.com/) GitHub is used to store the projects code.
+  - [Chrome Developer Tools](https://https://developer.chrome.com/docs/devtools/) used for layout and responsive testing.
+  - [Wave](https://wave.webaim.org/) used for accessibility testing.
+  - [favICO.com](https://https://convertico.com/favicon/) used for creating favicon.
+  - [W3 Validator](https://jigsaw.w3.org/css-validator/) used to test html and css code.
 </details>
