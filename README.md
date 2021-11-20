@@ -41,7 +41,7 @@ other resources for users who wish to know more.
   Black is used to darken some of the images. These two colours are used as borders to define both text and image panels.
   
   Antarctic Blue         ![](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/2b3f5c-Ablue-resized.png)
-  Snow White             ![]("https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/snow-border.png")
+  Snow White             ![](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/snow-border.png)
   ##### Typography
   There are two font families used, "PT serif,serif" for the main text and "Pacifico, cursive" for the links.
   
@@ -128,7 +128,15 @@ other resources for users who wish to know more.
   
   - HTML5
   - CSS
+  - Javascript
   
+  #### Applications Used
   
-  
+  - [Freeconvert.com](https://www.freeconvert.com) was used to convert the image files to the  webp format.
+  - [Balsamiq](https://www.balsamiq.com) was used to create wireframes for this project.
+  - [Google Fonts](https://fonts.google.com/) fonts were downloaded from Google Fonts.
+  - [Fontawesome](https://www.fontawesome.com) icons were downloaded from Font Awesome.com.
+  - [Git](https://git-scm.com/) Git was used for version control.
+  - [GitHub:](https://github.com/) GitHub is used to store the projects code.
+  - [Chrome Developer Tools] (https://https://developer.chrome.com/docs/devtools/)
 </details>
