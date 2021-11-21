@@ -591,9 +591,10 @@ header {
     width:100vw;
 }
 
-#vid-box1 {
+.vid-box1 {
     display:flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #vid-box2 {
@@ -601,7 +602,7 @@ header {
     flex-direction: column;
 }
 
-#vid-box1 h1, #vid-box2 h1, #wiki-link h1 {
+.vid-box1 h1, #vid-box2 h1, #wiki-link h1 {
     font-size: 1.2rem;
     text-align: center;
     padding-bottom: 1%;
@@ -615,7 +616,7 @@ header {
 #wiki-link h1 {
     width:100%;
 }
-#vid-box1 iframe {
+.vid-box1 iframe {
     width:100vw;
 }
 
