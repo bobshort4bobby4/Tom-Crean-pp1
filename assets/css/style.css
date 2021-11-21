@@ -1010,7 +1010,7 @@ footer p{
         padding-left:40%;
     }
 
-    #vid-box1 {
+    .vid-box1 {
         align-items: center;
     }
 
@@ -1023,7 +1023,7 @@ footer p{
         height:190vh;
     }
 
-    #vid-box1 h1 {
+    .vid-box1 h1 {
         width:500px;
     }
 
@@ -1073,7 +1073,7 @@ footer p{
 
 /***************************===============***screen size above 1100px**********************************/
 @media screen and (min-width:1100px) {
-    #vid-box1 h1 {
+    .vid-box1 h1 {
         width:500px;
     }
 
