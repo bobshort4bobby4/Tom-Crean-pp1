@@ -152,33 +152,35 @@ other resources for users who wish to know more.
   <summary>Testing</summary>
   
   #### Lighthouse
-  Each page of the website was tested using the Lighthouse tool included in chrome browser.
+  Each page of the website was tested using the Lighthouse tool included in the Chrome browser.
   ![Lighthouse](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/lighthouse-result.png)
-  <br>
+  <br><hr><br>
   #### W3C CSS Validator
   The CSS used in to style the website was validated using the W3c service and returned no errors.<br>
   ![css validation](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/Css-valid-result.png)
-  <br>
+  <br><hr><br>
   #### W3c HTML Validator
   Each page was tested using the W3c html validation servive, returning no errors.<br>
   ![html validator result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/html-result.png)
-  <br>
+  <br><hr><br>
   #### WAVE Web Accessibility Evaluation Tool
   Testing using the Wave tool produced no errors and a contrast ratio of 8.59<br>
   ![wave result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/wave-result.png)
-  <br>
+  <br><hr><br>
   #### Manual Testing
-  Website was tested using the Chrome and Edge browsers as well as on machines of varying screen sizes.
-  All internal and external links work, external links open on a new tab.
-  Youtube links do not auto-play on loading, controls work and will play on full screen.
-  Inputs on contact form are validating data correctly and submit button is linking to placeholder page.
-  
+  Website was tested using the Chrome and Edge browsers as well as on machines of varying screen sizes.<br>
+  All internal and external links work, external links open on a new tab.<br>
+  Youtube links do not auto-play on loading, controls work and will play on full screen.<br>
+  Inputs on contact form are validating data correctly and submit button is linking to placeholder page.<br>
+  <br>
   #### Known Issues
-  On landscape mode at small screen sizes the header is too large, it makes the user scroll the page too frequently. This negatively affects UX.<br>
+  On landscape mode at small screen sizes the header is too large, it makes the user scroll the page too frequently. This negatively affects UX.<br><br>
   There are some discrepansies appearing with the font size in the header between different pages at the same screen size.  This is due I think to how I used grids to layout
-  the pages, It may have been a better option to only use grids for the home page main section and flex box for the simpler layouts.<br>
+  the pages, It may have been a better option to only use grids for the home page main section and flex box for the simpler layouts.<br><br>
   On smaller mobile screens the content is not appearing as indicated in Chrome Dev Tools, I believe this is due to the address bar on the mobile.
-  Content position would need to be adjusted to compensate for this.<br>
+  Content position would need to be adjusted to compensate for this.<br><br>
+  I failed to fully implement advice from my mentor regarding my use of github and the labelling of my commits. Although I feel that this has improved towards the end of
+  the project,  commits becoming more frequent and more specific. It is one (of many) areas I will make an effort to improve as I move forward.
  
   
   
