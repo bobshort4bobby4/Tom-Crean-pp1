@@ -81,9 +81,9 @@ other resources for users who wish to know more.
   Media queries are used to ensure the website is easy to view at a full range of screen sizes and in landscape mode.
   A hamburger-style navigation menu is used at mobile phone screen sizes.  This satisfies the user requirment to be able 
   to easily navigate the site.<br><br>
-  -------------
+  
   ![mobile landscape](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/gallert-landscape.png)
- --------------------------- 
+
   #### Headers and Footers 
   
   Both the Header and Footer are styled consistently throughtout the site and are fixed in position.  The header displays the tag-line
@@ -94,17 +94,17 @@ other resources for users who wish to know more.
   
   One of the User goals is to easily access relevant information, to this end the bulk of the site information is displayed on the landing page, with a list of easily 
   assimilable facts available on the second page.<br><br>
-  ----------------------------------
+  
   ![home page](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/homepage.png)
-  ----------------------------------------------------
+
   #### Sliding Gallery
   
   A sliding gallery is implemented to display relevant pictures.  The gallery is sized appropiately for the screen size and is interacted with via two arrows.
   Tool tips are available for each image.
   The gallery is an attempt to engage the visitor and ensure they have a positive experience.<br><br>
-  -----------------------------------------------------------------
+  <br>
   ![gallery](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/gallery-screenshot.png)
-  ------------------------------------------------------------------
+ 
   #### Links Page
   
   The Links page meets the users possible need to find more information about the subject.  It provides two video links, a link to the Crean Wikipedia page and a contact
@@ -220,9 +220,9 @@ other resources for users who wish to know more.
   All images used were publicly available and taken from sources on the internet.
   
   #### Code
-  The sliding gallery feature was based on one available on the W3s tutorial site.
-  The hamburger menu navigation menu was modeled on a You-tube tutorial by Tyler Potts.
-  The method of creating a circular image was learned from the 'Love Running ' project on the Code Institute course.
-  Thanks are also due to both my mentors Can Sucullu and Ben Kavanagh who were both most helpful.
+  The sliding gallery feature was based on one available on the W3s tutorial site.<br>
+  The hamburger menu navigation menu was modeled on a You-tube tutorial by Tyler Potts.<br>
+  The method of creating a circular image was learned from the 'Love Running ' project on the Code Institute course.<br>
+  Thanks are also due to both my mentors Can Sucullu and Ben Kavanagh who were both most helpful.<br>
   </details>
 
