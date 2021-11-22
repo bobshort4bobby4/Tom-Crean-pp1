@@ -153,8 +153,10 @@ other resources for users who wish to know more.
   
   #### Lighthouse
   Each page of the website was tested using the Lighthouse tool included in chrome browser.
+  ![Lighthouse](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/lighthouse-result.png)
   
-  
+  #### W3C CSS Validator
+  The CSS used in to style the website was validated using the W3c service and returned no errors.
   
   
   
