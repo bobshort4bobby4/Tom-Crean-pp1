@@ -29,7 +29,7 @@ other resources for users who wish to know more.
   As a first time visitor I want to access information about Tom Crean. <br> As a first time visitor I want navigate easily through the site.
   
   ##### Repeat/Frequent Visitor Goals.
-  A a repeat/frequent visitor I want to check or affirm information I have accessed previously. <br> As a repeat/frequent visitor I want to check for any new information/features on the site.<br>
+  As a repeat/frequent visitor I want to check or affirm information I have accessed previously. <br> As a repeat/frequent visitor I want to check for any new information/features on the site.<br>
   
   #### Website Owner Goals.
   As the website owner I want to educate/inform the user about Crean's life. <br>As the website owner I want to inspire young people to have an open and adventurous spirit. <br>   As the website owner I want to encourage visitors to Crean's home village.
@@ -37,7 +37,7 @@ other resources for users who wish to know more.
   ### Design
   
   ##### Colour Scheme 
-  There are two main used in the site namely 'antarctic blue'(#2b3f5c), and an off-white 'snow' (#fffafa).<br> These colours contrast well and are a good fit thematically.
+  There are two main colours used in the site namely 'antarctic blue'(#2b3f5c), and an off-white 'snow' (#fffafa).<br> These colours contrast well and are a good fit thematically.
   Black is used to darken some of the images. These two colours are used as borders to define both text and image panels.
   
   Antarctic Blue         ![](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/2b3f5c-Ablue-resized.png)
@@ -46,7 +46,7 @@ other resources for users who wish to know more.
   There are two font families used, "PT serif,serif" for the main text and "Pacifico, cursive" for the links.
   
   ##### Images
-  Images of Antarctia is used as backgrounds for all pages, these images are both visually pleasing and informative.<br>
+  Images of Antarctia are used as backgrounds for all pages, these images are both visually pleasing and informative.<br>
   All other images are used to add both visual and intellectual interest. Freeconvert.com was used to convert image files 
   to the .webp format.
   
@@ -138,6 +138,7 @@ other resources for users who wish to know more.
   - [Fontawesome](https://www.fontawesome.com) icons were downloaded from Font Awesome.com.
   - [Git](https://git-scm.com/) Git was used for version control.
   - [GitHub](https://github.com/) GitHub is used to store the projects code.
+  - [Gitpages](https://pages.github.com/) Gitpages are used to deploy the site.
   - [Chrome Developer Tools](https://https://developer.chrome.com/docs/devtools/) used for layout and responsive testing.
   - [Wave](https://wave.webaim.org/) used for accessibility testing.
   - [favICO.com](https://https://convertico.com/favicon/) used for creating favicon.
@@ -152,37 +153,76 @@ other resources for users who wish to know more.
   <summary>Testing</summary>
   
   #### Lighthouse
-  Each page of the website was tested using the Lighthouse tool included in chrome browser.
+  Each page of the website was tested using the Lighthouse tool included in the Chrome browser.
   ![Lighthouse](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/lighthouse-result.png)
-  <br>
+  <br><hr><br>
   #### W3C CSS Validator
   The CSS used in to style the website was validated using the W3c service and returned no errors.<br>
   ![css validation](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/Css-valid-result.png)
-  <br>
+  <br><hr><br>
   #### W3c HTML Validator
   Each page was tested using the W3c html validation servive, returning no errors.<br>
   ![html validator result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/html-result.png)
-  <br>
+  <br><hr><br>
   #### WAVE Web Accessibility Evaluation Tool
   Testing using the Wave tool produced no errors and a contrast ratio of 8.59<br>
   ![wave result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/wave-result.png)
-  <br>
+  <br><hr><br>
   #### Manual Testing
-  Website was tested using the Chrome and Edge browsers as well as on machines of varying screen sizes.
-  All internal and external links work, external links open on a new tab.
-  Youtube links do not auto-play on loading, controls work and will play on full screen.
-  Inputs on contact form are validating data correctly and submit button is linking to placeholder page.
-  
+  Website was tested using the Chrome and Edge browsers as well as on machines of varying screen sizes.<br>
+  All internal and external links work, external links open on a new tab.<br>
+  Youtube links do not auto-play on loading, controls work and will play on full screen.<br>
+  Inputs on contact form are validating data correctly and submit button is linking to placeholder page.<br>
+  <br>
   #### Known Issues
-  On landscape mode at small screen sizes the header is too large, it makes the user scroll the page too frequently. This negatively affects UX.
-  There are some discrepansies appearing with the font size in the header between different pages at the same screen size.
-  
-  
-  
-  
-  
-  
-  
-  
+  On landscape mode at small screen sizes the header is too large, it makes the user scroll the page too frequently. This negatively affects UX.<br><br>
+  There are some discrepansies appearing with the font size in the header between different pages at the same screen size.  This is due I think to how I used grids to layout
+  the pages, It may have been a better option to only use grids for the home page main section and flex box for the simpler layouts.<br><br>
+  On smaller mobile screens the content is not appearing as indicated in Chrome Dev Tools, I believe this is due to the address bar on the mobile.
+  Content position would need to be adjusted to compensate for this.<br><br>
+  I failed to fully implement advice from my mentor regarding my use of github and the labelling of my commits. Although I feel that this has improved towards the end of
+  the project,  commits becoming more frequent and more specific. It is one (of many) areas I will make an effort to improve as I move forwards.<br><br>
+  On the Hamburger links the active link has a slightly rounded edge.
   
 </details>
+
+
+
+
+# Deployment
+  <details>
+  <summary>Deployment</summary>
+  
+  The site is deployed using GitPages which can be found on the setting menu on the github repository page.<br>
+  The source is taken from the Main Branch.
+  </details>
+  
+  
+  
+  
+  # Credits
+  <details>
+  <summary>Credits</summary>
+   #### Content
+  Sources used included
+  - An Unsung Hero by Michael Smith.
+  - South with Endurance Royal Geographical Society.
+  - The South Pole Inn, Annascaul.
+  - The people of Annascaul.
+  
+  All images used were publicly available and taken from sources on the internet.
+  
+  #### Code
+  The sliding gallery feature was based on one available on the W3s tutorial site.
+  The hamburger menu navigation menu was modeled on a You-tube tutorial by Tyler Potts.
+  The method of creating a circular image was learned from the 'Love Running ' project on the Code Institute course.
+  Thanks are also due to both my mentors Can Sucullu and Ben Kavanagh who were both most helpful.
+  
+  
+  
+  
+  
+  
+  
+  </details>
+
