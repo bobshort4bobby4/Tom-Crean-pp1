@@ -29,7 +29,7 @@ other resources for users who wish to know more.
   As a first time visitor I want to access information about Tom Crean. <br> As a first time visitor I want navigate easily through the site.
   
   ##### Repeat/Frequent Visitor Goals.
-  A a repeat/frequent visitor I want to check or affirm information I have accessed previously. <br> As a repeat/frequent visitor I want to check for any new information/features on the site.<br>
+  As a repeat/frequent visitor I want to check or affirm information I have accessed previously. <br> As a repeat/frequent visitor I want to check for any new information/features on the site.<br>
   
   #### Website Owner Goals.
   As the website owner I want to educate/inform the user about Crean's life. <br>As the website owner I want to inspire young people to have an open and adventurous spirit. <br>   As the website owner I want to encourage visitors to Crean's home village.
@@ -37,7 +37,7 @@ other resources for users who wish to know more.
   ### Design
   
   ##### Colour Scheme 
-  There are two main used in the site namely 'antarctic blue'(#2b3f5c), and an off-white 'snow' (#fffafa).<br> These colours contrast well and are a good fit thematically.
+  There are two main colours used in the site namely 'antarctic blue'(#2b3f5c), and an off-white 'snow' (#fffafa).<br> These colours contrast well and are a good fit thematically.
   Black is used to darken some of the images. These two colours are used as borders to define both text and image panels.
   
   Antarctic Blue         ![](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/2b3f5c-Ablue-resized.png)
@@ -46,7 +46,7 @@ other resources for users who wish to know more.
   There are two font families used, "PT serif,serif" for the main text and "Pacifico, cursive" for the links.
   
   ##### Images
-  Images of Antarctia is used as backgrounds for all pages, these images are both visually pleasing and informative.<br>
+  Images of Antarctia are used as backgrounds for all pages, these images are both visually pleasing and informative.<br>
   All other images are used to add both visual and intellectual interest. Freeconvert.com was used to convert image files 
   to the .webp format.
   
@@ -174,8 +174,12 @@ other resources for users who wish to know more.
   Inputs on contact form are validating data correctly and submit button is linking to placeholder page.
   
   #### Known Issues
-  On landscape mode at small screen sizes the header is too large, it makes the user scroll the page too frequently. This negatively affects UX.
-  There are some discrepansies appearing with the font size in the header between different pages at the same screen size.
+  On landscape mode at small screen sizes the header is too large, it makes the user scroll the page too frequently. This negatively affects UX.<br>
+  There are some discrepansies appearing with the font size in the header between different pages at the same screen size.  This is due I think to how I used grids to layout
+  the pages, It may have been a better option to only use grids for the home page main section and flex box for the simpler layouts.<br>
+  On smaller mobile screens the content is not appearing as indicated in Chrome Dev Tools, I believe this is due to the address bar on the mobile.
+  Content position would need to be adjusted to compensate for this.<br>
+ 
   
   
   
