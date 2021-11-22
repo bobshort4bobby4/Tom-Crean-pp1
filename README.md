@@ -162,7 +162,21 @@ other resources for users who wish to know more.
   #### W3c HTML Validator
   Each page was tested using the W3c html validation servive, returning no errors.<br>
   ![html validator result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/html-result.png)
-
+  <br>
+  #### WAVE Web Accessibility Evaluation Tool
+  Testing using the Wave tool produced no errors and a contrast ratio of 8.59<br>
+  ![wave result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/wave-result.png)
+  <br>
+  #### Manual Testing
+  Website was tested using the Chrome and Edge browsers as well as on machines of varying screen sizes.
+  All internal and external links work, external links open on a new tab.
+  Youtube links do not auto-play on loading, controls work and will play on full screen.
+  Inputs on contact form are validating data correctly and submit button is linking to placeholder page.
+  
+  #### Known Issues
+  On landscape mode at small screen sizes the header is too large, it makes the user scroll the page too frequently. This negatively affects UX.
+  There are some discrepansies appearing with the font size in the header between different pages at the same screen size.
+  
   
   
   
