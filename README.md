@@ -180,15 +180,16 @@ other resources for users who wish to know more.
   On smaller mobile screens the content is not appearing as indicated in Chrome Dev Tools, I believe this is due to the address bar on the mobile.
   Content position would need to be adjusted to compensate for this.<br><br>
   I failed to fully implement advice from my mentor regarding my use of github and the labelling of my commits. Although I feel that this has improved towards the end of
-  the project,  commits becoming more frequent and more specific. It is one (of many) areas I will make an effort to improve as I move forward.
- 
-  
-  
-  
-  
-  
-  
-  
-  
+  the project,  commits becoming more frequent and more specific. It is one (of many) areas I will make an effort to improve as I move forwards.
   
 </details>
+
+
+
+
+# Deployment
+  <details>
+  <summary>Deployment</summary>
+  
+  The site is deployed using GitPages which is found on the setting menu on the github 
+
