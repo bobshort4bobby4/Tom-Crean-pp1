@@ -56,7 +56,7 @@
     "tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf tenf"
     "foot foot foot foot foot foot foot foot foot foot foot foot"
     ". . . . . . . . . . . . ";
-    font-size:0.8rem;
+    font-size:0.9rem;
        
 }
 
@@ -80,7 +80,7 @@
     "links links links links links links links links links links links links"
     "links links links links links links links links links links links links"
     "foot foot foot foot foot foot foot foot foot foot foot foot";
-    font-size:0.8rem;
+    font-size:0.9rem;
            
 }
 
@@ -126,7 +126,7 @@ header {
 }
 
 .active {
-    border-left: 1px solid var(--antarcticblue);
+    border-left: 1px solid var(--antarcticblue) !important;
     border-radius:15%;   
 }
 
@@ -211,6 +211,7 @@ header {
     font-size:.7rem;
     font-family:'Pacifico', cursive ;
     text-decoration: none;
+    border:1px solid var(--snow);
 }
 
 #nav-bar a i {
@@ -219,7 +220,7 @@ header {
 
 #nav-bar a:hover {
     border: 1px solid var(--antarcticblue);
-    border-radius:15%;
+    border-radius:10%;
 }
 
 .mobile-nav {
@@ -947,7 +948,7 @@ footer p {
 @media screen and (min-width:992px) {
     #nav-bar a {
         font-size: 1.3em;
-        margin:15% 5%;
+        margin:15% 4%;
         font-family:'Pacifico', cursive ;
         color:var(--antarcticblue);
     }
