@@ -97,7 +97,8 @@ other resources for users who wish to know more.
   
   A sliding gallery is implemented to display relevant pictures.  The gallery is sized appropiately for the screen size and is interacted with via two arrows.
   Tool tips are available for each image.
-  The gallery is an attempt to engage the visitor and ensure they have a positive experience.
+  The gallery is an attempt to engage the visitor and ensure they have a positive experience.<br><br>
+  ![gallery](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/gallery-screenshot.png)
   
   #### Links Page
   
