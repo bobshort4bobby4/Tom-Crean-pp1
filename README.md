@@ -221,7 +221,7 @@ other resources for users who wish to know more.
   
   #### Code
   The sliding gallery feature was based on one available on the W3s tutorial site.<br>
-  The hamburger menu navigation menu was modeled on a You-tube tutorial by Tyler Potts.<br>
+  The hamburger navigation menu was modeled on a You-tube tutorial by Tyler Potts.<br>
   The method of creating a circular image was learned from the 'Love Running ' project on the Code Institute course.<br>
   Thanks are also due to both my mentors Can Sucullu and Ben Kavanagh who were both most helpful.<br>
   </details>
