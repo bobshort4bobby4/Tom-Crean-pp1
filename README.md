@@ -138,6 +138,7 @@ other resources for users who wish to know more.
   - [Fontawesome](https://www.fontawesome.com) icons were downloaded from Font Awesome.com.
   - [Git](https://git-scm.com/) Git was used for version control.
   - [GitHub](https://github.com/) GitHub is used to store the projects code.
+  - [Gitpages](https://pages.github.com/) Gitpages are used to deploy the site.
   - [Chrome Developer Tools](https://https://developer.chrome.com/docs/devtools/) used for layout and responsive testing.
   - [Wave](https://wave.webaim.org/) used for accessibility testing.
   - [favICO.com](https://https://convertico.com/favicon/) used for creating favicon.
@@ -180,7 +181,8 @@ other resources for users who wish to know more.
   On smaller mobile screens the content is not appearing as indicated in Chrome Dev Tools, I believe this is due to the address bar on the mobile.
   Content position would need to be adjusted to compensate for this.<br><br>
   I failed to fully implement advice from my mentor regarding my use of github and the labelling of my commits. Although I feel that this has improved towards the end of
-  the project,  commits becoming more frequent and more specific. It is one (of many) areas I will make an effort to improve as I move forwards.
+  the project,  commits becoming more frequent and more specific. It is one (of many) areas I will make an effort to improve as I move forwards.<br><br>
+  On the Hamburger links the active link has a slightly rounded edge.
   
 </details>
 
@@ -191,5 +193,36 @@ other resources for users who wish to know more.
   <details>
   <summary>Deployment</summary>
   
-  The site is deployed using GitPages which is found on the setting menu on the github 
+  The site is deployed using GitPages which can be found on the setting menu on the github repository page.<br>
+  The source is taken from the Main Branch.
+  </details>
+  
+  
+  
+  
+  # Credits
+  <details>
+  <summary>Credits</summary>
+   #### Content
+  Sources used included
+  - An Unsung Hero by Michael Smith.
+  - South with Endurance Royal Geographical Society.
+  - The South Pole Inn, Annascaul.
+  - The people of Annascaul.
+  
+  All images used were publicly available and taken from sources on the internet.
+  
+  #### Code
+  The sliding gallery feature was based on one available on the W3s tutorial site.
+  The hamburger menu navigation menu was modeled on a You-tube tutorial by Tyler Potts.
+  The method of creating a circular image was learned from the 'Love Running ' project on the Code Institute course.
+  Thanks are also due to both my mentors Can Sucullu and Ben Kavanagh who were both most helpful.
+  
+  
+  
+  
+  
+  
+  
+  </details>
 
