@@ -1067,6 +1067,7 @@ footer p {
         left:20%;
         height:65vh;
         background-color:transparent;
+        top:100px;
     }
 
     #ten-facts-article {
@@ -1104,6 +1105,7 @@ footer p {
         border: 3px solid var(--snow);
         border-radius: 25px;
         background-color: var(--antarcticblue);
+        top:40px;
     }   
 
     #ten-facts-article {
