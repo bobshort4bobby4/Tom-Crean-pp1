@@ -35,8 +35,7 @@
     "main-texts main-texts main-texts main-texts main-texts main-texts main-texts main-texts main-texts main-texts main-texts main-texts"
     "foot foot foot foot foot foot foot foot foot foot foot foot";
      font-size:.9rem;
-   
-    }
+}
 
 #bluffers-container-grid {
      background-image: url("../images/standy-up-ducks.webp");
@@ -900,7 +899,7 @@ footer p{
         background-size:cover;
         display:grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(6, minmax(50px auto));
+        grid-template-rows: repeat(6, minmax(50px, auto));
         grid-template-areas: 
         "header header header header header header header header header header header header "
         "nav nav nav nav nav nav nav nav nav nav nav nav "
@@ -1091,131 +1090,132 @@ footer p{
 @media screen and (min-width:1250px) {
     .img4 {
     background-position: 15% 0;
-}
+    }
 
-#bluffers-section {
-    width:60%;
-    left:20%;
-    height:60vh;
-    margin-top:70px;
-    border: 3px solid var(--snow);
-    border-radius: 25px;
-    background-color: var(--antarcticblue);
-}
+    #bluffers-section {
+        width:60%;
+        left:20%;
+        height:60vh;
+        margin-top:70px;
+        border: 3px solid var(--snow);
+        border-radius: 25px;
+        background-color: var(--antarcticblue);
+    }   
 
-#ten-facts-article {
-    border:none;
-}
+    #ten-facts-article {
+        border:none;
+    }
 
-#grid-wrapper {
-    position:relative;
-    top:150px;
-    left:0;    
-    width:100%;
-    display:grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(15, minmax(220px, auto));
-    grid-template-areas: 
-    "text1  text1 text1 text1 text1 text1 image4 image4"
-    "text2  text2 text2 text2 text2 text2 text2 text2"
-    "image1  image1 image1 image1 image1 image1 image1 image1"
-    "image1  image1 image1 image1 image1 image1 image1 image1"
-    "image1  image1 image1 image1 image1 image1 image1 image1"
-    "text3  text3 text3 text3 text4 text4 text4 text4"
-    "text3  text3 text3 text3 text4 text4 text4 text4"
-    "image2  image2 image2 image2 image2 image2 image2 image2 "
-    "image2  image2 image2 image2 image2 image2 image2 image2 "
-    "image2  image2 image2 image2 image2 image2 image2 image2 "
-    "text5  text5 text5 text5 text5 text5 text5 text5"
-    "image3 image3 image3 image3 image3 image3 image3 image3"
-    "image3 image3 image3 image3 image3 image3 image3 image3"
-    "image3 image3 image3 image3 image3 image3 image3 image3"
-    ". . . . . . . . ";
-    grid-area: main-texts;
-}
+    #grid-wrapper {
+        position:relative;
+        top:150px;
+        left:0;    
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(15, minmax(220px, auto));
+        grid-template-areas: 
+        "text1  text1 text1 text1 text1 text1 image4 image4"
+        "text2  text2 text2 text2 text2 text2 text2 text2"
+        "image1  image1 image1 image1 image1 image1 image1 image1"
+        "image1  image1 image1 image1 image1 image1 image1 image1"
+        "image1  image1 image1 image1 image1 image1 image1 image1"
+        "text3  text3 text3 text3 text4 text4 text4 text4"
+        "text3  text3 text3 text3 text4 text4 text4 text4"
+        "image2  image2 image2 image2 image2 image2 image2 image2 "
+        "image2  image2 image2 image2 image2 image2 image2 image2 "
+        "image2  image2 image2 image2 image2 image2 image2 image2 "
+        "text5  text5 text5 text5 text5 text5 text5 text5"
+        "image3 image3 image3 image3 image3 image3 image3 image3"
+        "image3 image3 image3 image3 image3 image3 image3 image3"
+        "image3 image3 image3 image3 image3 image3 image3 image3"
+        ". . . . . . . . ";
+        grid-area: main-texts;
+    }
 
-.prev, .next {
-    font-size:3em;
-    top:18%
-}
+    .prev, .next {
+        font-size:3em;
+        top:18%
+    }
 
-.numbertext {
-    font-size:3em;
-}
+    .numbertext {
+        font-size:3em;
+    }
 
-#wiki-link {
-    box-sizing:initial;
-    width:50%;
-}
+    #wiki-link {
+        box-sizing:initial;
+        width:50%;
+    }
 }
 
 /*****************======================*screens above 1400px================************/
 
 @media screen and (min-width:1400px){
     #grid-wrapper {
-    position:relative;
-    top:150px;
-    left:0;    
-    width:100%;
-    display:grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(16, minmax(220px, auto));
-    grid-template-areas: 
-    "text1  text1 text1 text1 text1 text1 image4 image4"
-    "text2  text2 text2 text2 text2 text2 image4 image4"
-    "text3 text3 text3 image1 image1 image1 image1 image1"
-    "text3 text3 text3 image1 image1 image1 image1 image1"
-    "text3 text3 text3 image1 image1 image1 image1 image1"
-    " text4 text4 text4 text4 text4 text5 text5 text5"
-    "text4 text4 text4 text4 text4 text5 text5 text5"
-    ". image2 image2 image2 image2 image2 image2 . "
-    ". image2 image2 image2 image2 image2 image2 . "
-    ". image2 image2 image2 image2 image2 image2 . "
-    ". image2 image2 image2 image2 image2 image2 . "
-    "image3 image3 image3 image3 image3 image3 image3 image3"
-    "image3 image3 image3 image3 image3 image3 image3 image3"
-    "image3 image3 image3 image3 image3 image3 image3 image3"
-    "image3 image3 image3 image3 image3 image3 image3 image3"
-    ". . . . . . . . ";
-    grid-area: main-texts;
-}
+        position:relative;
+        top:150px;
+        left:0;    
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(16, minmax(220px, auto));
+        grid-template-areas: 
+        "text1  text1 text1 text1 text1 text1 image4 image4"
+        "text2  text2 text2 text2 text2 text2 image4 image4"
+        "text3 text3 text3 image1 image1 image1 image1 image1"
+        "text3 text3 text3 image1 image1 image1 image1 image1"
+        "text3 text3 text3 image1 image1 image1 image1 image1"
+        " text4 text4 text4 text4 text4 text5 text5 text5"
+        "text4 text4 text4 text4 text4 text5 text5 text5"
+        ". image2 image2 image2 image2 image2 image2 . "
+        ". image2 image2 image2 image2 image2 image2 . "
+        ". image2 image2 image2 image2 image2 image2 . "
+        ". image2 image2 image2 image2 image2 image2 . "
+        "image3 image3 image3 image3 image3 image3 image3 image3"
+        "image3 image3 image3 image3 image3 image3 image3 image3"
+        "image3 image3 image3 image3 image3 image3 image3 image3"
+        "image3 image3 image3 image3 image3 image3 image3 image3"
+        ". . . . . . . . ";
+        grid-area: main-texts;
+    }
 
-.circle-container {
-    z-index: 2;
-    width:150px;
-    height:150px;
-}
+    circle-container {
+         z-index: 2;
+         width:150px;
+        height:150px;
+    }
 
-.circle-cover-bg {
-    z-index: 2;
-}
+    .circle-cover-bg {
+        z-index: 2;
+    }
 
-#nav-bar {
-    background: transparent;
-    padding-left:16%;
-}
+    #nav-bar {
+         background: transparent;
+         padding-left:16%;
+         top:5%;
+    }
 
-#links-container {
-    top:190px;
-}
+    #links-container {
+        top:190px;
+    }
 
-.home-text {
-    font-size:1.6em;
-}
+    .home-text {
+        font-size:1.6em;
+    }
 
-.slideshow-container {
-    max-width: 650px;
-    top:30vh;
-}
+    .slideshow-container {
+        max-width: 650px;
+        top:30vh;
+    }
 
-.prev, .next {
-    top:21%;
-}
+    .prev, .next {
+        top:21%;
+    }
 
-.numbertext {
-    top:20%;
-    left:43%;
-}
+    .numbertext {
+        top:20%;
+        left:43%;
+    }
 
 }
 
@@ -1259,9 +1259,7 @@ footer p{
    .numbertext {
        top:50%;
        left:20%;
-   }
-
-  
+    }
 
     #grid-wrapper {
         position:relative;
@@ -1305,3 +1303,6 @@ footer p{
        min-height:70vh;
     }
 }    
+
+
+
