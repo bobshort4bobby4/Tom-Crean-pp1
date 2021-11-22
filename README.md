@@ -161,7 +161,7 @@ other resources for users who wish to know more.
   <br>
   #### W3c HTML Validator
   Each page was tested using the W3c html validation servive, returning no errors.<br>
-  !{html validator result]()
+  ![html validator result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/html-result.png)
 
   
   
