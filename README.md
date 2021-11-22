@@ -80,7 +80,9 @@ other resources for users who wish to know more.
   
   Media queries are used to ensure the website is easy to view at a full range of screen sizes and in landscape mode.
   A hamburger-style navigation menu is used at mobile phone screen sizes.  This satisfies the user requirment to be able 
-  to easily navigate the site.
+  to easily navigate the site.<br><br>
+  
+  ![mobile landscape](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/gallert-landscape.png)
   
   #### Headers and Footers 
   
