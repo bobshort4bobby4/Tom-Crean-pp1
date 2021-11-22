@@ -182,7 +182,7 @@ other resources for users who wish to know more.
   Content position would need to be adjusted to compensate for this.<br><br>
   I failed to fully implement advice from my mentor regarding my use of github and the labelling of my commits. Although I feel that this has improved towards the end of
   the project,  commits becoming more frequent and more specific. It is one (of many) areas I will make an effort to improve as I move forwards.<br><br>
-  On the Hamburger links the active link has a slightly rounded edge.
+  
   
 </details>
 
@@ -203,12 +203,13 @@ other resources for users who wish to know more.
   # Credits
   <details>
   <summary>Credits</summary>
+ 
    #### Content
   Sources used included
   - An Unsung Hero by Michael Smith.
   - South with Endurance Royal Geographical Society.
   - The South Pole Inn, Annascaul.
-  - The people of Annascaul.
+
   
   All images used were publicly available and taken from sources on the internet.
   
@@ -217,12 +218,5 @@ other resources for users who wish to know more.
   The hamburger menu navigation menu was modeled on a You-tube tutorial by Tyler Potts.
   The method of creating a circular image was learned from the 'Love Running ' project on the Code Institute course.
   Thanks are also due to both my mentors Can Sucullu and Ben Kavanagh who were both most helpful.
-  
-  
-  
-  
-  
-  
-  
   </details>
 
