@@ -686,7 +686,7 @@ footer {
     color:var(--antarcticblue);
 }
 
-footer p{
+footer p {
     color:black;
     display:none;
 }
@@ -758,7 +758,7 @@ footer p{
 
 /*==========================screens above 425px=========================================*/
 
-@media screen and (min-width:425px){
+@media screen and (min-width:425px) {
     .mobile-nav a {
         margin-left: 110px;
     }
@@ -784,7 +784,7 @@ footer p{
         border-radius: 20px;
         background-color: var(--antarcticblue);
     }
-
+}
 /*=========================screens above 576px=======================================*/
 
 @media screen and (min-width:576px) {
@@ -1233,6 +1233,7 @@ footer p{
 /*=====Adjust gallery images and nav buttons for landscape mode====*/
 
 @media screen and (orientation:landscape) and (min-height:320px)  and (max-height:425px) {
+
     .slideshow-container img {
         max-height: 160px;
         max-width: 500px;
@@ -1249,7 +1250,6 @@ footer p{
        top:55%;
    }
 
-   
    .mobile-nav a {
     margin-left: 250px;
     position: relative;
@@ -1302,7 +1302,4 @@ footer p{
     #cform {
        min-height:70vh;
     }
-}    
-
-
-
+} 
