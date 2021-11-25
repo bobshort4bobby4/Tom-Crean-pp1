@@ -315,6 +315,7 @@ header {
     text-align: center;
     background-color:var(--antarcticblue);
     color:white;    
+    padding-bottom:10px;
 }
 
 .home-text article, .home-img article {
@@ -1209,6 +1210,16 @@ footer p {
 
     .home-text {
         font-size:1.6em;
+    }
+
+    .txt4 {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 1.7em;
+    }
+
+     .txt2 {
+        padding-bottom: 30px;
     }
 
     .slideshow-container {
