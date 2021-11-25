@@ -213,6 +213,7 @@ header {
     font-family:'Pacifico', cursive ;
     text-decoration: none;
     border:1px solid var(--snow);
+    padding: 0 5px;
 }
 
 #nav-bar a i {
