@@ -301,6 +301,10 @@ header {
     grid-area: main-texts;
 }
 
+.homeart {
+    border-radius: 10px;
+}
+
 .home-text, .home-img {
     color:var(--snow);
     background-color:var(--antarcticblue);
