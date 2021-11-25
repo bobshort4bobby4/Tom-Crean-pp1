@@ -888,8 +888,8 @@ footer p {
     }
 
     #links-container {
-        top:130px;
-        height:160vh;
+        top:154px;
+        height:auto;
     }
 
     #center-about {
@@ -967,9 +967,6 @@ footer p {
         height:40vh;
     }
 
-    #submit {
-        left:-360px;
-    }
     #wiki-link i {
         margin: 0 40% 0 40%;
     }
