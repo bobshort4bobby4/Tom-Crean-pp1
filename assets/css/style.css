@@ -126,8 +126,9 @@ header {
 }
 
 .active {
-    border-left: 1px solid var(--antarcticblue) !important;
+    border: 1px solid var(--antarcticblue) !important;
     border-radius:15%;   
+    box-shadow: 5px 2px;
 }
 
 #center-about {
@@ -237,7 +238,7 @@ header {
     align-content: space-between;
 }
 
-.mobile-nav.is-active {
+.is-active {
 	left: 0;
 }
 
