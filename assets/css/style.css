@@ -401,11 +401,13 @@ header {
     left:5%;
     grid-area: tenf;
     text-align:center;
-    height:150vh;
+    height:auto;
+    
 }
 
 #bluffers-div {
     height:auto;
+    margin-bottom: 100px;
 }
 
 #ten-facts-article {
@@ -764,6 +766,11 @@ footer p {
     #cform {
         height: 40vh;
     }
+
+    .numbertext {
+        margin-left: 14px;
+    }
+    
 }
 
 /*==========================screens above 425px=========================================*/
