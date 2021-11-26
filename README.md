@@ -170,7 +170,7 @@ other resources for users who wish to know more.
   The css file was submitted to autoprefixer [https://autoprefixer.github.io/] to improve compatability with different browsers. When this file was
   put throught the validation process multiple warning were generated.  These were predominately for unknown Vendor Extensions.  The css seems to work as before.<br>
   
-  ![prefix warnings]()
+  ![prefix warnings](https://autoprefixer.github.io/)
   
  
   <br><hr><br>
