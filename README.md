@@ -236,8 +236,8 @@ other resources for users who wish to know more.
   * Gallery Image 8 Recruitment Ad [www.etsy.com](https://www.etsy.com/ie/listing/770732986/ernest-shackleton-men-wanted-poster?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_ie_en_ie_-art_and_collectibles-prints&utm_custom1=_k_CjwKCAiAqIKNBhAIEiwAu_ZLDiAVx5U_vTQmQCaqUJn4Mj_K9j5jtiwCW2zzmb0U7h1QkjdnyHS2CBoCyH0QAvD_BwE_k_&utm_content=go_13703307989_123455823759_530490400309_pla-353366959122_c__770732986enie_468083573&utm_custom2=13703307989&gclid=CjwKCAiAqIKNBhAIEiwAu_ZLDiAVx5U_vTQmQCaqUJn4Mj_K9j5jtiwCW2zzmb0U7h1QkjdnyHS2CBoCyH0QAvD_BwE)
   
   #### Code
-  The sliding gallery feature was based on one available on the W3s tutorial site.<br>
-  The hamburger navigation menu was modeled on a You-tube tutorial by Tyler Potts.<br>
+  The sliding gallery feature was based on one available on the W3s tutorial site. [www.w3schools.com](https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp)<br>
+  The hamburger navigation menu was modeled on a You-tube tutorial by Tyler Potts.[www.youtube.com](https://www.youtube.com/watch?v=OFKBep95lb4)<br>
   The method of creating a circular image was learned from the 'Love Running ' project on the Code Institute course.<br>
   Thanks are also due to both my mentors Can Sucullu and Ben Kavanagh who were both most helpful.<br>
   </details>
