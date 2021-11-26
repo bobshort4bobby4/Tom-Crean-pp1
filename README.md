@@ -47,8 +47,8 @@ other resources for users who wish to know more.
   
   ##### Images
   Images of Antarctia are used as backgrounds for all pages, these images are both visually pleasing and informative.<br>
-  All other images are used to add both visual and intellectual interest. Freeconvert.com was used to convert image files 
-  to the .webp format.
+  All other images are used to add both visual and intellectual interest.<br> There was a very slow loading time for the gallery page, the Lighthouse app suggested compressing     the image files, which I did using Freeconvert.com.  I choose the webp format and checked it's compatability using this site  https://caniuse.com/webp.  The format
+  has support from all the major browsers in use. Internet Explorer does not support it but it is not widely used today.
   
   ### WireFrames
   
@@ -149,6 +149,8 @@ other resources for users who wish to know more.
   - [Wave](https://wave.webaim.org/) used for accessibility testing.
   - [favICO.com](https://https://convertico.com/favicon/) used for creating favicon.
   - [W3 Validator](https://jigsaw.w3.org/css-validator/) used to test html and css code.
+  - [autoprefixer.github.io](https://autoprefixer.github.io/) used to improve browser compatability.
+  - [https://caniuse.com/webp](https://caniuse.com/webp)  used to check compatability of the webp file format.
 </details>
 
 
@@ -160,24 +162,27 @@ other resources for users who wish to know more.
   
   #### Lighthouse
   Each page of the website was tested using the Lighthouse tool included in the Chrome browser.
-  The lowest score using lighthouss was 88 for Performance which occured on the first loading of the Gallery page.  It improved to
+  The lowest score using lighthouse was 88 for Performance which occured on the first loading of the Gallery page.  It improved to
   low 90's on subsequent loads (I presume because images are cached ?).<br><br>
   ![Lighthouse](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/lighthouseresult1.png)
   <br><hr><br>
   #### W3C CSS Validator
   The CSS used in to style the website was validated using the W3c service and returned no errors.<br>
-  ![css validation](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/Css-valid-result.png)<br>
+  ![css validation](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/Css-valid-result.png)<br><br>
+  The css file was submitted to autoprefixer [https://autoprefixer.github.io/] to improve compatability with different browsers. When this file was
+  put throught the validation process multiple warning were generated.  These were predominately for unknown Vendor Extensions.  The css seems to work as before.<br>
   
+  ![prefix warnings](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/autoprefixer-warnings.png)
  
   <br><hr><br>
   #### W3c HTML Validator
   Each page was tested using the W3c html validation servive, returning no errors.<br>
   ![html validator result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/html-result.png)<br>
   There were two warning which I choose to ignore as I was happy with my choice of headings sizes.
-  ![html warnings]()
+  ![html warnings](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/w3s-htmlwarnings.png)
   <br><hr><br>
   #### WAVE Web Accessibility Evaluation Tool
-  Testing using the Wave tool produced no errors and a contrast ratio of 8.59<br>
+  Each page was tested using the Wave tool producing no errors and a contrast ratio of 8.59:1.<br>
   ![wave result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/wave-result.png)
   <br><hr><br>
   #### Manual Testing
@@ -188,13 +193,24 @@ other resources for users who wish to know more.
   <br>
   #### Known Issues
   On landscape mode at small screen sizes the header is too large, it makes the user scroll the page too frequently. This negatively affects UX.<br><br>
-  There are some discrepansies appearing with the font size in the header between different pages at the same screen size.  This is due I think to how I used grids to layout
-  the pages, It may have been a better option to only use grids for the home page main section and flex box for the simpler layouts.<br><br>
+  On landscape mode on small mobile screens the slide out page links are not displaying centered. They work correctly on the same screen resolution on Chrome
+  Dev tools but the address bar on the phone may be pushing them down.<br><br>
   On smaller mobile screens the content is not appearing as indicated in Chrome Dev Tools, I believe this is due to the address bar on the mobile.
   Content position would need to be adjusted to compensate for this.<br><br>
   I failed to fully implement advice from my mentor regarding my use of github and the labelling of my commits. Although I feel that this has improved towards the end of
   the project,  commits becoming more frequent and more specific. It is one (of many) areas I will make an effort to improve as I move forwards.<br><br>
   
+  #### Issues Encountered
+  Two of the many problems I encountered whilst developing this project are detailed below.
+  * The initial version of the website was done using my wide-screen pc monitior which was fine untill I attempted to add responsiveness to the site.
+  This I couldn't achieve satisfactorily, images were stretched, text headings were broken and stretched onto multiple lines and the nav-bar and  the header image were also out    of line. I started to layout the site again using the 'Mobile-First' paradigm, this worked out better as there was the option of space to put elements into instead of the        option of trying to squeeze elements into reducing space.
+  *  I had a number of problems with the nav-bar, the links to the right of any link jumped slightly to the right when that link was hovered over. This was easily fixed by       giving each `<a>` tag a border with the same colour as the background thus preventing the other links being forced to the right by the added on border(hover effect).<br>
+  There was also an issue with the font sizes of the links in the nav-bar. The links were appearing at different sizes on different pages at the same screen size.<br>Each `<a>`
+  tag had the same font-size applied to them. <br> There were two problems here I think, first I had used 'Display:grid;' to style the body element of three of the pages but not the 
+  fourth, I set up a grid system for the remaining page and this helped but didn't fix the problem.<br> Next I changed the unit I was using to change the font-size from em which is relative to the font size of the element to rem (relative to the font size of the root element), this solved the issue.
+  
+  
+ 
   
 </details>
 
@@ -230,7 +246,7 @@ other resources for users who wish to know more.
   * Tom Crean smoking pipe [www.smokingpipes.com](https://www.smokingpipes.com/smokingpipesblog/single.cfm/post/tom-crean-heroic-explorer-and-pipe-smoker)
   * Tom Crean with puppies [www.wikiwand.com](https://www.wikiwand.com/en/Personnel_of_the_Imperial_Trans-Antarctic_Expedition)
   * Endurance in the ice [www.geographical.co.uk](https://geographical.co.uk/people/explorers/item/1365-on-this-day-1915-shackleton-abandons-endurance)
-  * Tom Crean with skies [www.dfa.ie](https://www.dfa.ie/irish-embassy/norway/news-and-events/2015/tom-crean-antartic-explorer/)
+  * Tom Crean with skis [www.dfa.ie](https://www.dfa.ie/irish-embassy/norway/news-and-events/2015/tom-crean-antartic-explorer/)
   * Map of the Antarctic [www.geology.com](https://geology.com/world/antarctica-satellite-image.shtml)
   * Gallery Image 1 Shackleton's Route [www.britannica.com](https://www.britannica.com/biography/Ernest-Henry-Shackleton)
   * Gallery Image 2  The James Caird [www.wikipedia.org](https://en.wikipedia.org/wiki/Voyage_of_the_James_Caird)
@@ -245,6 +261,8 @@ other resources for users who wish to know more.
   The sliding gallery feature was based on one available on the W3s tutorial site. [www.w3schools.com](https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp)<br>
   The hamburger navigation menu was modeled on a You-tube tutorial by Tyler Potts.[www.youtube.com](https://www.youtube.com/watch?v=OFKBep95lb4)<br>
   The method of creating a circular image was learned from the 'Love Running ' project on the Code Institute course.<br>
+  
+  #### Mentors
   Thanks are also due to both my mentors Can Sucullu and Ben Kavanagh who were both most helpful.<br>
   </details>
 
