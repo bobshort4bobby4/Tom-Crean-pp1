@@ -170,8 +170,7 @@ other resources for users who wish to know more.
   The css file was submitted to autoprefixer [https://autoprefixer.github.io/] to improve compatability with different browsers. When this file was
   put throught the validation process multiple warning were generated.  These were predominately for unknown Vendor Extensions.  The css seems to work as before.<br>
   
-  ![prefix warnings](https://autoprefixer.github.io/)
-  
+  ![prefix warnings](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/autoprefixer-warnings.png)
  
   <br><hr><br>
   #### W3c HTML Validator
@@ -181,7 +180,7 @@ other resources for users who wish to know more.
   ![html warnings](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/w3s-htmlwarnings.png)
   <br><hr><br>
   #### WAVE Web Accessibility Evaluation Tool
-  Testing using the Wave tool produced no errors and a contrast ratio of 8.59<br>
+  Each page was tested using the Wave tool produced no errors and a contrast ratio of 8.59<br>
   ![wave result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/wave-result.png)
   <br><hr><br>
   #### Manual Testing
