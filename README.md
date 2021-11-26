@@ -182,7 +182,7 @@ other resources for users who wish to know more.
   ![html warnings](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/w3s-htmlwarnings.png)
   <br><hr><br>
   #### WAVE Web Accessibility Evaluation Tool
-  Each page was tested using the Wave tool produced no errors and a contrast ratio of 8.59:1.<br>
+  Each page was tested using the Wave tool producing no errors and a contrast ratio of 8.59:1.<br>
   ![wave result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/wave-result.png)
   <br><hr><br>
   #### Manual Testing
@@ -193,7 +193,6 @@ other resources for users who wish to know more.
   <br>
   #### Known Issues
   On landscape mode at small screen sizes the header is too large, it makes the user scroll the page too frequently. This negatively affects UX.<br><br>
-  <br><br>
   On landscape mode on small mobile screens the slide out page links are not displaying centered. They work correctly on the same screen resolution on Chrome
   Dev tools but the address bar on the phone may be pushing them down.<br><br>
   On smaller mobile screens the content is not appearing as indicated in Chrome Dev Tools, I believe this is due to the address bar on the mobile.
@@ -205,15 +204,13 @@ other resources for users who wish to know more.
   Two of the many problems I encountered whilst developing this project are detailed below.
   * The initial version of the website was done using my wide-screen pc monitior which was fine untill I attempted to add responsiveness to the site.
   This I couldn't achieve satisfactorily, images were stretched, text headings were broken and stretched onto multiple lines and the nav-bar and  the header image were also out    of line. I started to layout the site again using the 'Mobile-First' paradigm, this worked out better as there was the option of space to put elements into instead of the        option of trying to squeeze elements into reducing space.
- <br>
-  *  I had a number of problems with the nav-bar, the links to the right of any link jumped slightly to the right when that link was hovered over. This was easily fixed by giving each `<a>` tag a border with the same colour as the background thus preventing the other links being forced to the right by the added on border(hover effect).<br>
-  There was also an issue with the font sizes of the links in the nav-bar. The links were appearing at different sizes on different pages at the same screen size. Each `<a>`
-  tag had the same font-size applied to them.  There were two problems here I think, first I had used 'Display:grid;' to style the body element of three of the pages but not the 
-  fourth, I set up a grid system for the remaining page and this helped but didn't fix the problem. Next I changed the unit I was using to set the font-size from em which is relative to the font size of the element to rem (relative to the font size of the root element), this fixed the problem.
+  *  I had a number of problems with the nav-bar, the links to the right of any link jumped slightly to the right when that link was hovered over. This was easily fixed by       giving each `<a>` tag a border with the same colour as the background thus preventing the other links being forced to the right by the added on border(hover effect).<br>
+  There was also an issue with the font sizes of the links in the nav-bar. The links were appearing at different sizes on different pages at the same screen size.<br>Each `<a>`
+  tag had the same font-size applied to them. <br> There were two problems here I think, first I had used 'Display:grid;' to style the body element of three of the pages but not the 
+  fourth, I set up a grid system for the remaining page and this helped but didn't fix the problem.<br> Next I changed the unit I was using to change the font-size from em which is relative to the font size of the element to rem (relative to the font size of the root element), this solved the issue.
   
   
-  I choose to put the top-header and the nav-bar as two separate elements 
-  
+ 
   
 </details>
 
@@ -249,7 +246,7 @@ other resources for users who wish to know more.
   * Tom Crean smoking pipe [www.smokingpipes.com](https://www.smokingpipes.com/smokingpipesblog/single.cfm/post/tom-crean-heroic-explorer-and-pipe-smoker)
   * Tom Crean with puppies [www.wikiwand.com](https://www.wikiwand.com/en/Personnel_of_the_Imperial_Trans-Antarctic_Expedition)
   * Endurance in the ice [www.geographical.co.uk](https://geographical.co.uk/people/explorers/item/1365-on-this-day-1915-shackleton-abandons-endurance)
-  * Tom Crean with skies [www.dfa.ie](https://www.dfa.ie/irish-embassy/norway/news-and-events/2015/tom-crean-antartic-explorer/)
+  * Tom Crean with skis [www.dfa.ie](https://www.dfa.ie/irish-embassy/norway/news-and-events/2015/tom-crean-antartic-explorer/)
   * Map of the Antarctic [www.geology.com](https://geology.com/world/antarctica-satellite-image.shtml)
   * Gallery Image 1 Shackleton's Route [www.britannica.com](https://www.britannica.com/biography/Ernest-Henry-Shackleton)
   * Gallery Image 2  The James Caird [www.wikipedia.org](https://en.wikipedia.org/wiki/Voyage_of_the_James_Caird)
