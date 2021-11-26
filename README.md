@@ -166,11 +166,15 @@ other resources for users who wish to know more.
   <br><hr><br>
   #### W3C CSS Validator
   The CSS used in to style the website was validated using the W3c service and returned no errors.<br>
-  ![css validation](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/Css-valid-result.png)
+  ![css validation](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/Css-valid-result.png)<br>
+  
+ 
   <br><hr><br>
   #### W3c HTML Validator
   Each page was tested using the W3c html validation servive, returning no errors.<br>
-  ![html validator result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/html-result.png)
+  ![html validator result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/html-result.png)<br>
+  There were two warning which I choose to ignore as I was happy with my choice of headings sizes.
+  ![html warnings]()
   <br><hr><br>
   #### WAVE Web Accessibility Evaluation Tool
   Testing using the Wave tool produced no errors and a contrast ratio of 8.59<br>
