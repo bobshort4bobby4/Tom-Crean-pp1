@@ -987,8 +987,7 @@ footer p {
     }
 
     #bluffers-section {
-        height:150vh;
-        top:111px;
+        top:150px;
     }
 
     #links-container {
@@ -1006,10 +1005,6 @@ footer p {
 @media screen and (min-width:425px) {
     .mobile-nav a {
         margin-left: 110px;
-    }
-
-    #bluffers-section {
-        height:150vh;
     }
 
     #cform {
