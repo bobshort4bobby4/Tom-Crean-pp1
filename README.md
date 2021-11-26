@@ -174,7 +174,7 @@ other resources for users who wish to know more.
   Each page was tested using the W3c html validation servive, returning no errors.<br>
   ![html validator result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/html-result.png)<br>
   There were two warning which I choose to ignore as I was happy with my choice of headings sizes.
-  ![html warnings]()
+  ![html warnings](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/w3s-htmlwarnings.png)
   <br><hr><br>
   #### WAVE Web Accessibility Evaluation Tool
   Testing using the Wave tool produced no errors and a contrast ratio of 8.59<br>
