@@ -527,9 +527,6 @@ header {
     -ms-grid-column: 1;
     -ms-grid-column-span: 12;
     width:90%;
-    border:3px solid var(--snow);
-    border-radius: 20px;
-    background-color: var(--antarcticblue);
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
@@ -549,11 +546,15 @@ header {
 #bluffers-div {
     height:auto;
     margin-bottom: 100px;
+    border:3px solid var(--snow);
+    border-radius:25px;
+    background-color: var(--antarcticblue);
 }
 
 #ten-facts-article {
     overflow: hidden;
     padding:5px; 
+    height: auto;
 }
 
 #ten-facts-article h1 {
@@ -1037,7 +1038,7 @@ footer p {
 
 @media screen and (min-width:576px) {
     #bluffers-section {
-        height:75vh;
+        height:auto;
     }
 
     #grid-wrapper {
@@ -1148,7 +1149,7 @@ footer p {
     }
 
     #bluffers-section {
-        height:75vh;
+        height:auto;
         top:130px;
     }
 
@@ -1404,7 +1405,7 @@ footer p {
         left:-39%;
     }
     #bluffers-section {
-        height:70vh;
+        height:auto;
     }
     .numbertext {
         left:48%;
@@ -1468,7 +1469,7 @@ footer p {
     #bluffers-section {
         width:60%;
         left:20%;
-        height:65vh;
+        height:auto;
         background-color:transparent;
         top:100px;
     }
@@ -1562,11 +1563,8 @@ footer p {
     #bluffers-section {
         width:60%;
         left:20%;
-        height:60vh;
+        height:auto;
         margin-top:70px;
-        border: 3px solid var(--snow);
-        border-radius: 25px;
-        background-color: var(--antarcticblue);
         top:40px;
     }   
 
