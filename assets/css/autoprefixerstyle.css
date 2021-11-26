@@ -6,6 +6,7 @@
 */
 
 
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Pacifico&display=swap');
 
 :root {
@@ -73,6 +74,28 @@
        
 }
 
+#gallery-body {
+    display:-ms-grid;
+    display:grid;
+    -ms-grid-columns: (1fr)[12];
+    grid-template-columns: repeat(12, 1fr);
+    -ms-grid-rows: (auto)[12];
+    grid-template-rows: repeat(12, auto);
+        grid-template-areas: 
+   "header header header header header header header header header header header header "
+   "nav nav nav nav nav nav nav nav nav nav nav nav "
+   "gall gall gall gall gall gall gall gall gall gall gall gall"
+   "gall gall gall gall gall gall gall gall gall gall gall gall"
+   "gall gall gall gall gall gall gall gall gall gall gall gall"
+   "gall gall gall gall gall gall gall gall gall gall gall gall"
+   "gall gall gall gall gall gall gall gall gall gall gall gall"
+   "gall gall gall gall gall gall gall gall gall gall gall gall"
+   "gall gall gall gall gall gall gall gall gall gall gall gall"
+   "gall gall gall gall gall gall gall gall gall gall gall gall"
+   "foot foot foot foot foot foot foot foot foot foot foot foot"
+   ". . . . . . . . . . . . ";
+    font-size:0.9rem;
+}
 
 #links-container-grid {
     background-image: url("../images/standy-up-ducks.webp");
@@ -128,6 +151,11 @@ header {
     -ms-grid-column: 1;
     -ms-grid-column-span: 12;
 }
+#gallery-body > header {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;
+}
 #links-container-grid > header {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -162,8 +190,10 @@ header {
 }
 
 .active {
-    border-left: 1px solid var(--antarcticblue) !important;
+    border: 1px solid var(--antarcticblue) !important;
     border-radius:15%;   
+    -webkit-box-shadow: 5px 2px;   
+            box-shadow: 5px 2px;
 }
 
 #center-about {
@@ -261,6 +291,12 @@ header {
     -ms-grid-column-span: 12;
 }
 
+#gallery-body > #nav-bar {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;
+}
+
 #links-container-grid > #nav-bar {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
@@ -275,6 +311,7 @@ header {
     font-family:'Pacifico', cursive ;
     text-decoration: none;
     border:1px solid var(--snow);
+    padding: 0 5px;
 }
 
 #nav-bar a i {
@@ -303,7 +340,7 @@ header {
         align-content: space-between;
 }
 
-.mobile-nav.is-active {
+.is-active {
 	left: 0;
 }
 
@@ -317,6 +354,8 @@ header {
 	background-color: #1f103F;
 	color:var(--snow);
 	text-decoration: none;
+    border-left:1px solid var(--antarcticblue);
+    border-radius: 15%;
 }
 
 .mobile-nav a:hover {
@@ -370,6 +409,10 @@ header {
     grid-area: main-texts;
 }
 
+.homeart {
+    border-radius: 10px;
+}
+
 .home-text, .home-img {
     color:var(--snow);
     background-color:var(--antarcticblue);
@@ -384,6 +427,7 @@ header {
     text-align: center;
     background-color:var(--antarcticblue);
     color:white;    
+    padding-bottom:10px;
 }
 
 .home-text article, .home-img article {
@@ -498,11 +542,13 @@ header {
     left:5%;
     grid-area: tenf;
     text-align:center;
-    height:150vh;
+    height:auto;
+    
 }
 
 #bluffers-div {
     height:auto;
+    margin-bottom: 100px;
 }
 
 #ten-facts-article {
@@ -546,7 +592,20 @@ header {
 /*===================slideshow based on w3schools tutorial=============================================*/
 
 #gallery-body {
+    -ms-grid-row:3;
+    -ms-grid-row-span:8;
+    -ms-grid-column:1;
+    -ms-grid-column-span:12;
     background-image: url("../images/antarctica.jpg");
+    grid-area:gall;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    
 }
 
 .slideshow-container {
@@ -597,10 +656,9 @@ header {
 .numbertext {
     color: rgb(76, 13, 223);
     font-size: 20px;
-    padding: 8px 12px 8px 45px;
     position: fixed;
-    top: 17%;
-    left:30%;
+    top: 18%;
+    left:45%;
 }
   
   /* The dots/bullets/indicators */
@@ -698,7 +756,7 @@ header {
 .vid-box1 h1, #vid-box2 h1, #wiki-link h1 {
     font-size: 1.2rem;
     text-align: center;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
     color:white;
     background-color:var(--antarcticblue);
     opacity:1;
@@ -724,6 +782,8 @@ header {
     -webkit-box-direction:normal;
         -ms-flex-direction:column;
             flex-direction:column;
+    padding:5px;
+    background-color: var(--antarcticblue);
 }
 
 #wiki-link nav {
@@ -745,6 +805,7 @@ header {
         -ms-flex-pack:space-evenly;
             justify-content:space-evenly;
     text-decoration: none;
+    padding:4px;
 }
 
 #wiki-link h2 {
@@ -770,7 +831,7 @@ header {
 #cform h1 {
     font-size: 1.2rem;
     text-align: center;
-    padding-bottom: 1%;
+    padding-bottom:15px;
     color:white;
     background-color:var(--antarcticblue);
     opacity:1;
@@ -824,6 +885,12 @@ footer {
 }
 
 #bluffers-container-grid > footer {
+    -ms-grid-row: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;   
+}
+
+#gallery-body > footer {
     -ms-grid-row: 11;
     -ms-grid-column: 1;
     -ms-grid-column-span: 12;   
@@ -930,6 +997,7 @@ footer p {
     #cform {
         height: 40vh;
     }
+    
 }
 
 /*==========================screens above 425px=========================================*/
@@ -951,7 +1019,7 @@ footer p {
     }
     
     #submit {
-        left:-44%;
+        left:-41%;
     }
 
     #wiki-link {
@@ -959,6 +1027,10 @@ footer p {
         border:3px solid var(--snow);
         border-radius: 20px;
         background-color: var(--antarcticblue);
+    }
+
+    .numbertext {
+        left:45.7%;
     }
 }
 /*=========================screens above 576px=======================================*/
@@ -1072,6 +1144,7 @@ footer p {
         display:inline;
         padding-left:10%;
         top:100px;
+        min-height:40px;
     }
 
     #bluffers-section {
@@ -1080,8 +1153,8 @@ footer p {
     }
 
     #links-container {
-        top:130px;
-        height:160vh;
+        top:154px;
+        height:auto;
     }
 
     #center-about {
@@ -1094,7 +1167,7 @@ footer p {
     }
     
     #nav-bar a {
-        font-size:1.2em;
+        font-size:1.2rem;
     }
 
     .mobile-nav a {
@@ -1154,7 +1227,7 @@ footer p {
         }
     
     #submit {
-        left:-350px;
+        left:-44%;
     }
 
     .slideshow-container {
@@ -1169,9 +1242,6 @@ footer p {
         height:40vh;
     }
 
-    #submit {
-        left:-360px;
-    }
     #wiki-link i {
         margin: 0 40% 0 40%;
     }
@@ -1181,7 +1251,9 @@ footer p {
     }
 
     .numbertext {
-        top:18%;
+        top:19%;
+        font-size:23px;
+        left:47.4%
     }
 
     #bluffers-container-grid > header {
@@ -1265,7 +1337,7 @@ footer p {
 
 @media screen and (min-width:992px) {
     #nav-bar a {
-        font-size: 1.3em;
+        font-size: 1.3rem;
         margin:15% 4%;
         font-family:'Pacifico', cursive ;
         color:var(--antarcticblue);
@@ -1324,11 +1396,18 @@ footer p {
         margin-right: 5%;
     }
 
+    #cform h1 {
+        padding-bottom: 21px;
+    }
+
     #submit {
-        left:-44%;
+        left:-39%;
     }
     #bluffers-section {
         height:70vh;
+    }
+    .numbertext {
+        left:48%;
     }
 }
 
@@ -1383,7 +1462,7 @@ footer p {
     }
 
     #nav-bar a {
-        font-size:1.6em;
+        font-size:1.6rem;
     }
 
     #bluffers-section {
@@ -1391,6 +1470,7 @@ footer p {
         left:20%;
         height:65vh;
         background-color:transparent;
+        top:100px;
     }
 
     #ten-facts-article {
@@ -1487,6 +1567,7 @@ footer p {
         border: 3px solid var(--snow);
         border-radius: 25px;
         background-color: var(--antarcticblue);
+        top:40px;
     }   
 
     #ten-facts-article {
@@ -1640,20 +1721,15 @@ footer p {
         grid-area: main-texts;
     }
 
-    circle-container {
-         z-index: 2;
-         width:150px;
-        height:150px;
-    }
-
     .circle-cover-bg {
         z-index: 2;
     }
 
     #nav-bar {
-         background: transparent;
-         padding-left:16%;
-         top:5%;
+        min-height:47px;
+        padding-left:16%;
+        top:100px;
+
     }
 
     #links-container {
@@ -1662,6 +1738,16 @@ footer p {
 
     .home-text {
         font-size:1.6em;
+    }
+
+    .txt4 {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 1.7em;
+    }
+
+     .txt2 {
+        padding-bottom: 30px;
     }
 
     .slideshow-container {
@@ -1675,7 +1761,11 @@ footer p {
 
     .numbertext {
         top:20%;
-        left:43%;
+        left:47.35%;
+    }
+
+    #submit {
+        left:-41%;
     }
     .txt1 {
         -ms-grid-row: 1;
@@ -1737,7 +1827,11 @@ footer p {
 
 @media screen and (min-width:2000px) {
     .numbertext {
-        left:45%;
+        left:48%;
+    }
+
+    #submit {
+        left:-42%;
     }
 }
 
