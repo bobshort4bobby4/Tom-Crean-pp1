@@ -166,7 +166,11 @@ other resources for users who wish to know more.
   <br><hr><br>
   #### W3C CSS Validator
   The CSS used in to style the website was validated using the W3c service and returned no errors.<br>
-  ![css validation](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/Css-valid-result.png)<br>
+  ![css validation](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/Css-valid-result.png)<br><br>
+  The css file was submitted to autoprefixer [https://autoprefixer.github.io/] to improve compatability with different browsers. When this file was
+  put throught the validation process multiple warning were generated.  These were predominately for unknown Vendor Extensions.  The css seems to work as before.<br>
+  
+  ![prefix warnings]()
   
  
   <br><hr><br>
