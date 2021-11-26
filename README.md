@@ -160,6 +160,8 @@ other resources for users who wish to know more.
   
   #### Lighthouse
   Each page of the website was tested using the Lighthouse tool included in the Chrome browser.
+  The lowest score using lighthouss was 88 for Performance which occured on the first loading of the Gallery page.  It improved to
+  low 90's on subsequent loads (I presume because images are cached ?).<br><br>
   ![Lighthouse](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/lighthouseresult1.png)
   <br><hr><br>
   #### W3C CSS Validator
