@@ -613,6 +613,8 @@ header {
     display:flex;
     align-content: center;
     flex-direction:column;
+    padding:5px;
+    background-color: var(--antarcticblue);
 }
 
 #wiki-link nav {
@@ -652,7 +654,7 @@ header {
 #cform h1 {
     font-size: 1.2rem;
     text-align: center;
-    padding-bottom: 1%;
+    padding-bottom:15px;
     color:white;
     background-color:var(--antarcticblue);
     opacity:1;
@@ -1041,6 +1043,10 @@ footer p {
 
     #cform form input {
         margin-right: 5%;
+    }
+
+    #cform h1 {
+        padding-bottom: 21px;
     }
 
     #submit {
