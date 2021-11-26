@@ -216,8 +216,24 @@ other resources for users who wish to know more.
   - South with Endurance Royal Geographical Society.
   - The South Pole Inn, Annascaul.
 
+  #### Images
+  All images used are publicly available and are listed below along with their source.
   
-  All images used were publicly available and taken from sources on the internet.
+  * Penguins Background [www.cosmosmagazine.com](https://cosmosmagazine.com/earth/earth-sciences/how-much-of-antarctica-is-really-wilderness/)
+  * Landscape Background [www.cntraveller.com](https://www.cntraveller.com/article/antarctica-guide)
+  * Tom Crean smoking pipe [www.smokingpipes.com](https://www.smokingpipes.com/smokingpipesblog/single.cfm/post/tom-crean-heroic-explorer-and-pipe-smoker)
+  * Tom Crean with puppies [www.wikiwand.com](https://www.wikiwand.com/en/Personnel_of_the_Imperial_Trans-Antarctic_Expedition)
+  * Endurance in the ice [www.geographical.co.uk](https://geographical.co.uk/people/explorers/item/1365-on-this-day-1915-shackleton-abandons-endurance)
+  * Tom Crean with skies [www.dfa.ie](https://www.dfa.ie/irish-embassy/norway/news-and-events/2015/tom-crean-antartic-explorer/)
+  * Map of the Antarctic [www.geology.com](https://geology.com/world/antarctica-satellite-image.shtml)
+  * Gallery Image 1 Shackleton's Route [www.britannica.com](https://www.britannica.com/biography/Ernest-Henry-Shackleton)
+  * Gallery Image 2  The James Caird [www.wikipedia.org](https://en.wikipedia.org/wiki/Voyage_of_the_James_Caird)
+  * Gallery Image 3  Southern Sledge Party 1911 [www.tomcreanbook.com](https://tomcreanbook.com/tom-crean-on-discovery-expedition-1901-1904/)
+  * Gallery Image 4  The South Pole Inn [www.tripadvisor.com](https://www.tripadvisor.ie/Restaurant_Review-g983232-d1536089-Reviews-South_Pole_Inn-Annascaul_Dingle_Peninsula_County_Kerry.html)
+  * Gallery Image 5 Ernest Shackleton [www.bbc.co.uk](https://www.bbc.co.uk/history/historic_figures/shackleton_ernest.shtml)
+  * Gallery Image 6 Manhauling [www.geographical.co.uk](https://geographical.co.uk/people/explorers/item/1479-on-this-day-1915-shackleton-marches-on-christmas-day)
+  * Gallery Image 7 Mount Erebus 1911 [www.wikipedia.org](https://commons.wikimedia.org/wiki/File:Depot_laying_party_1911.jpg)
+  * Gallery Image 8 Recruitment Ad [www.etsy.com](https://www.etsy.com/ie/listing/770732986/ernest-shackleton-men-wanted-poster?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_ie_en_ie_-art_and_collectibles-prints&utm_custom1=_k_CjwKCAiAqIKNBhAIEiwAu_ZLDiAVx5U_vTQmQCaqUJn4Mj_K9j5jtiwCW2zzmb0U7h1QkjdnyHS2CBoCyH0QAvD_BwE_k_&utm_content=go_13703307989_123455823759_530490400309_pla-353366959122_c__770732986enie_468083573&utm_custom2=13703307989&gclid=CjwKCAiAqIKNBhAIEiwAu_ZLDiAVx5U_vTQmQCaqUJn4Mj_K9j5jtiwCW2zzmb0U7h1QkjdnyHS2CBoCyH0QAvD_BwE)
   
   #### Code
   The sliding gallery feature was based on one available on the W3s tutorial site.<br>
