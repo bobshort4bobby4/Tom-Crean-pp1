@@ -149,6 +149,8 @@ other resources for users who wish to know more.
   - [Wave](https://wave.webaim.org/) used for accessibility testing.
   - [favICO.com](https://https://convertico.com/favicon/) used for creating favicon.
   - [W3 Validator](https://jigsaw.w3.org/css-validator/) used to test html and css code.
+  - [autoprefixer.github.io](https://autoprefixer.github.io/) used to improve browser compatability.
+  - [https://caniuse.com/webp](https://caniuse.com/webp)  used to check compatability of the webp file format.
 </details>
 
 
@@ -160,7 +162,7 @@ other resources for users who wish to know more.
   
   #### Lighthouse
   Each page of the website was tested using the Lighthouse tool included in the Chrome browser.
-  The lowest score using lighthouss was 88 for Performance which occured on the first loading of the Gallery page.  It improved to
+  The lowest score using lighthouse was 88 for Performance which occured on the first loading of the Gallery page.  It improved to
   low 90's on subsequent loads (I presume because images are cached ?).<br><br>
   ![Lighthouse](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/lighthouseresult1.png)
   <br><hr><br>
@@ -180,7 +182,7 @@ other resources for users who wish to know more.
   ![html warnings](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/w3s-htmlwarnings.png)
   <br><hr><br>
   #### WAVE Web Accessibility Evaluation Tool
-  Each page was tested using the Wave tool produced no errors and a contrast ratio of 8.59<br>
+  Each page was tested using the Wave tool produced no errors and a contrast ratio of 8.59:1.<br>
   ![wave result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/wave-result.png)
   <br><hr><br>
   #### Manual Testing
