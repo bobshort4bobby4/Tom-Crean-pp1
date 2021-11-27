@@ -124,7 +124,7 @@ other resources for users who wish to know more.
   1. The header takes up too much space in landscape mode.  I would like to reduce the height of the header and hide/reduce the header image.
     This should aid ease of use.
   1. The image number on the sliding gallery would be replaced with an informative caption specific to each slide. This should aid effectiveness.
-  1. The contact form should be styled and the submit button linked to mailing list.
+  1. The contact form should be styled and the submit button linked to a mailing list.
   1. An interactive element could be introduced in the form of a on-line quiz.
   1. Animation could be introduced as, for example, a moving timeline/route-marker.
   
@@ -176,12 +176,12 @@ other resources for users who wish to know more.
   
   #### Lighthouse
   Each page of the website was tested using the Lighthouse tool included in the Chrome browser.
-  The lowest score using lighthouse was 88 for Performance which occured on the first loading of the Gallery page.  It improved to
+  The lowest score using Lighthouse was 88 for Performance which occured on the first loading of the Gallery page.  It improved to
   low 90's on subsequent loads (I presume because images are cached ?).<br><br>
   ![Lighthouse](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/lighthouseresult1.png)
   <br><hr><br>
   #### W3C CSS Validator
-  The CSS used in to style the website was validated using the W3c service and returned no errors.<br>
+  The CSS used to style the website was validated using the W3c service and returned no errors.<br>
   ![css validation](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/Css-valid-result.png)<br><br>
   The css file was submitted to autoprefixer [https://autoprefixer.github.io/] to improve compatability with different browsers. When this file was
   put throught the validation process multiple warnings were generated.  These were predominately for unknown Vendor Extensions.  The css seems to work as before.<br>
@@ -192,7 +192,7 @@ other resources for users who wish to know more.
   #### W3c HTML Validator
   Each page was tested using the W3c html validation servive, returning no errors.<br>
   ![html validator result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/html-result.png)<br>
-  There were two warning which I choose to ignore as I was happy with my choice of headings sizes.<br>
+  There were two warning which I chose to ignore as I was happy with my choice of headings sizes.<br>
   ![html warnings](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/w3s-htmlwarnings.png)
   <br><hr><br>
   #### WAVE Web Accessibility Evaluation Tool
@@ -209,8 +209,6 @@ other resources for users who wish to know more.
   On landscape mode at small screen sizes the header is too large, it makes the user scroll the page too frequently. This negatively affects UX.<br><br>
   On landscape mode on small mobile screens the slide out page links are not displaying centered. They work correctly on the same screen resolution on Chrome
   Dev tools but the address bar on the phone may be pushing them down.<br><br>
-  On smaller mobile screens the content is not appearing as indicated in Chrome Dev Tools, I believe this is due to the address bar on the mobile.
-  Content position would need to be adjusted to compensate for this.<br><br>
   I failed to fully implement advice from my mentor regarding my use of github and the labelling of my commits. Although I feel that this has improved towards the end of
   the project,  commits becoming more frequent and more specific. It is one (of many) areas I will make an effort to improve as I move forwards.<br><br>
   
@@ -221,7 +219,7 @@ other resources for users who wish to know more.
   *  I had a number of problems with the nav-bar, the links to the right of any link jumped slightly to the right when that link was hovered over. This was easily fixed by       giving each `<a>` tag a border with the same colour as the background thus preventing the other links being forced to the right by the added on border(hover effect).<br>
   There was also an issue with the font sizes of the links in the nav-bar. The links were appearing at different sizes on different pages at the same screen size.<br>Each `<a>`
   tag had the same font-size applied to them. <br> There were two problems here I think, first I had used 'Display:grid;' to style the body element of three of the pages but not the 
-  fourth, I set up a grid system for the remaining page and this helped but didn't fix the problem.<br> Next I changed the unit I was using to change the font-size from em which is relative to the font size of the element to rem (relative to the font size of the root element), this solved the issue.
+  fourth, I set up a grid system for the remaining page and this helped but didn't fix the problem.<br> Next I changed the unit I was using to change the font-size from em which is relative to the font size of the element, to rem (relative to the font size of the root element), this solved the issue.
   
   #### [Click Here For Top of Section](#test)
   
