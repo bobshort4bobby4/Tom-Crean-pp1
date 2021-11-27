@@ -17,7 +17,7 @@ other resources for users who wish to know more.
 
 
 
-# User Experience/User Interface (UX/UI)
+# User Experience/User Interface (UX/UI)<div id="xpui"/>
 
 <details>
   
@@ -65,6 +65,9 @@ other resources for users who wish to know more.
   [Tablet Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-tabletwf-pp1-actual.pdf)<br>
   [Mobile Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-mobilewf-pp1-actual.pdf)
   
+  
+  #### [Click Here for Top of Section](#xpui)
+  
   #### [Top of Document](#topofdoc)
   
   
@@ -74,7 +77,7 @@ other resources for users who wish to know more.
 
 
 
-# Features
+# Features<div id="feat"/>
 
 <details>
   
@@ -125,6 +128,7 @@ other resources for users who wish to know more.
   1. An interactive element could be introduced in the form of a on-line quiz.
   1. Animation could be introduced as, for example, a moving timeline/route-marker.
   
+  #### [Click Here For Top of Section](#feat)
   #### [Top of Document](#topofdoc)
   
 </details>
@@ -132,7 +136,7 @@ other resources for users who wish to know more.
 
 
 
-# Technologies Used
+# Technologies Used<div id="tech"/>
 <details>
   <summary>Technologies Used</summary>
   
@@ -158,6 +162,7 @@ other resources for users who wish to know more.
   - [autoprefixer.github.io](https://autoprefixer.github.io/) used to improve browser compatability.
   - [https://caniuse.com/webp](https://caniuse.com/webp)  used to check compatability of the webp file format.
   
+  #### [Click Here For Top of Section](#tech)
   #### [Top of Document](#topofdoc)
   
 </details>
@@ -165,7 +170,7 @@ other resources for users who wish to know more.
 
 
 
-# Testing
+# Testing<div id="test"/>
 <details>
   <summary>Testing</summary>
   
@@ -179,7 +184,7 @@ other resources for users who wish to know more.
   The CSS used in to style the website was validated using the W3c service and returned no errors.<br>
   ![css validation](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/Css-valid-result.png)<br><br>
   The css file was submitted to autoprefixer [https://autoprefixer.github.io/] to improve compatability with different browsers. When this file was
-  put throught the validation process multiple warning were generated.  These were predominately for unknown Vendor Extensions.  The css seems to work as before.<br>
+  put throught the validation process multiple warnings were generated.  These were predominately for unknown Vendor Extensions.  The css seems to work as before.<br>
   
   ![prefix warnings](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/autoprefixer-warnings.png)
  
@@ -187,7 +192,7 @@ other resources for users who wish to know more.
   #### W3c HTML Validator
   Each page was tested using the W3c html validation servive, returning no errors.<br>
   ![html validator result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/html-result.png)<br>
-  There were two warning which I choose to ignore as I was happy with my choice of headings sizes.
+  There were two warning which I choose to ignore as I was happy with my choice of headings sizes.<br>
   ![html warnings](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/w3s-htmlwarnings.png)
   <br><hr><br>
   #### WAVE Web Accessibility Evaluation Tool
@@ -218,6 +223,8 @@ other resources for users who wish to know more.
   tag had the same font-size applied to them. <br> There were two problems here I think, first I had used 'Display:grid;' to style the body element of three of the pages but not the 
   fourth, I set up a grid system for the remaining page and this helped but didn't fix the problem.<br> Next I changed the unit I was using to change the font-size from em which is relative to the font size of the element to rem (relative to the font size of the root element), this solved the issue.
   
+  #### [Click Here For Top of Section](#test)
+  
   #### [Top of Document](#topofdoc)
  
   
@@ -226,12 +233,14 @@ other resources for users who wish to know more.
 
 
 
-# Deployment
+# Deployment<div id="deploy"/>
   <details>
   <summary>Deployment</summary>
   
   The site is deployed using GitPages which can be found on the setting menu on the github repository page.<br>
   The source is taken from the Main Branch.
+   
+   #### [Click Here For Top of Section](#deploy)
     
    #### [Top of Document](#topofdoc)
     
@@ -240,7 +249,7 @@ other resources for users who wish to know more.
   
   
   
-  # Credits
+  # Credits<div id="cred"/>
   <details>
   <summary>Credits</summary>
  
@@ -276,9 +285,11 @@ other resources for users who wish to know more.
   
   #### Mentors
   Thanks are also due to both my mentors Can Sucullu and Ben Kavanagh who were both most helpful.<br>
+  
+  #### [Click Here For Top of Section](#cred)
     
   #### [Top of Document](#topofdoc)
     
   </details>
 
-#### [Top of Document](#topofdoc)
+
