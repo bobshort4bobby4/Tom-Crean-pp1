@@ -236,7 +236,7 @@ other resources for users who wish to know more.
     
   <summary>Deployment</summary>
   
-  This project was built on the Gitpod IDE using the Code Institute template found here:<br>[https://github.com/Code-Institute-Org/gitpod-full-template]
+  This project was built on the Gitpod IDE using the Code Institute template found here:<br>https://github.com/Code-Institute-Org/gitpod-full-template
    
   GitHub Pages is a static site hosting service which uses files from a GitHub repository to publish a website.  I used Github Pages to deploy this project
     following the process set out below.<br>
