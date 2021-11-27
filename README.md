@@ -237,9 +237,14 @@ other resources for users who wish to know more.
   <details>
   <summary>Deployment</summary>
   
-  The site is deployed using GitPages which can be found on the setting menu on the github repository page.<br>
-  The source is taken from the Main Branch.
+  This project was built on the Gitpod IDE using the Code Institute template found here:<br>[https://github.com/Code-Institute-Org/gitpod-full-template]
    
+  GitHub Pages is a static site hosting service which uses files from a GitHub repository to publish a website.  I used Github Pages to deploy this project
+    following the process set out below.<br>
+    
+    1 Open the Github repository page you wish to publish, in this case [Here](https://github.com/bobshort4bobby4/Tom-Crean-pp1)
+    1 Click on the setting option from the list of options above the repo contents.
+    1 Scroll down the pages untill the Github Pages appears and click on the link '
    #### [Click Here For Top of Section](#deploy)
     
    #### [Top of Document](#topofdoc)
