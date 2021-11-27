@@ -47,7 +47,7 @@ other resources for users who wish to know more.
   
   ##### Images
   Images of Antarctia are used as backgrounds for all pages, these images are both visually pleasing and informative.<br>
-  All other images are used to add both visual and intellectual interest.<br> There was a very slow loading time for the gallery page, the Lighthouse app suggested compressing     the image files, which I did using Freeconvert.com.  I choose the webp format and checked it's compatability using this site  https://caniuse.com/webp.  The format
+  All other images are used to add both visual and intellectual interest.<br> There was a very slow loading time for the gallery page, the Lighthouse app suggested compressing     the image files, which I did using Freeconvert.com.  I chose the webp format and checked it's compatability using this site  https://caniuse.com/webp.  The format
   has support from all the major browsers in use. Internet Explorer does not support it but it is not widely used today.
   
   ### WireFrames
