@@ -27,7 +27,7 @@
     background-size:cover;
     display:-ms-grid;
     display:grid;
-    -ms-grid-columns: (1fr)[12];
+    -ms-grid-columns:(1fr)[12];
     grid-template-columns: repeat(12, 1fr);
     -ms-grid-rows: (auto)[13];
     grid-template-rows: repeat(13, auto);
