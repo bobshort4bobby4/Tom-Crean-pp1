@@ -245,16 +245,14 @@ other resources for users who wish to know more.
     
   1. Open the Github repository page you wish to publish, in this case [Here](https://github.com/bobshort4bobby4/Tom-Crean-pp1).
   1. Click on the 'Settings' option from the list of options above the repo contents.
-  1. Scroll down the pages untill the Github Pages appears and click on the link 'Check it out here".
+  1. Scroll down the page untill the Github Pages heading appears and click on the link 'Check it out here!".
       ![Github pages link](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/githuh-pages-link.png)
   1. Select Branch Main and leave /root unchanged.
   1. Click 'Save'.
-  1. 
-    
-   
-    
-    
-    
+  1. The URL for the website will be shown in a panel towards the top of the page.  After a brief wait it will turn green indicating the website is published.
+    <br><br>
+    ![ghpages-published](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/githubpages-published.png)
+  
    
     
    #### [Click Here For Top of Section](#deploy)
