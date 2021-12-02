@@ -177,7 +177,8 @@ other resources for users who wish to know more.
   #### Lighthouse
   Each page of the website was tested using the Lighthouse tool included in the Chrome browser.
   The lowest score using Lighthouse was 88 for Performance which occured on the first loading of the Gallery page.  It improved to
-  low 90's on subsequent loads (I presume because images are cached ?).<br><br>
+  low 90's on subsequent loads (I presume because images are cached ?).<br>
+  The Lighthouse app suggested compressing the image files, which I did using Freeconvert.com. I chose the webp format and checked it's compatability using this site https://caniuse.com/webp. The format has support from all the major browsers in use. Internet Explorer does not support it but it is not widely used today.<br><br>
   ![Lighthouse](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/lighthouseresult1.png)
   <br><hr><br>
   #### W3C CSS Validator
@@ -215,7 +216,7 @@ other resources for users who wish to know more.
   #### Issues Encountered
   Two of the many problems I encountered whilst developing this project are detailed below.
   * The initial version of the website was done using my wide-screen pc monitior which was fine untill I attempted to add responsiveness to the site.
-  This I couldn't achieve satisfactorily, images were stretched, text headings were broken and stretched onto multiple lines and the nav-bar and  the header image were also out    of line. I started to layout the site again using the 'Mobile-First' paradigm, this worked out better as there was the option of space to put elements into instead of the        option of trying to squeeze elements into reducing space.
+  This I couldn't achieve satisfactorily, images were stretched, text headings were broken and stretched onto multiple lines and the nav-bar and  the header image were also out    of line. I started to layout the site again using the 'Mobile-First' paradigm, this worked out better as there was the option of space to put elements into instead of trying to squeeze elements into reducing space.
   *  I had a number of problems with the nav-bar, the links to the right of any link jumped slightly to the right when that link was hovered over. This was easily fixed by       giving each `<a>` tag a border with the same colour as the background thus preventing the other links being forced to the right by the added on border(hover effect).<br>
   There was also an issue with the font sizes of the links in the nav-bar. The links were appearing at different sizes on different pages at the same screen size.<br>Each `<a>`
   tag had the same font-size applied to them. <br> There were two problems here I think, first I had used 'Display:grid;' to style the body element of three of the pages but not the 
