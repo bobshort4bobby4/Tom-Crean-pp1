@@ -759,6 +759,11 @@ header {
 }
 
 #wiki-link {
+    border:2px solid var(--snow);
+    border-radius: 10px;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
     margin-top:15px;
     display:-webkit-box;
     display:-ms-flexbox;
@@ -798,7 +803,6 @@ header {
 #wiki-link h2 {
     text-align: center;
     background-color: var(--antarcticblue);
-    width:100vw;
     color:var(--snow);
 }
 
