@@ -710,7 +710,7 @@ header {
     left:0;
     grid-area: links;
     align-items: center;
-    height:130vh;
+    height:123vh;
 }
 
 #vid-box {
@@ -816,15 +816,18 @@ header {
     background-color: var(--antarcticblue);
     font-size: 1.3rem;
     margin-top:15px;
-    width:100vw;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    border:2px solid var(--snow);
+    border-radius: 10px;
 }
 
 #cform h1 {
     font-size: 1.2rem;
     text-align: center;
     padding-bottom:15px;
-    color:white;
-    background-color:var(--antarcticblue);
+    color:var(--snow);
     opacity:1;
 }
 
@@ -844,7 +847,7 @@ header {
     float:none;
     color:var(--snow);
     padding:8px;
-    margin:0 auto;
+    margin:10px auto;
     background-color: var(--antarcticblue);
     border :3px solid var(--snow);
     border-radius: 20px;
@@ -958,10 +961,6 @@ footer p {
     #bluffers-section {
         top:150px;
     }
-
-    #cform {
-        height:40vh;
-    }
 }
 
 /*=========================screens above 375px===========================================*/
@@ -981,13 +980,9 @@ footer p {
     }
 
     #links-container {
-        top:130px;
+        top:120px;
+        height:111vh;
     }
-
-    #cform {
-        height: 40vh;
-    }
-    
 }
 
 /*==========================screens above 425px=========================================*/
@@ -998,7 +993,6 @@ footer p {
     }
 
     #cform {
-        height:35vh;
         border:3px solid var(--snow);
         border-radius: 20px;
         padding:5px;
@@ -1140,7 +1134,7 @@ footer p {
 
     #links-container {
         top:154px;
-        height:auto;
+        height:150vh;
     }
 
     #center-about {
@@ -1222,10 +1216,6 @@ footer p {
 
     .slideshow-container img {
         max-height:500px;
-    }
-
-    #cform {
-        height:40vh;
     }
 
     #wiki-link i {
@@ -1345,7 +1335,7 @@ footer p {
     }
     
     #links-container {
-        height:190vh;
+        height:151vh;
     }
 
     .vid-box1 h1 {
@@ -1374,6 +1364,9 @@ footer p {
     }
 
     #cform {
+        width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
         padding:15px;
         max-width:60%;
     }
@@ -1441,11 +1434,11 @@ footer p {
         grid-area: main-texts;
     }
 
-    #cform {
+   /* #cform {
         width:70vw;
         border:3px solid var(--snow);
         border-radius: 25px;
-    }
+    }*/
 
     #nav-bar a {
         font-size:1.6rem;
@@ -1716,7 +1709,8 @@ footer p {
     }
 
     #links-container {
-        top:190px;
+        top:160px;
+        height: 119vh;
     }
 
     .home-text {
@@ -1894,9 +1888,9 @@ footer p {
         top:113px;
     }
 
-    #cform {
+  /* #cform {
        min-height:70vh;
-    }
+    }*/
 
     .txt1 {
         -ms-grid-row: 1;
