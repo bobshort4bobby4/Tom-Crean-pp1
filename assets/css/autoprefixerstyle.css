@@ -710,7 +710,6 @@ header {
     left:0;
     grid-area: links;
     align-items: center;
-    /*height:123vh;*/
 }
 
 #vid-box {
@@ -981,7 +980,6 @@ footer p {
 
     #links-container {
         top:120px;
-       /* height:111vh;*/
     }
 
     #links-container-grid {
@@ -1138,7 +1136,6 @@ footer p {
 
     #links-container {
         top:154px;
-        /*height:150vh;*/
     }
 
     #center-about {
@@ -1195,7 +1192,6 @@ footer p {
     }
 
     #bluffers-container-grid {
-        /*background-color:var(--snow);*/
        background-image: url("../images/standy-up-ducks.webp");
         background-size:cover;
         display:-ms-grid;
@@ -1341,10 +1337,6 @@ footer p {
         height:300px;
         width:500px !important;
     }
-    
-    /*#links-container {
-        height:151vh;
-    }*/
 
     .vid-box1 h1 {
         width:500px;
@@ -1446,12 +1438,6 @@ footer p {
         ". . . . . . . . ";
         grid-area: main-texts;
     }
-
-   /* #cform {
-        width:70vw;
-        border:3px solid var(--snow);
-        border-radius: 25px;
-    }*/
 
     #nav-bar a {
         font-size:1.6rem;
@@ -1723,7 +1709,6 @@ footer p {
 
     #links-container {
         top:160px;
-       /*height: 119vh;*/
     }
 
     .home-text {
@@ -1896,15 +1881,7 @@ footer p {
         height:210vh;
         margin-top:20px;
     }
-
-    /*#links-container {
-        top:113px;
-    }*/
-
-  /* #cform {
-       min-height:70vh;
-    }*/
-
+    
     .txt1 {
         -ms-grid-row: 1;
         -ms-grid-column: 1;
