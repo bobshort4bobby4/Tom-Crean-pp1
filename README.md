@@ -3,7 +3,7 @@ Website is [here]( https://bobshort4bobby4.github.io/Tom-Crean-pp1/)
 Github Repository is [here](https://github.com/bobshort4bobby4/Tom-Crean-pp1)
 
 
-# Introduction(#topofdoc)
+# Introduction
 
 This website is designed to provide easily accessible information pertaining to Tom Crean, the antarctic explorer.
 It is aimed at a general audience but will be particularly useful for students doing projects.
@@ -68,7 +68,7 @@ other resources for users who wish to know more.
   
   #### [Click Here for Top of Section](#xpui)
   
-  #### [Top of Document](#topofdoc)
+ [Top of Document]{#introduction}
   
   
   
@@ -204,7 +204,7 @@ other resources for users who wish to know more.
   #### Manual Testing
   Website layout ans responsiveness was tested using the Chrome and Edge browsers as well as on machines of varying screen sizes down to 320 resolution.<br>
   All internal links are working correctly.  I systematically went through each page verifying that the four links in the navigation bar and the link to the home page in the     tag-line all work as they should.<br>
-  All external link are correct and open in a new window.<br>
+  All external links are correct and open in a new window.<br>
   All Links in screens above 768px wide are highlighted when hovered on and the link for the currently active page is also highlighted.
   Youtube links do not auto-play on loading, controls work and will play on full screen.<br>
   Inputs on contact form are validating data correctly and submit button is linking to a placeholder page.<br>
