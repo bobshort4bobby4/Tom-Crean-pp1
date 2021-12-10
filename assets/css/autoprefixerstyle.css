@@ -833,6 +833,7 @@ header {
 #cform form input {
     float:right;
     margin-right: 2%;
+    text-align: center;
 }
 
 #cform form label {
@@ -1881,7 +1882,7 @@ footer p {
         height:210vh;
         margin-top:20px;
     }
-    
+
     .txt1 {
         -ms-grid-row: 1;
         -ms-grid-column: 1;
