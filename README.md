@@ -67,10 +67,6 @@ other resources for users who wish to know more.
   [Mobile Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-mobilewf-pp1-actual.pdf)
   
  
- [Click Here for Top of Section](#user-experienceuser-interface-uxui)
- 
- [click here for top](#introduction)
-  
  
   
   
@@ -130,9 +126,7 @@ other resources for users who wish to know more.
   1. An interactive element could be introduced in the form of a on-line quiz.
   1. Animation could be introduced as, for example, a moving timeline/route-marker.
   
-  #### [Click Here For Top of Section](#feat)
-   [Top of Document](#introduction)
-  
+
 </details>
 
 
@@ -164,9 +158,7 @@ other resources for users who wish to know more.
   - [autoprefixer.github.io](https://autoprefixer.github.io/) used to improve browser compatability.
   - [https://caniuse.com/webp](https://caniuse.com/webp)  used to check compatability of the webp file format.
   
-  #### [Click Here For Top of Section](#tech)
-  #### [Top of Document](#topofdoc)
-  
+ 
 </details>
 
 
@@ -227,9 +219,6 @@ other resources for users who wish to know more.
   tag had the same font-size applied to them. <br> There were two problems here I think, first I had used 'Display:grid;' to style the body element of three of the pages but not the 
   fourth, I set up a grid system for the remaining page and this helped but didn't fix the problem.<br> Next I changed the unit I was using to change the font-size from em which is relative to the font size of the element, to rem (relative to the font size of the root element), this solved the issue.
   
-  #### [Click Here For Top of Section](#test)
-  
-  #### [Top of Document](#topofdoc)
  
   
 </details>
@@ -283,9 +272,6 @@ other resources for users who wish to know more.
   
    
     
-   #### [Click Here For Top of Section](#deploy)
-    
-   #### [Top of Document](#topofdoc)
     
   </details>
   
@@ -329,9 +315,6 @@ other resources for users who wish to know more.
   #### Mentors
   Thanks are also due to both my mentors Can Sucullu and Ben Kavanagh who were both most helpful.<br>
   
-  #### [Click Here For Top of Section](#cred)
-    
-  #### [Top of Document](#topofdoc)
     
   </details>
 
