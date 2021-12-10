@@ -193,7 +193,7 @@ other resources for users who wish to know more.
   #### W3c HTML Validator
   Each page was tested using the W3c html validation servive, returning no errors.<br>
   ![html validator result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/html-result.png)<br>
-  There were two warning which I chose to ignore as I was happy with my choice of headings sizes.<br>
+  There were two warnings (on the 'Bluffers Guide' Page) which I chose to ignore as I was happy with my choice of headings sizes.<br>
   ![html warnings](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/w3s-htmlwarnings.png)
   <br><hr><br>
   #### WAVE Web Accessibility Evaluation Tool
