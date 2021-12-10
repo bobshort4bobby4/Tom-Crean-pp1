@@ -69,7 +69,7 @@ other resources for users who wish to know more.
  
  [Click Here for Top of Section](#user-experienceuser-interface-uxui)
  
- [Top of Document](#introduction)
+ [click here for top](#introduction)
   
  
   
@@ -131,7 +131,7 @@ other resources for users who wish to know more.
   1. Animation could be introduced as, for example, a moving timeline/route-marker.
   
   #### [Click Here For Top of Section](#feat)
-  #### [Top of Document](#Introduction)
+   [Top of Document](#introduction)
   
 </details>
 
