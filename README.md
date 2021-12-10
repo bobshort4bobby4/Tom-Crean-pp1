@@ -75,7 +75,7 @@ other resources for users who wish to know more.
 
 
 
-# Features<div id="feat"/>
+# Features
 
 <details>
   
@@ -132,7 +132,7 @@ other resources for users who wish to know more.
 
 
 
-# Technologies Used<a name="tech"/>
+# Technologies Used
 <details>
   <summary>Technologies Used</summary>
   
@@ -164,7 +164,7 @@ other resources for users who wish to know more.
 
 
 
-# Testing<div id="test"/>
+# Testing
 <details>
   <summary>Testing</summary>
   
@@ -226,7 +226,7 @@ other resources for users who wish to know more.
 
 
 
-# Deployment<div id="deploy"/>
+# Deployment
   <details>
     
   <summary>Deployment</summary>
@@ -278,7 +278,7 @@ other resources for users who wish to know more.
   
   
   
-  # Credits<div id="cred"/>
+  # Credits
   <details>
   <summary>Credits</summary>
  
