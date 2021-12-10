@@ -105,7 +105,7 @@
     -ms-grid-columns: (1fr)[12];
     grid-template-columns: repeat(12, 1fr);
     -ms-grid-rows: (auto)[12];
-    grid-template-rows: repeat(12, auto);
+    grid-template-rows: repeat(12, 86px);
         grid-template-areas: 
     "header header header header header header header header header header header header "
     "nav nav nav nav nav nav nav nav nav nav nav nav "
@@ -710,7 +710,7 @@ header {
     left:0;
     grid-area: links;
     align-items: center;
-    height:123vh;
+    /*height:123vh;*/
 }
 
 #vid-box {
@@ -981,7 +981,11 @@ footer p {
 
     #links-container {
         top:120px;
-        height:111vh;
+       /* height:111vh;*/
+    }
+
+    #links-container-grid {
+        grid-template-rows: repeat(12, 79px);
     }
 }
 
@@ -1134,7 +1138,7 @@ footer p {
 
     #links-container {
         top:154px;
-        height:150vh;
+        /*height:150vh;*/
     }
 
     #center-about {
@@ -1152,6 +1156,10 @@ footer p {
 
     .mobile-nav a {
         margin-left:250px;
+    }
+
+    #links-container-grid {
+        grid-template-rows: repeat(12, 105px);
     }
 
     #grid-wrapper {
@@ -1334,9 +1342,9 @@ footer p {
         width:500px !important;
     }
     
-    #links-container {
+    /*#links-container {
         height:151vh;
-    }
+    }*/
 
     .vid-box1 h1 {
         width:500px;
@@ -1388,6 +1396,11 @@ footer p {
     .numbertext {
         left:48%;
     }
+
+    #links-container-grid {
+        grid-template-rows: repeat(12, 109px);
+    }
+
 }
 
 /***************************===============***screen size above 1100px**********************************/
@@ -1710,7 +1723,7 @@ footer p {
 
     #links-container {
         top:160px;
-        height: 119vh;
+       /*height: 119vh;*/
     }
 
     .home-text {
@@ -1884,9 +1897,9 @@ footer p {
         margin-top:20px;
     }
 
-    #links-container {
+    /*#links-container {
         top:113px;
-    }
+    }*/
 
   /* #cform {
        min-height:70vh;
