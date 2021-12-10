@@ -17,7 +17,7 @@ other resources for users who wish to know more.
 
 
 
-# User Experience/User Interface (UX/UI)<div id="xpui"/>
+# User Experience/User Interface (UX/UI)
 
 <details>
   
@@ -54,6 +54,7 @@ other resources for users who wish to know more.
   
   There are two sets of wireframes provided here, the original set which were produced at the planning stage and the set which reflects the finished design.<br>
   As I implemented the design I found the original design was not tenable.  Certain images were not scalable either becoming extremely pixelated or having to be cropped excessively to maintain image quality. Consequently I changed the layout of both the text panels and choice of images at certain screen sizes.  All these changes are included within the second set of wireframes as well as landscape mode wireframes.<br> 
+  Use CTRL + Click to open in a new window.
   
   ##### Original Wireframes.<br>
   [Desktop Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-desktopwr-pp1-fixed.pdf)<br>
@@ -65,11 +66,12 @@ other resources for users who wish to know more.
   [Tablet Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-tabletwf-pp1-actual.pdf)<br>
   [Mobile Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-mobilewf-pp1-actual.pdf)
   
+ 
+ [Click Here for Top of Section](#user-experienceuser-interface-uxui)
+ 
+ [Top of Document](#introduction)
   
-  #### [Click Here for Top of Section](#xpui)
-  
- [Top of Document]{#introduction}
-  
+ 
   
   
 </details>
@@ -129,14 +131,14 @@ other resources for users who wish to know more.
   1. Animation could be introduced as, for example, a moving timeline/route-marker.
   
   #### [Click Here For Top of Section](#feat)
-  #### [Top of Document](#topofdoc)
+  #### [Top of Document](#Introduction)
   
 </details>
 
 
 
 
-# Technologies Used<div id="tech"/>
+# Technologies Used<a name="tech"/>
 <details>
   <summary>Technologies Used</summary>
   
