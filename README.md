@@ -193,6 +193,7 @@ other resources for users who wish to know more.
   #### W3c HTML Validator
   Each page was tested using the W3c html validation servive, returning no errors.<br>
   ![html validator result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/html-result.png)<br>
+  <br>
   There were two warnings (on the 'Bluffers Guide' Page) which I chose to ignore as I was happy with my choice of headings sizes.<br>
   ![html warnings](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/w3s-htmlwarnings.png)
   <br><hr><br>
@@ -201,10 +202,12 @@ other resources for users who wish to know more.
   ![wave result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/wave-result.png)
   <br><hr><br>
   #### Manual Testing
-  Website was tested using the Chrome and Edge browsers as well as on machines of varying screen sizes.<br>
-  All internal and external links work, external links open on a new tab.<br>
+  Website layout ans responsiveness was tested using the Chrome and Edge browsers as well as on machines of varying screen sizes down to 320 resolution.<br>
+  All internal links are working correctly.  I systematically went through each page verifying that the four links in the navigation bar and the link to the home page in the     tag-line all work as they should.<br>
+  All external link are correct and open in a new window.<br>
+  All Links in screens above 768px wide are highlighted when hovered on and the link for the currently active page is also highlighted.
   Youtube links do not auto-play on loading, controls work and will play on full screen.<br>
-  Inputs on contact form are validating data correctly and submit button is linking to placeholder page.<br>
+  Inputs on contact form are validating data correctly and submit button is linking to a placeholder page.<br>
   <br>
   #### Known Issues
   On landscape mode at small screen sizes the header is too large, it makes the user scroll the page too frequently. This negatively affects UX.<br><br>
