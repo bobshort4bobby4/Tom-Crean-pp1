@@ -267,9 +267,11 @@ other resources for users who wish to know more.
     1. Above the file list click on the green button titled "Code".
     1. You can choose to download a zip file of the repository, unpack it on your local machine a open it in your IDE or,
     1. Clone using HTTPS by copying the URL under the HTTPS tab.
-          2. hsdbfsjdhf
-          3. jsdfhsjdf
-  
+    1. Open a terminal window, set current directory to the one you want to contain the clone.
+    1. Type `git clone `and paste the URL copied from the GitHub page.
+    1. The repository clone will be created on your machine.
+    
+   (Taken from the Github Docs guide "Cloning a repository")
    
 
     
