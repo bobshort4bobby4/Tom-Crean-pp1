@@ -199,7 +199,7 @@ other resources for users who wish to know more.
   Website layout and responsiveness was tested using the Chrome and Edge browsers as well as on machines of varying screen sizes down to 320 resolution.<br>
   All internal links are working correctly.  I systematically went through each page verifying that the four links in the navigation bar and the link to the home page in the     tag-line all work as they should.<br>
   All external links are correct and open in a new window.<br>
-  All Links in screens above 768px wide are highlighted when hovered on and the link for the currently active page is also highlighted.
+  All Links in screens above 768px wide are highlighted when hovered on and the link for the currently active page is also highlighted.<br>
   Youtube links do not auto-play on loading, controls work and will play on full screen.<br>
   Inputs on contact form are validating data correctly and submit button is linking to a placeholder page.<br>
   <br>
@@ -233,7 +233,8 @@ other resources for users who wish to know more.
   
   This project was built on the Gitpod IDE using the Code Institute template found here:<br>https://github.com/Code-Institute-Org/gitpod-full-template
     <br>
-    ####GitHub Pages
+    
+#### GitHub Pages
    
   GitHub Pages is a static site hosting service which uses files from a GitHub repository to publish a website.  I used Github Pages to deploy this project
     following the process set out below.<br>
@@ -260,18 +261,18 @@ other resources for users who wish to know more.
     
   (Taken from the Github Docs guide "Forking Projects")
     
-    #### Cloning 
-    Cloning a repository involves making a full copy of that repository on your local machine. This makes working on the code easier.  Changes can be pushed back up to the 
-    GitHub site or changes from other sources pulled to your local copy. To make a clone follow the process below.
-    1. Goto the repository page on GitHub.
-    1. Above the file list click on the green button titled "Code".
-    1. You can choose to download a zip file of the repository, unpack it on your local machine a open it in your IDE or,
-    1. Clone using HTTPS by copying the URL under the HTTPS tab.
-    1. Open a terminal window, set current directory to the one you want to contain the clone.
-    1. Type `git clone `and paste the URL copied from the GitHub page.
-    1. The repository clone will be created on your machine.
+#### Cloning 
+  Cloning a repository involves making a full copy of that repository on your local machine. This makes working on the code easier.  Changes can be pushed back up to the 
+  GitHub site or changes from other sources pulled to your local copy. To make a clone follow the process below.
+  1. Goto the repository page on GitHub.
+  1. Above the file list click on the green button titled "Code".
+  1. You can choose to download a zip file of the repository, unpack it on your local machine a open it in your IDE or,
+  1. Clone using HTTPS by copying the URL under the HTTPS tab.
+  1. Open a terminal window, set current directory to the one you want to contain the clone.
+  1. Type `git clone `and paste the URL copied from the GitHub page.
+  1. The repository clone will be created on your machine.
     
-   (Taken from the Github Docs guide "Cloning a repository")
+  (Taken from the Github Docs guide "Cloning a repository")
    
 
     
