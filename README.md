@@ -238,6 +238,8 @@ other resources for users who wish to know more.
   <summary>Deployment</summary>
   
   This project was built on the Gitpod IDE using the Code Institute template found here:<br>https://github.com/Code-Institute-Org/gitpod-full-template
+    <br>
+    ####GitHub Pages
    
   GitHub Pages is a static site hosting service which uses files from a GitHub repository to publish a website.  I used Github Pages to deploy this project
     following the process set out below.<br>
@@ -250,7 +252,29 @@ other resources for users who wish to know more.
   1. Click 'Save'.
   1. The URL for the website will be shown in a panel towards the top of the page.  After a brief wait it will turn green indicating the website is published.
     <br><br>
-    ![ghpages-published](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/githubpages-published.png)
+    ![ghpages-published](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/githubpages-published.png)<br>
+ 
+#### Forking
+  Forking a Github repository is the the process of making a copy of any repository that you can use without affecting the original, this original is known as the 
+  "upstream repository".
+  The process for forking a repositiory is set out below.
+  1. Go to the Github page that hosts the repository you wish to fork.
+  1. On the top-right of the page there is a button "Fork".
+  1. Click this button.
+  1. This creates a repository in your Github home page which is a copy of the original. You can submit and recieve changes to the code by using pull requests 
+  and/or syncing with the upstream repository.
+    
+  (Taken from the Github Docs guide "Forking Projects")
+    
+    #### Cloning 
+    Cloning a repository involves making a full copy of that repository on your local machine. This makes working on the code easier.  Changes can be pushed back up to the 
+    GitHub site or changes from other sources pulled to your local copy. To make a clone follow the process below.
+    1. Goto the repository page on GitHub.
+    1. Above the file list click on the green button titled "Code".
+    1. You can choose to download a zip file of the repository, unpack it on your local machine a open it in your IDE or,
+    1. Clone using HTTPS by copying the URL under the HTTPS tab.
+          2. hsdbfsjdhf
+          3. jsdfhsjdf
   
    
     
