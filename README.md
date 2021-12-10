@@ -1,9 +1,9 @@
-Website is [here]( https://bobshort4bobby4.github.io/Tom-Crean-pp1/) <div id="topofdoc"/>
+Website is [here]( https://bobshort4bobby4.github.io/Tom-Crean-pp1/)
 
 Github Repository is [here](https://github.com/bobshort4bobby4/Tom-Crean-pp1)
 
 
-# Introduction
+# Introduction(#topofdoc)
 
 This website is designed to provide easily accessible information pertaining to Tom Crean, the antarctic explorer.
 It is aimed at a general audience but will be particularly useful for students doing projects.
