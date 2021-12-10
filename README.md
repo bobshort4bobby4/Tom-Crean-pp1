@@ -196,7 +196,7 @@ other resources for users who wish to know more.
   ![wave result](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/images/screenshots/wave-result.png)
   <br><hr><br>
   #### Manual Testing
-  Website layout ans responsiveness was tested using the Chrome and Edge browsers as well as on machines of varying screen sizes down to 320 resolution.<br>
+  Website layout and responsiveness was tested using the Chrome and Edge browsers as well as on machines of varying screen sizes down to 320 resolution.<br>
   All internal links are working correctly.  I systematically went through each page verifying that the four links in the navigation bar and the link to the home page in the     tag-line all work as they should.<br>
   All external links are correct and open in a new window.<br>
   All Links in screens above 768px wide are highlighted when hovered on and the link for the currently active page is also highlighted.
