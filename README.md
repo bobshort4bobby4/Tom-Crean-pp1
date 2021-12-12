@@ -26,7 +26,7 @@ other resources for users who wish to know more.
   ### User Stories
   
   ##### First Time Visitor Goals
-  As a first time visitor I want to access information about Tom Crean. <br> As a first time visitor I want navigate easily through the site.
+  As a first time visitor I want to access information about Tom Crean. <br> As a first time visitor I want to navigate easily through the site.
   
   ##### Repeat/Frequent Visitor Goals.
   As a repeat/frequent visitor I want to check or affirm information I have accessed previously. <br> As a repeat/frequent visitor I want to check for any new information/features on the site.<br>
@@ -66,8 +66,7 @@ other resources for users who wish to know more.
   [Tablet Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-tabletwf-pp1-actual.pdf)<br>
   [Mobile Wireframes](https://github.com/bobshort4bobby4/Tom-Crean-pp1/blob/main/assets/wirefranes/tcrean-mobilewf-pp1-actual.pdf)
   
- 
- 
+
   
   
 </details>
