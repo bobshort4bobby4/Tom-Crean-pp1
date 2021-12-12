@@ -1830,6 +1830,10 @@ footer p {
        top:35vh;
    }
 
+   #links-container-grid {
+       grid-template-rows: repeat(12, 104px) !important;
+   }
+
    .prev, .next {
        top:55%;
    }
