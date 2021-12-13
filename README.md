@@ -217,6 +217,7 @@ other resources for users who wish to know more.
   There was also an issue with the font sizes of the links in the nav-bar. The links were appearing at different sizes on different pages at the same screen size.<br>Each `<a>`
   tag had the same font-size applied to them. <br> There were two problems here I think, first I had used 'Display:grid;' to style the body element of three of the pages but not the 
   fourth, I set up a grid system for the remaining page and this helped but didn't fix the problem.<br> Next I changed the unit I was using to change the font-size from em which is relative to the font size of the element, to rem (relative to the font size of the root element), this solved the issue.
+  * I had a problem with the page not scrolling fully down on the links page.  On the other pages I had set the height property to auto which works fine, however it does not on the links page and I do not understand why. I finally set different heights in the `grid-template-rows` property for variuous break points. I have tested this in a broad range of device types in the Google Chrome phone emulator, and it displays correctly in any I have tested. 
   
  
   
