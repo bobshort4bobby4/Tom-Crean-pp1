@@ -266,7 +266,7 @@ other resources for users who wish to know more.
   GitHub site or changes from other sources pulled to your local copy. To make a clone follow the process below.
   1. Goto the repository page on GitHub.
   1. Above the file list click on the green button titled "Code".
-  1. You can choose to download a zip file of the repository, unpack it on your local machine a open it in your IDE or,
+  1. You can choose to download a zip file of the repository, unpack it on your local machine and open it in your IDE or,
   1. Clone using HTTPS by copying the URL under the HTTPS tab.
   1. Open a terminal window, set current directory to the one you want to contain the clone.
   1. Type `git clone `and paste the URL copied from the GitHub page.
